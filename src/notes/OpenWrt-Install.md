@@ -30,16 +30,19 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
 点击“安装到U盘”
 
 [[assets/OpenWrt安装教程-assets/95a4c7ba5aac14a4099bf7e6d0095f0b_MD5.jpeg|Open: OpenWrt安装教程-image-20240206094006891.png]]
+
 ![[assets/OpenWrt安装教程-assets/95a4c7ba5aac14a4099bf7e6d0095f0b_MD5.jpeg]]
 
 设置微PE选项
 
 [[assets/OpenWrt安装教程-assets/51c014518ea36ee154fd9328590abfb3_MD5.jpeg|Open: OpenWrt安装教程-image-20240206094413177.png]]
+
 ![[assets/OpenWrt安装教程-assets/51c014518ea36ee154fd9328590abfb3_MD5.jpeg]]
 
 将DiskImage和[esir的OpenWrt镜像](https://drive.google.com/drive/folders/1uRXg_krKHPrQneI3F2GNcSVRoCgkqESr)放到u盘中
 
 [[assets/OpenWrt安装教程-assets/15d7b98336df425e41f778819b6bea94_MD5.jpeg|Open: OpenWrt安装教程-image-20240206100741243.png]]
+
 ![[assets/OpenWrt安装教程-assets/15d7b98336df425e41f778819b6bea94_MD5.jpeg]]
 
 将u盘从电脑拔下
@@ -57,9 +60,11 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
  在写盘之前推荐用DiskGenius（微PE中内置）将目标硬盘清空
  
  [[assets/OpenWrt安装教程-assets/57de92cafc70d3bc6c3fcf72ce7b0708_MD5.jpeg|Open: OpenWrt安装教程-image-20240206101604135.png]]
+
 ![[assets/OpenWrt安装教程-assets/57de92cafc70d3bc6c3fcf72ce7b0708_MD5.jpeg]]
 
  [[assets/OpenWrt安装教程-assets/0e88e6895bf4d96ecddbc120977943d2_MD5.jpeg|Open: OpenWrt安装教程-image-20240206101707126.png]]
+
 ![[assets/OpenWrt安装教程-assets/0e88e6895bf4d96ecddbc120977943d2_MD5.jpeg]]
 
 ### 写入镜像
@@ -67,6 +72,7 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
 进入C盘，打开“[DiskImage](https://roadkil.net/program.php/P12/Disk%20Image)”
 
 [[assets/OpenWrt安装教程-assets/988500df1d0191b6e98734da0d889c46_MD5.jpeg|Open: OpenWrt安装教程-image-20240206103408212.png]]
+
 ![[assets/OpenWrt安装教程-assets/988500df1d0191b6e98734da0d889c46_MD5.jpeg]]
 
 等待进度条走完即可
@@ -82,6 +88,7 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
 回车进入OpenWrt终端
 
 [[assets/OpenWrt安装教程-assets/a251c2e30124fb93440dcc2237b16887_MD5.jpeg|Open: OpenWrt安装教程-image-20240206104104909.png]]
+
 ![[assets/OpenWrt安装教程-assets/a251c2e30124fb93440dcc2237b16887_MD5.jpeg]]
 
 ### 设置密码
@@ -91,6 +98,7 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
 在`Retype Password:`再次输入密码，并回车
 注意密码是隐藏显示的
 [[assets/OpenWrt安装教程-assets/77de6a10a109b7184aec4efd76623799_MD5.jpeg|Open: OpenWrt安装教程-image-20240206104317510.png]]
+
 ![[assets/OpenWrt安装教程-assets/77de6a10a109b7184aec4efd76623799_MD5.jpeg]]
 
 ### 配置软路由网络和端口
@@ -99,11 +107,13 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
 按“i”进入输入模式，此时屏幕左下方显示`--INSERT--` 
 
 [[assets/OpenWrt安装教程-assets/5bba1b4892f4190aa4bfd82650f8c8de_MD5.jpeg|Open: OpenWrt安装教程-image-20240206110327915.png]]
+
 ![[assets/OpenWrt安装教程-assets/5bba1b4892f4190aa4bfd82650f8c8de_MD5.jpeg]]
 
 将lan口改为eth1，将wan口改为eth0
 
 [[assets/OpenWrt安装教程-assets/dc2be99a55a34ccd5a66a639123aa75c_MD5.jpeg|Open: OpenWrt安装教程-image-20240206110807692.png]]
+
 ![[assets/OpenWrt安装教程-assets/dc2be99a55a34ccd5a66a639123aa75c_MD5.jpeg]]
 
 如果输入错了：按“Esc”退出输入模式后，按“U”即可撤销上一个操作
@@ -126,11 +136,13 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
 获取宽带账号密码，并在光猫上开启桥接模式
 
 [[assets/OpenWrt安装教程-assets/dd3f5555bc70f7e8dd5faa9b46ca85f2_MD5.jpeg|Open: OpenWrt安装教程-image-20240206115119541.png]]
+
 ![[assets/OpenWrt安装教程-assets/dd3f5555bc70f7e8dd5faa9b46ca85f2_MD5.jpeg]]
 
 将WAN口传输协议改为“PPPoE”，输入宽带账号密码
 
 [[assets/OpenWrt安装教程-assets/c0f30fefd2678e4de1be31c139de5253_MD5.jpeg|Open: OpenWrt安装教程-image-20240206115303924.png]]
+
 ![[assets/OpenWrt安装教程-assets/c0f30fefd2678e4de1be31c139de5253_MD5.jpeg]]
 
 若无法获得宽带账号密码，此步可暂时维持为“DHCP模式” 
@@ -159,11 +171,13 @@ image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5
 ### 旁路由上的设置
 
 [[assets/OpenWrt安装教程-assets/302bc5dff0730f8b84f35b294999d777_MD5.jpeg|Open: OpenWrt安装教程-image-20240206113702704.png]]
+
 ![[assets/OpenWrt安装教程-assets/302bc5dff0730f8b84f35b294999d777_MD5.jpeg]]
 
 接入内网接口协议改为“静态地址”，我这里使用的LAN口，“网关”设置成“主路由IP”，“DNS”设置为“主路由IP”。
 
 [[assets/OpenWrt安装教程-assets/7870ae602ebf76ebbef86669f5cc33a0_MD5.jpeg|Open: OpenWrt安装教程-image-20240206113620762.png]]
+
 ![[assets/OpenWrt安装教程-assets/7870ae602ebf76ebbef86669f5cc33a0_MD5.jpeg]]
 
 DNS设置为主路由IP
@@ -217,11 +231,13 @@ iptables -t nat -I POSTROUTING -j MASQUERADE
 协议选择“DHCPv6客户端”，自定义接口名称为“@wan”
 
 [[assets/OpenWrt安装教程-assets/2b27faeb05697b49328a4609fc33b5d1_MD5.jpeg|Open: OpenWrt安装教程-image-20240206115707699.png]]
+
 ![[assets/OpenWrt安装教程-assets/2b27faeb05697b49328a4609fc33b5d1_MD5.jpeg]]
 
 进入WAN6口的防火墙设置，选择WAN口的防火墙区域
 
 [[assets/OpenWrt安装教程-assets/768f313950530520f01c583b3797fc15_MD5.jpeg|Open: OpenWrt安装教程-image-20240206115934205.png]]
+
 ![[assets/OpenWrt安装教程-assets/768f313950530520f01c583b3797fc15_MD5.jpeg]]
 
 过一会之后即可获取到ipv6地址
@@ -233,16 +249,19 @@ iptables -t nat -I POSTROUTING -j MASQUERADE
 编辑LAN口，在“基本设置”处更改IPv6分配长度为“64”
 
 [[assets/OpenWrt安装教程-assets/9e71d25a2c9330e92a3a206900b1891b_MD5.jpeg|Open: OpenWrt安装教程-image-20240206120306037.png]]
+
 ![[assets/OpenWrt安装教程-assets/9e71d25a2c9330e92a3a206900b1891b_MD5.jpeg]]
 
 点击“物理设置”，勾选除eth0之外所有接口，就可以让其他接口也同属于LAN的配置下
 
 [[assets/OpenWrt安装教程-assets/cfaf2182973d95007b92873b482e5fe5_MD5.jpeg|Open: OpenWrt安装教程-image-20240206120422069.png]]
+
 ![[assets/OpenWrt安装教程-assets/cfaf2182973d95007b92873b482e5fe5_MD5.jpeg]]
 
 点击“ipv6设置”，将“路由通告服务”和“DHCPv6服务”均改为“服务器模式”
 
 [[assets/OpenWrt安装教程-assets/c0c421ddfdcdd490eb62f29578d542b4_MD5.jpeg|Open: OpenWrt安装教程-image-20240206120625104.png]]
+
 ![[assets/OpenWrt安装教程-assets/c0c421ddfdcdd490eb62f29578d542b4_MD5.jpeg]]
 
 这样所有LAN口就都可以正常使用，并且可以为所有下游设备分配IPv6与局域网IPv4地址
