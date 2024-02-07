@@ -4,6 +4,18 @@ export default navbar([
   "/",
   "/demo/",
   {
+    text: "笔记",
+    icon: "pen-to-square",
+    prefix: "/notes/",
+    children: [
+      {
+        text: "OpenWrt 安装教程",
+        icon: "arrow",
+        link: "OpenWrt-Install"
+      },
+    ],
+  },
+  {
     text: "博文",
     icon: "pen-to-square",
     prefix: "/posts/",
