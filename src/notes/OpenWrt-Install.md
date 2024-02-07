@@ -262,7 +262,7 @@ iptables -t nat -I POSTROUTING -j MASQUERADE
 
 [[assets/OpenWrt安装教程-assets/c0c421ddfdcdd490eb62f29578d542b4_MD5.jpeg|Open: OpenWrt安装教程-image-20240206120625104.png]]
 
-![[assets/OpenWrt安装教程-assets/c0c421ddfdcdd490eb62f29578d542b4_MD5.jpeg]]
+![text](assets/OpenWrt安装教程-assets/c0c421ddfdcdd490eb62f29578d542b4_MD5.jpeg)
 
 这样所有LAN口就都可以正常使用，并且可以为所有下游设备分配IPv6与局域网IPv4地址
 
