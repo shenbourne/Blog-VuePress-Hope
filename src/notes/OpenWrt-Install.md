@@ -1,3 +1,14 @@
+---
+title: OpenWrt 安装教程
+icon: fab fa-markdown
+order: 2
+category:
+  - 安装教程
+tag:
+  - OpenWrt
+  - Install
+---
+
 原视频地址：
 
 ```cardlink
