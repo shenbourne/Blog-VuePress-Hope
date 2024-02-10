@@ -16,7 +16,7 @@ export default navbar([
       {
         text: "VuePress-theme-hope2 搭建个人网站",
         icon: "arrow",
-        link: "VuePress-theme-hope2 Deploy"
+        link: "VuePress-theme-hope2-Deploy"
       },
     ],
   },

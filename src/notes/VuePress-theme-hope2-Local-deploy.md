@@ -1,97 +1,13 @@
 ---
-title: VuePress-theme-hope2 搭建个人网站
+title: VuePress-theme-hope2 本地部署个人网站
 icon: fab fa-markdown
 order: 2
 category:
-  - 搭建教程
+  - 安装教程
 tag:
   - VuePress
   - Deploy
 ---
-
-```cardlink
-url: https://juejin.cn/post/7261555752586084410
-title: "🚀VuePress-theme-hope2 搭建个人网站，万字长文保姆级教程，包含自动部署、评论、搜索等功能 - 掘金"
-description: "VuePress 是一个以 Markdown 为中心的静态网站生成器。好处是可以使用 Markdown 来书写内容文档或者博客。 VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档"
-host: juejin.cn
-favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png
-```
-  
-
-> 文章同步在公众号：萌萌哒草头将军，欢迎关注
-> 
-> 我的博客地址：[mmdctjj.github.io/blogs2/](https://link.juejin.cn?target=https%3A%2F%2Fmmdctjj.github.io%2Fblogs2%2F "https://mmdctjj.github.io/blogs2/")
-> 
-> 对应仓库地址：[github.com/mmdctjj/blo…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fmmdctjj%2Fblogs2 "https://github.com/mmdctjj/blogs2")
-
-VuePress 是一个以 Markdown 为中心的静态网站生成器。好处是可以使用 Markdown 来书写内容文档或者博客。
-
-VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。
-
-在明确你的目标之后，先不着急立马搭建项目。
-
-## 🚀 你喜欢哪个主题
-
-因为VuePress除了默认的主题外，提供了扩展主题、扩展插件的能力，不同的主题又组织了不同的插件集合来完成开箱即用的功能，
-
-所以，你首先应该使用哪款主题作为你的个人完整风格。
-
-比较热门你的主题有：
-
-- [vuepress默认主题](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fvuejs%2Fvuepress "https://github.com/vuejs/vuepress") 21.7k⭐
-- [vuepress-theme-hope](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fvuepress-theme-hope%2Fvuepress-theme-hope "https://github.com/vuepress-theme-hope/vuepress-theme-hope") 1.4k⭐
-- [vuepress-theme-reco，（2.0还在测试阶段）](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fvuepress-reco%2Fvuepress-theme-reco-1.x "https://github.com/vuepress-reco/vuepress-theme-reco-1.x") 1.6k⭐
-- [vuepress-theme-vdoing](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fxugaoyi%2Fvuepress-theme-vdoing "https://github.com/xugaoyi/vuepress-theme-vdoing") 3.5k⭐
-
-不同主题的之间的最明显的差异就是默认的样式不同，其次就是默认提供的功能不同。
-
-我们看看各个主题默认的样式
-
-### [默认主题](https://vuepress.vuejs.org/) 案例
-
-vue系列早先版本的官网大多数都是默认主题
-
-![](/assets/VuePress-theme-hope2-Deploy/7805ce56c9ab4c47a392f782f3f0a509~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp)
-
-### [vuepress-theme-hope](https://theme-hope.vuejs.press/) 案例 
-
-蝉沐风的码场：[www.chanmufeng.com/](https://www.chanmufeng.com/)
-
-![](/assets/VuePress-theme-hope2-Deploy/aa13444c25f46fc1028f935fab84932c_MD5.jpeg)
-
-更多案例：[真实项目 | vuepress-theme-hope](https://theme-hope.vuejs.press/zh/demo/projects.html#%E4%BD%BF%E7%94%A8-vuepress-theme-hope-%E7%9A%84%E6%96%87%E6%A1%A3)
-
-### [vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/) 案例 
-
-Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
-
-![](/assets/VuePress-theme-hope2-Deploy/5f5f76ddcbbddc12e11ec888c99f06d3_MD5.jpeg)
-
-更多案例：[优秀博客案例 | vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/views/other/theme-example.html)
-
-### [vuepress-theme-reco 2.0](https://vuepress-theme-reco.recoluan.com/) 案例 
-
- SlovinG's Blog：[SlovinG's Blog](https://sloving.top/)
-
-![](/assets/VuePress-theme-hope2-Deploy/a4fc5d567fcf3f8ef1c439f05e75aa30_MD5.jpeg)
-
-更多案例：[案例 | vuepress-reco](https://vuepress-theme-reco.recoluan.com/docs/others/examples.html)
-
-### [vuepress-theme-vdoing](https://doc.xugaoyi.com/) 案例 
-
-Evan's blog：[Evan's blog](https://xugaoyi.com/)
-
-![](/assets/VuePress-theme-hope2-Deploy/6f1884a664145f9a4a2117cd5271943d_MD5.jpeg)
-
-更多案例：[案例 | vuepress-theme-vdoing](https://doc.xugaoyi.com/pages/5d571c/#%E7%89%B9%E5%88%AB%E7%94%A8%E6%88%B7)
-
-大家可自行选择主题，此处以vuepress-theme-hope为例搭建博客。
-
-主要功能是新增了一些图标、新增了Tag、新增了时间轴等常用功能，
-
-缺点是：功能还不够丰富，图标比较少，无法有效添加摘要、阅读时间、字数统计等功能。
-
-相反，vuepress-theme-hope 这些做的都不错，成为我新的选择。
 
 ## 🚀 运行环境设置
 
@@ -105,7 +21,7 @@ Evan's blog：[Evan's blog](https://xugaoyi.com/)
 
 3. 在下载过程中 ，请务必**全选**下列选项：
 
-![](/assets/VuePress-theme-hope2-Deploy/2ee74344037e2e7951a0807c042cd89c_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/2ee74344037e2e7951a0807c042cd89c_MD5.jpeg)
 
 4. 在 VS Code 初次启动后，若未提前安装 Git 可能会提示未找到 Git 软件，忽略即可。
 
@@ -116,7 +32,7 @@ Evan's blog：[Evan's blog](https://xugaoyi.com/)
 	3. 点击第一个选项卡上的“Install”按钮。若是繁体用户，则应点击第二个选项卡上的“Install”按钮。
 	4. 在下载完成后，左下角会出现弹窗，点击弹窗中的“Change Language and Restart”，等待重启后即安装完毕。
 
-![](/assets/VuePress-theme-hope2-Deploy/c046280014369794e10d2751ecaaf526_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/c046280014369794e10d2751ecaaf526_MD5.jpeg)
 
 > [!tip]
 >当你安装 VS Code 并第一次打开的时候，VS Code 会自动检测当前系统语言并在右下角推荐你安装对应语言的扩展，点击按钮即可自动安装。
@@ -250,7 +166,7 @@ added 293 packages in 26s
 
 初始化目录结构如下
 
-![](/assets/VuePress-theme-hope2-Deploy/d6c8fb22be4f418abf38ef344030fd7c~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp)
+![](d6c8fb22be4f418abf38ef344030fd7c~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp)
 
 ## 🚀 首页配置
 
@@ -260,13 +176,13 @@ added 293 packages in 26s
 
 打开页面，可以看到博客的首页如下：
 
-![](/assets/VuePress-theme-hope2-Deploy/adc22b537dca1536f0fb1e74f80eca9e_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/adc22b537dca1536f0fb1e74f80eca9e_MD5.jpeg)
 
 可以通过设置`heroFullScreen: false`，关闭hero背景全屏。
 
 下滑之后文章的列表如下：
 
-![](/assets/VuePress-theme-hope2-Deploy/715154480d5ac408e5dad8b62398cd75_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/715154480d5ac408e5dad8b62398cd75_MD5.jpeg)
 
 文章的列表来自于项目中所有的markdown文件，你可以在每个md文件的frontmatter中设置文章的标题、封面、分类、标签、日期、是否在文章列表中显示。
 
@@ -320,7 +236,7 @@ footer: 萌萌哒草头将军
 
 我的思路是，根据文章的分类，将相同的分类文章放在同一目录下，每个目录对应一个导航栏目。
 
-![](/assets/VuePress-theme-hope2-Deploy/afe5a87db78a22a56906383692d3af57_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/afe5a87db78a22a56906383692d3af57_MD5.jpeg)
 
 导航栏的相关设置在 `navbar.ts`文件中。
 
@@ -427,7 +343,7 @@ export default navbar([
 
 我将一些默认的路由也加进了导航栏配置中，比如时间轴、标签、分类等。
 
-![](/assets/VuePress-theme-hope2-Deploy/9cc52ff1585e6e6202033698b3484606_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/9cc52ff1585e6e6202033698b3484606_MD5.jpeg)
 
 ## 🚀 侧边栏
 
@@ -488,7 +404,7 @@ export default sidebar({
 
 此时页面侧边栏如下图
 
-![](/assets/VuePress-theme-hope2-Deploy/750678252dca76d05e961648cd4c4603_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/750678252dca76d05e961648cd4c4603_MD5.jpeg)
 
 ### 💎 分离式导航栏
 
@@ -507,7 +423,7 @@ export default sidebar({
 
 ```
 
-![](/assets/VuePress-theme-hope2-Deploy/cc16a07b5d6cdcc2ce8bd805dfe53dd2_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/cc16a07b5d6cdcc2ce8bd805dfe53dd2_MD5.jpeg)
 
 ### 💎 自动生成目录页面
 
@@ -524,7 +440,7 @@ plugins: {
 
 就可以自动生成目录页面了。例如：
 
-![](/assets/VuePress-theme-hope2-Deploy/9b379d0629ac655174377c76c8f00c1d_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/9b379d0629ac655174377c76c8f00c1d_MD5.jpeg)
 
 
 ## 🚀 [搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)功能
@@ -600,107 +516,9 @@ export default defineUserConfig({
 ```
 效果如下：
 
-![](/assets/VuePress-theme-hope2-Deploy/fb8aa9698875c3683416ea56928db52b_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-deploy/fb8aa9698875c3683416ea56928db52b_MD5.jpeg)
 
-## 🚀 自动部署
 
-该主题已经自动添加了`workflows`文件，你只需添加仓库，修改触发分支。
-
-不过我在部署时遇到问题：
-
-```js
-Dependencies lock file is not found in /home/{username}/runners.../repository_name. Supported file patterns: package-lock.json,yarn.lock
-```
-
-需要修改下`workflows`文件：去除npm cache设置
-
-```sh
- - name: 设置 Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-        #  cache: npm
-```
-
-cicd执行成功后，会多一个部署`gh-pages`分支，这是文件流中配置的，你可以修改
-
-```sh
-      - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          # 这是文档部署到的分支名称
-          branch: gh-pages
-          folder: src/.vuepress/dist
-```
-
-![](/assets/VuePress-theme-hope2-Deploy/e14fe5461cdfb08b6e0a1932d492ae4c_MD5.jpeg)
-
-接着最重要的一步，到仓库的设置页面设置如下的内容：
-
-![](/assets/VuePress-theme-hope2-Deploy/a55a2d45b21f581296d09b02a062a037_MD5.jpeg)
-
-该设置的意思是，将选中的分支内容部署在github自带的页面服务中。
-
-接着点击`save`按钮，就可以去对应的站点访问了。
-
-我的站点：[mmdctjj.github.io/blogs2/](https://link.juejin.cn?target=https%3A%2F%2Fmmdctjj.github.io%2Fblogs2%2F "https://mmdctjj.github.io/blogs2/")
-
-## 🚀 添加评论功能
-
-不同的插件，评论的实现原理不同，我接触过最早的原理是通过将评论信息映射到仓库的issue中。
-
-然而，后来开始流行`Discussions`，这也是`vuepress-theme-hope`推荐的方式，
-
-> 如果你的博客面向程序员，请使用`Giscus`，面向大众请选择`Waline`, 所以我选择了`Giscus`
-
-首先需要你创建一个空的仓库。其次，由于评论需要用户登录到GitHub，所以，我们还需要提供登录应用的服务。
-
-这里我们不用担心，因为Github为我们提供了简单的登陆应用的功能：`giscus`,
-
-首先安装Giscus：[GitHub Apps - giscus · GitHub](https://github.com/apps/giscus)
-
-![](/assets/VuePress-theme-hope2-Deploy/e13154e3efd91f784218615bc9adf9ca_MD5.jpeg)
-
-点击`install`按钮，在配置详情页中选择对应的生效仓库。（这里我选择仅仅对评论仓库生效）
-
-![](/assets/VuePress-theme-hope2-Deploy/ea99fa53fe4252254d77627d4f0bf988_MD5.jpeg)
-
-然后回到评论仓库，点击`seething`，选中`Feature`下的`Discussions`
-
-![](/assets/VuePress-theme-hope2-Deploy/a102162cac6499c56a4540d346d717fb_MD5.jpeg)
-
-点击`set up discussions`，默认的文本不需要修改，点击提交即可出现如下页面，说明该功能启用成功。
-
-![](/assets/VuePress-theme-hope2-Deploy/a6d3618658113f74ca726cee63af6663_MD5.jpeg)
-
-接着，我们前往[giscus.app/zh-CN](https://giscus.app/zh-CN) 设置你的仓库和分类
-
-![](/assets/VuePress-theme-hope2-Deploy/3cb268874b44a1c4aa62dbb4fd6d6496_MD5.jpeg)
-
-![](/assets/VuePress-theme-hope2-Deploy/bc8fc4bd00b33c61d4f728f3bb7e7527_MD5.jpeg)
-
-在启用栏目复制以下几个信息。
-
-![](/assets/VuePress-theme-hope2-Deploy/0a298ebbbc92b19922ed10f8f6cf4bdd_MD5.jpeg)
-
-接着将以下信息复到`theme.ts`即可：
-
-```js title="\src\.vuepress\theme.ts"
-  plugins: {
-    comment: {
-      // You should generate and use your own comment service
-      provider: "Giscus",
-      repo: "mmdctjj/blogs-comments",
-      repoId: "xxxx", // 替换下
-      category: "Announcements",
-      categoryId: "xxxx" // 替换下
-    },
- }
-```
-
-此时当我们评论之后，在评论仓库查看，
-
-![](/assets/VuePress-theme-hope2-Deploy/14d4de4f357aebc829a2a4840e049577_MD5.jpeg)
 
 ## 🎉 最后
 
