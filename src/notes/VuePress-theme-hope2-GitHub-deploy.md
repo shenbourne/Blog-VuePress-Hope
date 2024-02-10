@@ -120,7 +120,7 @@ cicd执行成功后，会多一个部署`gh-pages`分支。
 
 此时当我们评论之后，在评论仓库查看，
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/14d4de4f357aebc829a2a4840e049577_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-14d4de4f357aebc829a2a4840e049577_MD5.jpeg)
 
 ## 🚀 Github pages使用自定义域名访问
 
@@ -128,7 +128,7 @@ cicd执行成功后，会多一个部署`gh-pages`分支。
 
 2. 点进自己域名，并添加DNS记录
 
-![](7faca8c480b85853fca02061b3c21fe4_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-7faca8c480b85853fca02061b3c21fe4_MD5.jpeg)
 
 3. 配置记录
 
@@ -138,13 +138,13 @@ cicd执行成功后，会多一个部署`gh-pages`分支。
 |名称|可填写“www”或“blog”|这取决你网站的个人用途。如我填写“blog”时，shenbourne.github.io会指向blog.shenbourne.com|
 |目标|填写“\<username>.github.io”|此处username为GitHub用户名。例如我的用户名是shenbourne，则我填写“shenbourne.github.io”
 
-![](ffe655d90d28fa9c9f4fb09e378236dd_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-ffe655d90d28fa9c9f4fb09e378236dd_MD5.jpeg)
 
 填好后点击保存
 
 4. 绑定到Github Pages：项目仓库 > Settings > Pages > Custom domain，在Custom domain中填写你在步骤2中配置好的域名，点击“Save”。
 
-![](4103fe51569ff733913576ed9068e648_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-4103fe51569ff733913576ed9068e648_MD5.jpeg)
 
 GitHub会花费一点时间做DNS check，成功时你能看到成功的提示。
 
