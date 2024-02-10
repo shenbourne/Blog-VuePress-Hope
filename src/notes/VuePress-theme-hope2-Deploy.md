@@ -90,17 +90,17 @@ Evan's blog：[Evan's blog](https://xugaoyi.com/)
 
 相反，vuepress-theme-hope 这些做的都不错，成为我新的选择。
 
-# 本地部署
+# 🗺️ 本地部署
 
-<!-- @include: VuePress-theme-hope2-Local-deploy -->
+<!-- @include: VuePress-theme-hope2-Local-deploy.md -->
 
-# 使用Git上传到GitHub
+# 🗺️ 使用Git上传到GitHub
 
-<!-- @include: Use-Git-to-Submit-Local-Code-to-GitHub -->
+<!-- @include: Use-Git-to-Submit-Local-Code-to-GitHub.md -->
 
-# 本地部署
+# 🗺️ 本地部署
 
-<!-- @include: VuePress-theme-hope2-GitHub-deploy -->
+<!-- @include: VuePress-theme-hope2-GitHub-deploy.md -->
 
 
 # 🎉 最后
