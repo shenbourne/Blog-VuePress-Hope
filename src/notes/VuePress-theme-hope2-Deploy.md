@@ -4,11 +4,6 @@ icon: fab fa-markdown
 order: 2
 category:
   - 安装教程
-tags:
-  - VuePress
-  - Git
-  - GitHub
-  - Deploy
 ---
 
 ```cardlink
