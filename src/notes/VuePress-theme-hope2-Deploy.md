@@ -54,7 +54,7 @@ vue系列早先版本的官网大多数都是默认主题
 
 蝉沐风的码场：[www.chanmufeng.com/](https://www.chanmufeng.com/)
 
-![](/assets/VuePress-theme-hope2-deploy/aa13444c25f46fc1028f935fab84932c_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-aa13444c25f46fc1028f935fab84932c_MD5.jpeg)
 
 更多案例：[真实项目 | vuepress-theme-hope](https://theme-hope.vuejs.press/zh/demo/projects.html#%E4%BD%BF%E7%94%A8-vuepress-theme-hope-%E7%9A%84%E6%96%87%E6%A1%A3)
 
@@ -62,7 +62,7 @@ vue系列早先版本的官网大多数都是默认主题
 
 Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
-![](/assets/VuePress-theme-hope2-deploy/5f5f76ddcbbddc12e11ec888c99f06d3_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-5f5f76ddcbbddc12e11ec888c99f06d3_MD5.jpeg)
 
 更多案例：[优秀博客案例 | vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/views/other/theme-example.html)
 
@@ -70,7 +70,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
  SlovinG's Blog：[SlovinG's Blog](https://sloving.top/)
 
-![](/assets/VuePress-theme-hope2-deploy/a4fc5d567fcf3f8ef1c439f05e75aa30_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-a4fc5d567fcf3f8ef1c439f05e75aa30_MD5.jpeg)
 
 更多案例：[案例 | vuepress-reco](https://vuepress-theme-reco.recoluan.com/docs/others/examples.html)
 
@@ -78,7 +78,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
 Evan's blog：[Evan's blog](https://xugaoyi.com/)
 
-![](/assets/VuePress-theme-hope2-deploy/6f1884a664145f9a4a2117cd5271943d_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-6f1884a664145f9a4a2117cd5271943d_MD5.jpeg)
 
 更多案例：[案例 | vuepress-theme-vdoing](https://doc.xugaoyi.com/pages/5d571c/#%E7%89%B9%E5%88%AB%E7%94%A8%E6%88%B7)
 

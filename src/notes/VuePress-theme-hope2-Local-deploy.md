@@ -18,7 +18,7 @@ category:
 
 3. 在下载过程中 ，请务必**全选**下列选项：
 
-![](/assets/VuePress-theme-hope2-deploy/2ee74344037e2e7951a0807c042cd89c_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-2ee74344037e2e7951a0807c042cd89c_MD5.jpeg)
 
 4. 在 VS Code 初次启动后，若未提前安装 Git 可能会提示未找到 Git 软件，忽略即可。
 
@@ -29,7 +29,7 @@ category:
 	3. 点击第一个选项卡上的“Install”按钮。若是繁体用户，则应点击第二个选项卡上的“Install”按钮。
 	4. 在下载完成后，左下角会出现弹窗，点击弹窗中的“Change Language and Restart”，等待重启后即安装完毕。
 
-![](/assets/VuePress-theme-hope2-deploy/c046280014369794e10d2751ecaaf526_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-c046280014369794e10d2751ecaaf526_MD5.jpeg)
 
 > [!tip]
 >当你安装 VS Code 并第一次打开的时候，VS Code 会自动检测当前系统语言并在右下角推荐你安装对应语言的扩展，点击按钮即可自动安装。
@@ -173,13 +173,13 @@ added 293 packages in 26s
 
 打开页面，可以看到博客的首页如下：
 
-![](/assets/VuePress-theme-hope2-deploy/adc22b537dca1536f0fb1e74f80eca9e_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-adc22b537dca1536f0fb1e74f80eca9e_MD5.jpeg)
 
 可以通过设置`heroFullScreen: false`，关闭hero背景全屏。
 
 下滑之后文章的列表如下：
 
-![](/assets/VuePress-theme-hope2-deploy/715154480d5ac408e5dad8b62398cd75_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-715154480d5ac408e5dad8b62398cd75_MD5.jpeg)
 
 文章的列表来自于项目中所有的markdown文件，你可以在每个md文件的frontmatter中设置文章的标题、封面、分类、标签、日期、是否在文章列表中显示。
 
@@ -233,7 +233,7 @@ footer: 萌萌哒草头将军
 
 我的思路是，根据文章的分类，将相同的分类文章放在同一目录下，每个目录对应一个导航栏目。
 
-![](/assets/VuePress-theme-hope2-deploy/afe5a87db78a22a56906383692d3af57_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-afe5a87db78a22a56906383692d3af57_MD5.jpeg)
 
 导航栏的相关设置在 `navbar.ts`文件中。
 
@@ -340,7 +340,7 @@ export default navbar([
 
 我将一些默认的路由也加进了导航栏配置中，比如时间轴、标签、分类等。
 
-![](/assets/VuePress-theme-hope2-deploy/9cc52ff1585e6e6202033698b3484606_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-9cc52ff1585e6e6202033698b3484606_MD5.jpeg)
 
 ## 🚀 侧边栏
 
@@ -401,7 +401,7 @@ export default sidebar({
 
 此时页面侧边栏如下图
 
-![](/assets/VuePress-theme-hope2-deploy/750678252dca76d05e961648cd4c4603_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-750678252dca76d05e961648cd4c4603_MD5.jpeg)
 
 ### 💎 分离式导航栏
 
@@ -420,7 +420,7 @@ export default sidebar({
 
 ```
 
-![](/assets/VuePress-theme-hope2-deploy/cc16a07b5d6cdcc2ce8bd805dfe53dd2_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-cc16a07b5d6cdcc2ce8bd805dfe53dd2_MD5.jpeg)
 
 ### 💎 自动生成目录页面
 
@@ -437,7 +437,7 @@ plugins: {
 
 就可以自动生成目录页面了。例如：
 
-![](/assets/VuePress-theme-hope2-deploy/9b379d0629ac655174377c76c8f00c1d_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-9b379d0629ac655174377c76c8f00c1d_MD5.jpeg)
 
 
 ## 🚀 [搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)功能
@@ -513,7 +513,7 @@ export default defineUserConfig({
 ```
 效果如下：
 
-![](/assets/VuePress-theme-hope2-deploy/fb8aa9698875c3683416ea56928db52b_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-fb8aa9698875c3683416ea56928db52b_MD5.jpeg)
 
 
 

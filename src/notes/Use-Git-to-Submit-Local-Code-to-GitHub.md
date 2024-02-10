@@ -22,7 +22,7 @@ category:
 
 3. 安装完成后，在任一文件夹右键打开菜单，如果出现`Open Git GUI here`和`Open Git Bash here`，则说明安装成功。
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/fdab1192e7c25f6e4e916c95e3209318_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-fdab1192e7c25f6e4e916c95e3209318_MD5.jpeg)
 
 ### 💎 将选定仓库初始化为git仓库
 
@@ -32,11 +32,11 @@ category:
 git init
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/b06e48a1494862051793abd10fdeb2dc_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b06e48a1494862051793abd10fdeb2dc_MD5.jpeg)
 
 文件夹中出现`.git`文件，则说明初始化成功
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/956ea4c7e5ae605e24b3fd2b4c9d1640_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-956ea4c7e5ae605e24b3fd2b4c9d1640_MD5.jpeg)
 
 ### 💎 将本地代码上传至git版本库
 
@@ -46,7 +46,7 @@ git init
 git add .
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/40d6636cd494153fa6a17508ccf0ee00_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-40d6636cd494153fa6a17508ccf0ee00_MD5.jpeg)
 
 检查：输入`git status`文件都显示绿色即成功
 
@@ -54,7 +54,7 @@ git add .
 git status
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/b6afea351cbbf9aa195ca0371595b1d7_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6afea351cbbf9aa195ca0371595b1d7_MD5.jpeg)
 
 2. 输入`git commit -m '提交信息'`把暂存区文件放到版本库中
 
@@ -62,7 +62,7 @@ git status
 git commit -m '提交信息'
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/c49d04ce6bec29d45d13203ba703ad5c_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-c49d04ce6bec29d45d13203ba703ad5c_MD5.jpeg)
 
 如果没有创建用户信息，则会让你创建一个，账户密码随便填即可。例：
 
@@ -70,13 +70,13 @@ git commit -m '提交信息'
 git config --global user.email "<>"
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/b6c6f0089f486bf05aea89f9d2fa0204_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6c6f0089f486bf05aea89f9d2fa0204_MD5.jpeg)
 
 ### 💎 将本地git库与GitHub库连接
 
 1. 创建新的GitHub库
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/92418a072cf36f81ea35b827074ae6e3_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-92418a072cf36f81ea35b827074ae6e3_MD5.jpeg)
 
 ::: tip
  
@@ -92,7 +92,7 @@ git config --global user.email "<>"
 ssh-keygen -t rsa -C "*@*.com"    #邮箱可以任意填写
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/a52270fa564e3a1af368c77e6689dab6_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-a52270fa564e3a1af368c77e6689dab6_MD5.jpeg)
 
 查看公钥指令：
 
@@ -100,15 +100,15 @@ ssh-keygen -t rsa -C "*@*.com"    #邮箱可以任意填写
 cat ~/.ssh/id_rsa.pub    #查看之后copy 
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/2b7cec9fa59c3303a4a3120cb8378b31_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-2b7cec9fa59c3303a4a3120cb8378b31_MD5.jpeg)
 
 GitHub线上添加公钥：项目仓库 > Settings > Deploy keys > Add deploy key
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/a1d0113f27c075b2779427922a3b2bd4_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-a1d0113f27c075b2779427922a3b2bd4_MD5.jpeg)
 
 注意勾选“Allow write access”
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/8a1f8430f1ec199f9b9ee6bc023bf38f_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-8a1f8430f1ec199f9b9ee6bc023bf38f_MD5.jpeg)
 
 3. 本地仓库与远程仓库建立连接，添加远程源，这里我们采用ssh协议的remote源
 
@@ -116,7 +116,7 @@ GitHub线上添加公钥：项目仓库 > Settings > Deploy keys > Add deploy ke
 git remote add origin <url>    #origin是远程源的名字
 ```
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/80c02e42c1030d27db3e94fc9dd5009f_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-80c02e42c1030d27db3e94fc9dd5009f_MD5.jpeg)
 
 ## 🚀 提交和拉取远程仓库
 
@@ -191,7 +191,7 @@ git reset --hard <commit ID号>
 
 ::: tip 获取commit ID号的方法
 
-![](/assets/Use-Git-to-Submit-Local-Code-to-GitHub/b04a8595f9db44dfcb62727c10636f58_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b04a8595f9db44dfcb62727c10636f58_MD5.jpeg)
 
 复制下来的ji即为该版本的commit ID号
 

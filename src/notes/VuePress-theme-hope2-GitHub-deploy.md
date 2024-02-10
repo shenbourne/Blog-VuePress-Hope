@@ -53,11 +53,11 @@ cicd执行成功后，会多一个部署`gh-pages`分支。
           folder: src/.dist
 ```
 
-![](/assets/VuePress-theme-hope2-deploy/e14fe5461cdfb08b6e0a1932d492ae4c_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-e14fe5461cdfb08b6e0a1932d492ae4c_MD5.jpeg)
 
 接着最重要的一步，到仓库的设置页面设置如下的内容：
 
-![](/assets/VuePress-theme-hope2-deploy/a55a2d45b21f581296d09b02a062a037_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-a55a2d45b21f581296d09b02a062a037_MD5.jpeg)
 
 该设置的意思是，将选中的分支内容部署在github自带的页面服务中。
 
@@ -79,29 +79,29 @@ cicd执行成功后，会多一个部署`gh-pages`分支。
 
 首先安装Giscus：[GitHub Apps - giscus · GitHub](https://github.com/apps/giscus)
 
-![](/assets/VuePress-theme-hope2-deploy/e13154e3efd91f784218615bc9adf9ca_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-e13154e3efd91f784218615bc9adf9ca_MD5.jpeg)
 
 点击`install`按钮，在配置详情页中选择对应的生效仓库。（这里我选择仅仅对评论仓库生效）
 
-![](/assets/VuePress-theme-hope2-deploy/ea99fa53fe4252254d77627d4f0bf988_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-ea99fa53fe4252254d77627d4f0bf988_MD5.jpeg)
 
 然后回到评论仓库，点击`seething`，选中`Feature`下的`Discussions`
 
-![](/assets/VuePress-theme-hope2-deploy/a102162cac6499c56a4540d346d717fb_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-a102162cac6499c56a4540d346d717fb_MD5.jpeg)
 
 点击`set up discussions`，默认的文本不需要修改，点击提交即可出现如下页面，说明该功能启用成功。
 
-![](/assets/VuePress-theme-hope2-deploy/a6d3618658113f74ca726cee63af6663_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-a6d3618658113f74ca726cee63af6663_MD5.jpeg)
 
 接着，我们前往[giscus.app/zh-CN](https://giscus.app/zh-CN) 设置你的仓库和分类
 
-![](/assets/VuePress-theme-hope2-deploy/3cb268874b44a1c4aa62dbb4fd6d6496_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-3cb268874b44a1c4aa62dbb4fd6d6496_MD5.jpeg)
 
-![](/assets/VuePress-theme-hope2-deploy/bc8fc4bd00b33c61d4f728f3bb7e7527_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-bc8fc4bd00b33c61d4f728f3bb7e7527_MD5.jpeg)
 
 在启用栏目复制以下几个信息。
 
-![](/assets/VuePress-theme-hope2-deploy/0a298ebbbc92b19922ed10f8f6cf4bdd_MD5.jpeg)
+![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-0a298ebbbc92b19922ed10f8f6cf4bdd_MD5.jpeg)
 
 接着将以下信息复到`theme.ts`即可：
 
