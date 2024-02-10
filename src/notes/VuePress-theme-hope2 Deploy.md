@@ -263,7 +263,7 @@ added 293 packages in 26s
 
 初始化目录结构如下
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d6c8fb22be4f418abf38ef344030fd7c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/d6c8fb22be4f418abf38ef344030fd7c~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp)
 
 ## 🚀 首页配置
 
@@ -273,13 +273,13 @@ added 293 packages in 26s
 
 打开页面，可以看到博客的首页如下：
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/355ae7ea2ddb444398d859f975541711~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/adc22b537dca1536f0fb1e74f80eca9e_MD5.jpeg)
 
 可以通过设置`heroFullScreen: false`，关闭hero背景全屏。
 
 下滑之后文章的列表如下：
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/39361e29e9984cb38dd25f6ef17d44b2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/715154480d5ac408e5dad8b62398cd75_MD5.jpeg)
 
 文章的列表来自于项目中所有的markdown文件，你可以在每个md文件的frontmatter中设置文章的标题、封面、分类、标签、日期、是否在文章列表中显示。
 
@@ -333,7 +333,7 @@ footer: 萌萌哒草头将军
 
 我的思路是，根据文章的分类，将相同的分类文章放在同一目录下，每个目录对应一个导航栏目。
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e2f4125d5efe42dd9487937f5f3f35b7~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/afe5a87db78a22a56906383692d3af57_MD5.jpeg)
 
 导航栏的相关设置在 `navbar.ts`文件中。
 
@@ -440,7 +440,7 @@ export default navbar([
 
 我将一些默认的路由也加进了导航栏配置中，比如时间轴、标签、分类等。
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07e24da6efb0471fab534031c2a32618~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/9cc52ff1585e6e6202033698b3484606_MD5.jpeg)
 
 ## 🚀 侧边栏
 
@@ -501,12 +501,11 @@ export default sidebar({
 
 此时页面侧边栏如下图
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f4785b0f61ea4826bbda9c01bd76f7b8~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/750678252dca76d05e961648cd4c4603_MD5.jpeg)
 
 ### 💎 分离式导航栏
 
 分离式菜单配置更简洁，如下所示：当设置`structure`时，默认根据目录下的文件自动生成侧边栏。
-
 
 ```js title="\src\.vuepress\sidebar.ts"
 import { sidebar } from "vuepress-theme-hope";
@@ -521,7 +520,7 @@ export default sidebar({
 
 ```
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1f4fc0aec7f84e9e94d996b2d1f29ff2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/cc16a07b5d6cdcc2ce8bd805dfe53dd2_MD5.jpeg)
 
 ### 💎 自动生成目录页面
 
@@ -538,7 +537,8 @@ plugins: {
 
 就可以自动生成目录页面了。例如：
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a12d2620daaf4596a8d0293460bade01~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/9b379d0629ac655174377c76c8f00c1d_MD5.jpeg)
+
 
 ## 🚀 [搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)功能
 
@@ -613,7 +613,7 @@ export default defineUserConfig({
 ```
 效果如下：
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d61472f814974bcb8e97dae50e9a0013~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/fb8aa9698875c3683416ea56928db52b_MD5.jpeg)
 
 ## 🚀 自动部署
 
@@ -646,11 +646,11 @@ cicd执行成功后，会多一个部署`gh-pages`分支，这是文件流中配
           folder: src/.vuepress/dist
 ```
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b272f723875144639a3b1b67f70a4f06~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/e14fe5461cdfb08b6e0a1932d492ae4c_MD5.jpeg)
 
 接着最重要的一步，到仓库的设置页面设置如下的内容：
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e5730c4421f146d6bc92a4ae261ddd30~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/a55a2d45b21f581296d09b02a062a037_MD5.jpeg)
 
 该设置的意思是，将选中的分支内容部署在github自带的页面服务中。
 
@@ -672,29 +672,29 @@ cicd执行成功后，会多一个部署`gh-pages`分支，这是文件流中配
 
 首先安装Giscus：[GitHub Apps - giscus · GitHub](https://github.com/apps/giscus)
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07ded9d5b5a549e0af00c7f057da4871~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/e13154e3efd91f784218615bc9adf9ca_MD5.jpeg)
 
 点击`install`按钮，在配置详情页中选择对应的生效仓库。（这里我选择仅仅对评论仓库生效）
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c5ba710be49e4ed5969c450cd71bbb6b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/ea99fa53fe4252254d77627d4f0bf988_MD5.jpeg)
 
 然后回到评论仓库，点击`seething`，选中`Feature`下的`Discussions`
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd52fbb3f1984ccb8a124a5418c71b47~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/a102162cac6499c56a4540d346d717fb_MD5.jpeg)
 
 点击`set up discussions`，默认的文本不需要修改，点击提交即可出现如下页面，说明该功能启用成功。
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59fd7a6cfcf8400b907231c7ba2104a1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/a6d3618658113f74ca726cee63af6663_MD5.jpeg)
 
 接着，我们前往[giscus.app/zh-CN](https://giscus.app/zh-CN) 设置你的仓库和分类
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2755ba28c004292acd9037a88398ed9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/3cb268874b44a1c4aa62dbb4fd6d6496_MD5.jpeg)
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/82e2c901f8fb4f28a617630d0d40b74c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/bc8fc4bd00b33c61d4f728f3bb7e7527_MD5.jpeg)
 
 在启用栏目复制以下几个信息。
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d0853ca1007f4a49b7affdd24553fa0e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/0a298ebbbc92b19922ed10f8f6cf4bdd_MD5.jpeg)
 
 接着将以下信息复到`theme.ts`即可：
 
@@ -713,7 +713,7 @@ cicd执行成功后，会多一个部署`gh-pages`分支，这是文件流中配
 
 此时当我们评论之后，在评论仓库查看，
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/297127923a7844d688c08fd4ae39a482~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](/assets/VuePress-theme-hope2 搭建个人网站-assets/14d4de4f357aebc829a2a4840e049577_MD5.jpeg)
 
 ## 🎉 最后
 
@@ -721,7 +721,7 @@ vuepress-theme-hope 主题通过默认的配置就提供了丰富的开箱即用
 
 今天的分享就到这了，如果文中有错误的地方，还请在评论中告诉我，感激不尽。
 
-  
+---
 
 作者：萌萌哒草头将军  
 链接：https://juejin.cn/post/7261555752586084410  
