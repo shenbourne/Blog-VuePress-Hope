@@ -60,7 +60,7 @@ VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。
 
 vue系列早先版本的官网大多数都是默认主题
 
-!![](/assets/VuePress-theme-hope2-Deploy/2c4810005166cd2bff43533a4eff260c_MD5.webp)
+![](/assets/VuePress-theme-hope2-Deploy/2c4810005166cd2bff43533a4eff260c_MD5.webp)
 
 ### [vuepress-theme-hope](https://theme-hope.vuejs.press/) 案例 
 
