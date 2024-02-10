@@ -60,13 +60,13 @@ VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。
 
 vue系列早先版本的官网大多数都是默认主题
 
-!![](/assets/VuePress-theme-hope2 Deploy/2c4810005166cd2bff43533a4eff260c_MD5.webp)
+!![](/assets/VuePress-theme-hope2-Deploy/2c4810005166cd2bff43533a4eff260c_MD5.webp)
 
 ### [vuepress-theme-hope](https://theme-hope.vuejs.press/) 案例 
 
 蝉沐风的码场：[www.chanmufeng.com/](https://www.chanmufeng.com/)
 
-![](/assets/VuePress-theme-hope2 Deploy/aa13444c25f46fc1028f935fab84932c_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-Deploy/aa13444c25f46fc1028f935fab84932c_MD5.jpeg)
 
 更多案例：[真实项目 | vuepress-theme-hope](https://theme-hope.vuejs.press/zh/demo/projects.html#%E4%BD%BF%E7%94%A8-vuepress-theme-hope-%E7%9A%84%E6%96%87%E6%A1%A3)
 
@@ -74,7 +74,7 @@ vue系列早先版本的官网大多数都是默认主题
 
 Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
-![](/assets/VuePress-theme-hope2 Deploy/5f5f76ddcbbddc12e11ec888c99f06d3_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-Deploy/5f5f76ddcbbddc12e11ec888c99f06d3_MD5.jpeg)
 
 更多案例：[优秀博客案例 | vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/views/other/theme-example.html)
 
@@ -82,7 +82,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
  SlovinG's Blog：[SlovinG's Blog](https://sloving.top/)
 
-![](/assets/VuePress-theme-hope2 Deploy/a4fc5d567fcf3f8ef1c439f05e75aa30_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-Deploy/a4fc5d567fcf3f8ef1c439f05e75aa30_MD5.jpeg)
 
 更多案例：[案例 | vuepress-reco](https://vuepress-theme-reco.recoluan.com/docs/others/examples.html)
 
@@ -90,7 +90,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
 Evan's blog：[Evan's blog](https://xugaoyi.com/)
 
-![](/assets/VuePress-theme-hope2 Deploy/6f1884a664145f9a4a2117cd5271943d_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-Deploy/6f1884a664145f9a4a2117cd5271943d_MD5.jpeg)
 
 更多案例：[案例 | vuepress-theme-vdoing](https://doc.xugaoyi.com/pages/5d571c/#%E7%89%B9%E5%88%AB%E7%94%A8%E6%88%B7)
 
@@ -114,7 +114,7 @@ Evan's blog：[Evan's blog](https://xugaoyi.com/)
 
 3. 在下载过程中 ，请务必**全选**下列选项：
 
-![](/assets/VuePress-theme-hope2 Deploy/2ee74344037e2e7951a0807c042cd89c_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-Deploy/2ee74344037e2e7951a0807c042cd89c_MD5.jpeg)
 
 4. 在 VS Code 初次启动后，若未提前安装 Git 可能会提示未找到 Git 软件，忽略即可。
 
@@ -125,7 +125,7 @@ Evan's blog：[Evan's blog](https://xugaoyi.com/)
 	3. 点击第一个选项卡上的“Install”按钮。若是繁体用户，则应点击第二个选项卡上的“Install”按钮。
 	4. 在下载完成后，左下角会出现弹窗，点击弹窗中的“Change Language and Restart”，等待重启后即安装完毕。
 
-![](/assets/VuePress-theme-hope2 Deploy/c046280014369794e10d2751ecaaf526_MD5.jpeg)
+![](/assets/VuePress-theme-hope2-Deploy/c046280014369794e10d2751ecaaf526_MD5.jpeg)
 
 > [!tip]
 >当你安装 VS Code 并第一次打开的时候，VS Code 会自动检测当前系统语言并在右下角推荐你安装对应语言的扩展，点击按钮即可自动安装。
