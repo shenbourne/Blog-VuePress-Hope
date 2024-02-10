@@ -514,18 +514,3 @@ export default defineUserConfig({
 效果如下：
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-fb8aa9698875c3683416ea56928db52b_MD5.jpeg)
-
-
-
-## 🎉 最后
-
-vuepress-theme-hope 主题通过默认的配置就提供了丰富的开箱即用的功能，使得配置体验相比较与vuepress-theme-reco有了明显的提升。这是我替换博客主题最大的体验，
-
-今天的分享就到这了，如果文中有错误的地方，还请在评论中告诉我，感激不尽。
-
----
-
-作者：萌萌哒草头将军  
-链接：https://juejin.cn/post/7261555752586084410  
-来源：稀土掘金  
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
