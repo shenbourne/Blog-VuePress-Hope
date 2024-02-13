@@ -4,6 +4,10 @@ icon: fab fa-markdown
 order: 2
 category:
   - 安装教程
+tag:
+  - VuePress
+  - GitHub
+  - Git
 ---
 
 ```cardlink
@@ -29,6 +33,8 @@ VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。
 
 # 🗺️ 你喜欢哪个主题
 
+## 🚀 选择主题
+
 因为VuePress除了默认的主题外，提供了扩展主题、扩展插件的能力，不同的主题又组织了不同的插件集合来完成开箱即用的功能，
 
 所以，你首先应该使用哪款主题作为你的个人完整风格。
@@ -44,13 +50,13 @@ VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。
 
 我们看看各个主题默认的样式
 
-## 🚀 [默认主题](https://vuepress.vuejs.org/) 案例
+### 💎  [默认主题](https://vuepress.vuejs.org/) 案例
 
 vue系列早先版本的官网大多数都是默认主题
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-7805ce56c9ab4c47a392f782f3f0a509~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp)
 
-## 🚀 [vuepress-theme-hope](https://theme-hope.vuejs.press/) 案例 
+### 💎  [vuepress-theme-hope](https://theme-hope.vuejs.press/) 案例 
 
 蝉沐风的码场：[www.chanmufeng.com/](https://www.chanmufeng.com/)
 
@@ -58,7 +64,7 @@ vue系列早先版本的官网大多数都是默认主题
 
 更多案例：[真实项目 | vuepress-theme-hope](https://theme-hope.vuejs.press/zh/demo/projects.html#%E4%BD%BF%E7%94%A8-vuepress-theme-hope-%E7%9A%84%E6%96%87%E6%A1%A3)
 
-## 🚀 [vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/) 案例 
+### 💎  [vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/) 案例 
 
 Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
@@ -66,7 +72,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
 更多案例：[优秀博客案例 | vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/views/other/theme-example.html)
 
-## 🚀 [vuepress-theme-reco 2.0](https://vuepress-theme-reco.recoluan.com/) 案例 
+### 💎  [vuepress-theme-reco 2.0](https://vuepress-theme-reco.recoluan.com/) 案例 
 
  SlovinG's Blog：[SlovinG's Blog](https://sloving.top/)
 
@@ -74,7 +80,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
 更多案例：[案例 | vuepress-reco](https://vuepress-theme-reco.recoluan.com/docs/others/examples.html)
 
-## 🚀 [vuepress-theme-vdoing](https://doc.xugaoyi.com/) 案例 
+### 💎  [vuepress-theme-vdoing](https://doc.xugaoyi.com/) 案例 
 
 Evan's blog：[Evan's blog](https://xugaoyi.com/)
 

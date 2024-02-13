@@ -4,6 +4,9 @@ icon: fab fa-markdown
 order: 2
 category:
   - 安装教程
+tag:
+  - GitHub
+  - Git
 ---
 
 ## 🚀 初次使用

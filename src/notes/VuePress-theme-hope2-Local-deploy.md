@@ -4,6 +4,8 @@ icon: fab fa-markdown
 order: 2
 category:
   - 安装教程
+tag:
+  - VuePress
 ---
 
 ## 🚀 运行环境设置

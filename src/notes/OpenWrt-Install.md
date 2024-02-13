@@ -6,7 +6,6 @@ category:
   - 安装教程
 tag:
   - OpenWrt
-  - Install
 ---
 
 原视频地址：
