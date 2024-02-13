@@ -18,6 +18,11 @@ export default navbar([
         icon: "arrow",
         link: "VuePress-theme-hope2-Deploy"
       },
+      {
+        text: "使用Github+picGo搭建图床",
+        icon: "arrow",
+        link: "GitHub-and-picGo-Deploy"
+      },
     ],
   },
   {

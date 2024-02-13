@@ -8,18 +8,6 @@ tag:
   - OpenWrt
 ---
 
-原视频地址：
-
-```cardlink
-url: https://www.bilibili.com/video/av959605152
-title: "【看番教程】软路由入门保姆教程，最详细的OpenWrt安装教程（物理机安装教程）_哔哩哔哩_bilibili"
-description: "需要用到的工具与资源链接：https://pan.baidu.com/s/1xMvUvm1r3r7K3W_zFnKpXw?pwd=DDDD  提取码：DDDD 哈喽，观众老爷大家好，欢迎来到看番教程的第二十一期。从这期开始呢，我们就要从头开始来教大家使用软路由了。如果是不知道软路由是什么或者不知道软路由是做什么用的的话，可以先去看看上一期的视频。, 视频播放量 165149、弹幕量 370、点赞数 5374、投硬币枚数 2375、收藏人数 8393、转发人数 368, 视频作者 大河李斯特视频工作室, 作者简介 前学而思老师，同济大学物理系毕业生，音游社老社长。视频每周五更新，游戏、科技类合作私信或v: torres-zhb。，相关视频：入门软路由？一篇就够了！真正给小白看的软路由入门指南，50元的二手小米路由器，刷成OpenWrt系统，真香，【直播】软路由｜OpenWrt｜恩山论坛版本安装、设置、调试【1】，几十块钱打造超流畅软路由——用极路由4刷OpenWrt，OpenWrt详细安装教程—J4125软路由直接安装OpenWrt，PVE8.0保姆级安装教程ikuai+op+群晖nas+docker+unlockvgpu+win10云游戏+私人流媒体教程(01)，【建议收藏】2023多网口迷你电脑新年选购辅助指南！今年买啥软路由？年更！每年在春节前后更新！，【保姆及教学】如何使用软路由安装网易UU给你的PS5 XSX Switch使用主机uu加速器 OpenWrt，如何让分身帐号IP都不一样【教学】软路由一线多拨多开多IP，PVE虚拟机部署OpenWrt+群晖NAS+Windows系统，打造一台全能主机，Proxmox VE系统超详细安装"
-host: www.bilibili.com
-image: https://i0.hdslb.com/bfs/archive/b03566233f3f3a7c9c89f817c7c76412b24a02e5.jpg@100w_100h_1c.png
-```
-
----
-
 ## 1 准备u盘
 
 准备u盘（后续会被完全擦除），打开wePE（一种常用的WinPE [^1]安装工具，其中还包括了许多常用工具）[微PE官网](https://www.wepe.com.cn/download.html)
@@ -223,6 +211,12 @@ iptables -t nat -I POSTROUTING -j MASQUERADE
 ![](//assets/OpenWrt-Install/c0c421ddfdcdd490eb62f29578d542b4_MD5.jpeg)
 
 这样所有LAN口就都可以正常使用，并且可以为所有下游设备分配IPv6与局域网IPv4地址
+
+---
+
+> 作者：大河李斯特视频工作室
+> 链接：https://www.bilibili.com/video/av959605152
+> 来源：bilibili
 
 
 
