@@ -9,7 +9,7 @@ tag:
   - GitHub
 ---
 
-## 🚀 部署到 GitHub Pages
+### 部署到 GitHub Pages
 
 如果你在使用模板，且在创建过程中选择了创建自动部署文档的 GitHub 工作流，那么你唯一要做的就是在 `docs/.config.js` 中设置正确的 [`base`](https://vuejs.press/zh/reference/config.html#base) 选项。
 
@@ -68,7 +68,7 @@ cicd执行成功后，会多一个部署`gh-pages`分支。
 
 我的站点：[mmdctjj.github.io/blogs2/](https://link.juejin.cn?target=https%3A%2F%2Fmmdctjj.github.io%2Fblogs2%2F "https://mmdctjj.github.io/blogs2/")
 
-## 🚀 添加评论功能
+### 添加评论功能
 
 不同的插件，评论的实现原理不同，我接触过最早的原理是通过将评论信息映射到仓库的issue中。
 
@@ -125,7 +125,7 @@ cicd执行成功后，会多一个部署`gh-pages`分支。
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-14d4de4f357aebc829a2a4840e049577_MD5.jpeg)
 
-## 🚀 Github pages使用自定义域名访问
+### Github pages使用自定义域名访问
 
 1. 购买域名并配置DNS（以cloudflare为例）
 
