@@ -1,6 +1,6 @@
 ---
 title: OpenWrt 安装教程
-icon: fab fa-markdown
+icon: router
 order: 2
 category:
   - 安装教程

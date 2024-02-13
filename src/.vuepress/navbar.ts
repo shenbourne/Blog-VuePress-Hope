@@ -4,7 +4,7 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "笔记",
+    text: "剪藏",
     icon: "pen-to-square",
     prefix: "/notes/",
     children: [

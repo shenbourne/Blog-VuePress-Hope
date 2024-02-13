@@ -1,6 +1,6 @@
 ---
 title: VuePress-theme-hope2 将个人网站部署到GitHub
-icon: fab fa-markdown
+icon: page
 order: 2
 category:
   - 安装教程

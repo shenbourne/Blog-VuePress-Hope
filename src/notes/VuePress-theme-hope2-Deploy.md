@@ -1,6 +1,6 @@
 ---
 title: VuePress-theme-hope2 部署个人网站
-icon: fab fa-markdown
+icon: page
 order: 2
 category:
   - 安装教程

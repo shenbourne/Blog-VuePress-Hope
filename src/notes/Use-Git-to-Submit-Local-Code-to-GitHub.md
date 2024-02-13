@@ -1,6 +1,6 @@
 ---
 title: 使用Git将本地代码提交到GitHub
-icon: fab fa-markdown
+icon: github
 order: 2
 category:
   - 安装教程
