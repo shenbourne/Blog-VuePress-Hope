@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+                "file": "src/notes/VuePress-theme-hope2-Local-deploy.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+                "file": "src/notes/VuePress-theme-hope2-Local-deploy.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+                "file": "src/notes/VuePress-theme-hope2-Local-deploy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+                "file": "src/notes/VuePress-theme-hope2-Local-deploy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,16 +145,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md"
+                "file": "src/notes/VuePress-theme-hope2-Local-deploy.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +168,11 @@
   },
   "active": "6bfbfef4ac625477",
   "lastOpenFiles": [
-    "src/notes/GitHub-and-picGo-Deploy.md",
-    "src/notes/OpenWrt-Install.md",
-    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
-    "src/notes/VuePress-theme-hope2-Deploy.md",
     "src/notes/VuePress-theme-hope2-GitHub-deploy.md",
-    "src/notes/VuePress-theme-hope2-Local-deploy.md"
+    "src/notes/VuePress-theme-hope2-Deploy.md",
+    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+    "src/notes/VuePress-theme-hope2-Local-deploy.md",
+    "src/notes/GitHub-and-picGo-Deploy.md",
+    "src/notes/OpenWrt-Install.md"
   ]
 }
