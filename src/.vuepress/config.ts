@@ -9,13 +9,7 @@ export default defineUserConfig({
   title: "博客演示",
   description: "vuepress-theme-hope 的博客演示",
 
-  theme: hopeTheme({
-    plugins: {
-      mdEnhance: {
-        mermaid: true,
-      },
-    },
-  }),
+  theme,
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
