@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -8,7 +9,13 @@ export default defineUserConfig({
   title: "博客演示",
   description: "vuepress-theme-hope 的博客演示",
 
-  theme,
+  theme: hopeTheme({
+    plugins: {
+      mdEnhance: {
+        mermaid: true,
+      },
+    },
+  }),
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

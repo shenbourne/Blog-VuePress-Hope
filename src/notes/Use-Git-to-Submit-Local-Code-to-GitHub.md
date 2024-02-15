@@ -127,13 +127,13 @@ git remote add origin <url>    #origin是远程源的名字
 
 :::
 
-1. 提交本地仓库代码到远程仓库
+1. 提交本地仓库代码到远程仓库 \*若本地仓库名称改为“main”，则应将下文代码中的“master”改为“main”
 
 ```shell
 git push -u origin master    
 ```
 
-2. 拉取远程仓库
+2. 拉取远程仓库 \*若本地仓库名称改为“main”，则应将下文代码中的“master”改为“main”
 
 ```shell
 git pull origin master
