@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/story/x64、amd64之争.md",
+                "file": "src/story/x86-x64-amd64-arm.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/story/x64、amd64之争.md",
+                "file": "src/story/x86-x64-amd64-arm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/story/x64、amd64之争.md",
+                "file": "src/story/x86-x64-amd64-arm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/story/x64、amd64之争.md",
+                "file": "src/story/x86-x64-amd64-arm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/story/x64、amd64之争.md"
+                "file": "src/story/x86-x64-amd64-arm.md"
               }
             }
           }
@@ -177,8 +177,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cadd31cfcce58672",
+  "active": "6bfbfef4ac625477",
   "lastOpenFiles": [
+    "src/intro.md",
+    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+    "src/story/x86-x64-amd64-arm.md",
     "node_modules/d3-time/src/year.js",
     "node_modules/d3-time/src/week.js",
     "node_modules/d3-time/src/ticks.js",
@@ -189,7 +192,6 @@
     "node_modules/d3-time/src/interval.js",
     "node_modules/d3-time/src/index.js",
     "node_modules/d3-time/src/day.js",
-    "node_modules/d3-time/src/duration.js",
     "node_modules/d3-time/README.md",
     "node_modules/@types/unist/README.md",
     "node_modules/@types/mdast/README.md",
@@ -212,8 +214,6 @@
     "node_modules/diff/CONTRIBUTING.md",
     "node_modules/mri/readme.md",
     "node_modules/mri/license.md",
-    "node_modules/micromark-util-classify-character/readme.md",
-    "node_modules/lodash/release.md",
-    "node_modules/lodash/README.md"
+    "node_modules/micromark-util-classify-character/readme.md"
   ]
 }
