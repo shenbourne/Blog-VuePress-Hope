@@ -44,40 +44,34 @@
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/hint.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="代码块" tabindex="-1"><a class="header-anchor" href="#代码块"><span>代码块</span></a></h4>
-<CodeTabs id="89" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' :active="2">
-<template #title0="{ value, isActive }">pnpm</template>
-<template #title1="{ value, isActive }">yarn</template>
-<template #title2="{ value, isActive }">npm</template>
-<template #tab0="{ value, isActive }">
+<p>::: code-tabs</p>
+<p>@tab pnpm</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">pnpm</span> <span class="token function">add</span> <span class="token parameter variable">-D</span> vuepress-theme-hope
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></template>
-<template #tab1="{ value, isActive }">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>@tab yarn</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> <span class="token parameter variable">-D</span> vuepress-theme-hope
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></template>
-<template #tab2="{ value, isActive }">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>@tab:active npm</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">npm</span> i <span class="token parameter variable">-D</span> vuepress-theme-hope
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></template>
-</CodeTabs>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>:::</p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="上下角标" tabindex="-1"><a class="header-anchor" href="#上下角标"><span>上下角标</span></a></h4>
-<p>19<sup>th</sup> H<sub>2</sub>O</p>
+<p>19^th^ H~2~O</p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="自定义对齐" tabindex="-1"><a class="header-anchor" href="#自定义对齐"><span>自定义对齐</span></a></h4>
-<div style="text-align:center">
+<p>::: center</p>
 <p>我是居中的</p>
-</div>
-<div style="text-align:right">
+<p>:::</p>
+<p>::: right</p>
 <p>我在右对齐</p>
-</div>
+<p>:::</p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/align.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="attrs" tabindex="-1"><a class="header-anchor" href="#attrs"><span>Attrs</span></a></h4>
-<p>一个拥有 ID 的 <strong id="word">单词</strong>。</p>
+<p>一个拥有 ID 的 <strong>单词</strong>{#word}。</p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
@@ -87,7 +81,7 @@
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/footnote.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="标记" tabindex="-1"><a class="header-anchor" href="#标记"><span>标记</span></a></h4>
-<p>你可以标记 <mark>重要的内容</mark> 。</p>
+<p>你可以标记 ==重要的内容== 。</p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/mark.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
@@ -109,15 +103,21 @@
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/image.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="组件" tabindex="-1"><a class="header-anchor" href="#组件"><span>组件</span></a></h4>
-<VPCard v-bind='{"title":"Mr.Hope","desc":"Where there is light, there is hope","logo":"https://mister-hope.com/logo.svg","link":"https://mister-hope.com","background":"rgba(253, 230, 138, 0.15)"}' /><ul>
+<div class="language-component line-numbers-mode" data-ext="component" data-title="component"><pre v-pre class="language-component"><code>title: Mr.Hope
+desc: Where there is light, there is hope
+logo: https://mister-hope.com/logo.svg
+link: https://mister-hope.com
+background: rgba(253, 230, 138, 0.15)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/component.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="导入文件" tabindex="-1"><a class="header-anchor" href="#导入文件"><span>导入文件</span></a></h4>
+<!-- @include: ./README.md{11-17} -->
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/include.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="样式化" tabindex="-1"><a class="header-anchor" href="#样式化"><span>样式化</span></a></h4>
-<p>向 Mr.Hope 捐赠一杯咖啡。 <Badge type="tip">Recommended</Badge></p>
+<p>向 Mr.Hope 捐赠一杯咖啡。 <em>Recommended</em></p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/stylize.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>

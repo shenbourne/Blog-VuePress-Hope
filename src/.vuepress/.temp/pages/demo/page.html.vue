@@ -41,7 +41,12 @@
 </li>
 <li>
 <p>一个卡片:</p>
-<VPCard v-bind='{"title":"Mr.Hope","desc":"Where there is light, there is hope","logo":"https://mister-hope.com/logo.svg","link":"https://mister-hope.com","background":"rgba(253, 230, 138, 0.15)"}' /></li>
+<div class="language-component line-numbers-mode" data-ext="component" data-title="component"><pre v-pre class="language-component"><code>title: Mr.Hope
+desc: Where there is light, there is hope
+logo: https://mister-hope.com/logo.svg
+link: https://mister-hope.com
+background: rgba(253, 230, 138, 0.15)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
 </ul>
 </div></template>
 

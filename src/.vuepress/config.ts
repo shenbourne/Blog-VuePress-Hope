@@ -1,5 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+
 
 export default defineUserConfig({
   base: "/",
@@ -11,9 +13,8 @@ export default defineUserConfig({
   theme: hopeTheme({
     plugins: {
       mdEnhance: {
-        enableAll: true,
+        mermaid: true,
       },
-
     },
   }),
 

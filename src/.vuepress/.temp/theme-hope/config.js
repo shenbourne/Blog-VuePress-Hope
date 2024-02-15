@@ -5,10 +5,6 @@ import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDark
 
 import { defineCatalogInfoGetter } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
 import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
@@ -41,21 +37,16 @@ export default defineClientConfig({
     // provide HopeIcon as global component
     app.component("HopeIcon", HopeIcon);
 
-    app.component("BloggerInfo", BloggerInfo);
-    app.component("GlobalEncrypt", GlobalEncrypt);
-    app.component("LocalEncrypt", LocalEncrypt);
+
   },
   setup: () => {
     setupDarkmode();
     setupSidebarItems();
-    setupBlog();
+
   },
   layouts: {
     Layout,
     NotFound,
-    BlogCategory,
-    BlogHome,
-    BlogType,
-    Timeline,
+
   }
 });
