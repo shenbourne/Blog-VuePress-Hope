@@ -15,18 +15,7 @@
 <p>一般 AMD cpu 的 64 位 pc 是 amd64 指令集架构</p>
 </template>
 </Tabs>
-<div class="language-mermaid line-numbers-mode" data-ext="mermaid" data-title="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">flowchart</span> TB
-	<span class="token keyword">subgraph</span> x86
-	x86 <span class="token arrow operator">--></span> x86-64
-	x86 <span class="token arrow operator">--></span> amd64
-	<span class="token keyword">end</span>
-	<span class="token keyword">subgraph</span> IA-64
-	IA-64
-	<span class="token keyword">end</span>
-	<span class="token keyword">subgraph</span> arm
-	continuing···
-	<span class="token keyword">end</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>总结：x86家族的指令集架构分类：</p>
+<Mermaid id="mermaid-49" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qUg6fB0BKuBUqhyiUW5XJzJ+XklmXmlmXnph7aDIEQRADiCJwg="></Mermaid><p>总结：x86家族的指令集架构分类：</p>
 <ol>
 <li>x86：一般没有别名</li>
 <li>x64：</li>

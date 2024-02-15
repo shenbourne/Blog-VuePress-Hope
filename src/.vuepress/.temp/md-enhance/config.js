@@ -7,6 +7,8 @@ import MdDemo from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plu
 import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-md-enhance/lib/client/styles/figure.scss";
 import { useHint } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-md-enhance/lib/client/composables/hint.js";
 import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-md-enhance/lib/client/styles/hint/index.scss";
+import Mermaid from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-md-enhance/lib/client/components/Mermaid.js";
+import { injectMermaidConfig } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-md-enhance/lib/client//index.js";
 import Tabs from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-md-enhance/lib/client/components/Tabs.js";
 
 export default defineClientConfig({
@@ -16,6 +18,8 @@ export default defineClientConfig({
     if(!hasGlobalComponent("CodeGroupItem", app)) app.component("CodeGroupItem", CodeGroupItem);
     app.component("CodeDemo", CodeDemo);
     app.component("MdDemo", MdDemo);
+    injectMermaidConfig(app);
+    app.component("Mermaid", Mermaid);
     app.component("Tabs", Tabs);
   },
   setup: () => {

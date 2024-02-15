@@ -12,13 +12,6 @@ export default defineUserConfig({
 
   theme,
 
-  plugins: [
-    mdEnhancePlugin({
-      // 启用 mermaid
-      mermaid: true,
-    }),
-  ],
-
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
