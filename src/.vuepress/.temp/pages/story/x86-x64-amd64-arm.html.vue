@@ -6,17 +6,27 @@
 <p>苹果电脑在采用M系列芯片之前，采用的都是Intel芯片，是x86-64架构。但苹果的M系列芯片采用的是 arm 架构。</p>
 <p>Windows电脑区分x32和x64的方法：</p>
 <p>按下 Win+R，打开 “运行”，输入 “cmd”，按下 Enter 启动命令提示符</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160407495.png" alt="image.png"></p>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160407495.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>在命令提示符中输入 <code v-pre>systeminfo</code>，等待数秒。查看“系统类型”，若是 “x64-based PC”，则应分辨是哪个指令集架构。</p>
-<p>::: tabs</p>
-<p>@ tab:active x86-64处理器实例</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160409577.png" alt="image.png"></p>
-<p>一般 Intel cpu 的 64 位 pc 是 x86-64 指令集架构</p>
-<p>@tab amd64处理器实例</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160411994.png" alt="image.png"></p>
+<Tabs id="30" :data='[{"id":"amd64处理器实例"}]'>
+<template #title0="{ value, isActive }">amd64处理器实例</template>
+<template #tab0="{ value, isActive }">
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160411994.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>一般 AMD cpu 的 64 位 pc 是 amd64 指令集架构</p>
-<p>:::</p>
-<Mermaid id="mermaid-54" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qUg6fB0BKuBUqhyiUW5XJzJ+XklmXmlmXnph7aDIEQRADiCJwg="></Mermaid><p>总结：x86家族的指令集架构分类：</p>
+</template>
+</Tabs>
+<div class="language-mermaid line-numbers-mode" data-ext="mermaid" data-title="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">flowchart</span> TB
+	<span class="token keyword">subgraph</span> x86
+	x86 <span class="token arrow operator">--></span> x86-64
+	x86 <span class="token arrow operator">--></span> amd64
+	<span class="token keyword">end</span>
+	<span class="token keyword">subgraph</span> IA-64
+	IA-64
+	<span class="token keyword">end</span>
+	<span class="token keyword">subgraph</span> arm
+	continuing···
+	<span class="token keyword">end</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>总结：x86家族的指令集架构分类：</p>
 <ol>
 <li>x86：一般没有别名</li>
 <li>x64：</li>

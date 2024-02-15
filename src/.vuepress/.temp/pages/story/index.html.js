@@ -1,5 +1,5 @@
 import comp from "D:/Shenb/vuepress-theme-hope/blogs/src/.vuepress/.temp/pages/story/index.html.vue"
-const data = JSON.parse("{\"path\":\"/story/\",\"title\":\"Story\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Story\",\"article\":false,\"feed\":false,\"sitemap\":false},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null}")
+const data = JSON.parse("{\"path\":\"/story/\",\"title\":\"Story\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Story\",\"article\":false,\"feed\":false,\"sitemap\":false,\"description\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/story/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"博客演示\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Story\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hope\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"Story\\\"}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"excerpt\":\"\",\"autoDesc\":true}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

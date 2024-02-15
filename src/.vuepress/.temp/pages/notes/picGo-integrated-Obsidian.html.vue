@@ -8,7 +8,7 @@
 <p>那就以一个示例文件夹 <code v-pre>ob</code> 为例，尝试实现所有图片的图床化。</p>
 <h3 id="上传图片" tabindex="-1"><a class="header-anchor" href="#上传图片"><span>上传图片</span></a></h3>
 <p>这里我们需要借助一个插件：[[Image auto upload]]，可以将图片上传到 PicGo 中配置的图床。</p>
-<p><img src="https://pic2.zhimg.com/80/v2-331c4279a55a99ab3692fe8dc4ad8475_1440w.webp" alt=""></p>
+<figure><img src="https://pic2.zhimg.com/80/v2-331c4279a55a99ab3692fe8dc4ad8475_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>若勾选最后一个选项，图片上传图床后会被删除！！！</p>
 <p>虽然插件只能上传一个文件中的所有图像文件，但也足够让我们打开思路了：<strong>那就把图片都丢到一个文件里</strong>！</p>
 <p>文件夹内创建文件 <code v-pre>attachments.md</code>，运行这段 python 脚本：</p>
@@ -29,10 +29,10 @@
          image_filename <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>basename<span class="token punctuation">(</span>image_file<span class="token punctuation">)</span>
          <span class="token builtin">file</span><span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f'![[</span><span class="token interpolation"><span class="token punctuation">{</span>image_filename<span class="token punctuation">}</span></span><span class="token string">]]\n'</span></span><span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行后会得到以下效果：</p>
-<p><img src="https://pic1.zhimg.com/80/v2-bcc89b9880e2fdcafd476d758fe372a8_1440w.webp" alt=""></p>
+<figure><img src="https://pic1.zhimg.com/80/v2-bcc89b9880e2fdcafd476d758fe372a8_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>图片汇总</p>
 <p>然后回到 Obsidian 按 <code v-pre>Ctrl-P</code> 调出命令面板，执行 <code v-pre>Image auto upload Plugin: Upload all images</code> 后会自动替换成图床链接：</p>
-<p><img src="https://pic3.zhimg.com/80/v2-f45acd103c8ffbb0aea543bc672427e2_1440w.webp" alt=""></p>
+<figure><img src="https://pic3.zhimg.com/80/v2-f45acd103c8ffbb0aea543bc672427e2_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>上传后自动替换链接</p>
 <h3 id="替换文件引用链接" tabindex="-1"><a class="header-anchor" href="#替换文件引用链接"><span>替换文件引用链接</span></a></h3>
 <p>重新读取 <code v-pre>attachments.md</code>，获取图片名与图床链接的对应关系并存储为字典：</p>
@@ -84,7 +84,7 @@
              <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span>file_path<span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">,</span> encoding<span class="token operator">=</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
                  f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>content<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行完脚本，我们会发现 Vault 内所有的内部图片都转换成了图床链接的形式。</p>
-<p><img src="https://pic3.zhimg.com/80/v2-2c6afcf09490201540c5937b5c23d332_1440w.webp" alt=""></p>
+<figure><img src="https://pic3.zhimg.com/80/v2-2c6afcf09490201540c5937b5c23d332_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>前后对比</p>
 <p>最后再强调一遍，<strong>执行以上操作前务必做好备份！以防操作失误无法挽回！</strong></p>
 <p>出处：https://zhuanlan.zhihu.com/p/646068563</p>

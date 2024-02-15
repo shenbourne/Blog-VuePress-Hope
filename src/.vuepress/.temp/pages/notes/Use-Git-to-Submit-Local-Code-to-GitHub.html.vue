@@ -14,37 +14,37 @@
 <p>安装完成后，在任一文件夹右键打开菜单，如果出现<code v-pre>Open Git GUI here</code>和<code v-pre>Open Git Bash here</code>，则说明安装成功。</p>
 </li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-fdab1192e7c25f6e4e916c95e3209318_MD5.jpeg" alt=""></p>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-fdab1192e7c25f6e4e916c95e3209318_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="将选定仓库初始化为git仓库" tabindex="-1"><a class="header-anchor" href="#将选定仓库初始化为git仓库"><span>将选定仓库初始化为git仓库</span></a></h3>
 <ol>
 <li>在指定文件夹空白处右键鼠标，单击<code v-pre>Open Git Bash here</code>打开git终端，输入<code v-pre>git init</code></li>
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> init
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b06e48a1494862051793abd10fdeb2dc_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b06e48a1494862051793abd10fdeb2dc_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>文件夹中出现<code v-pre>.git</code>文件，则说明初始化成功</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-956ea4c7e5ae605e24b3fd2b4c9d1640_MD5.jpeg" alt=""></p>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-956ea4c7e5ae605e24b3fd2b4c9d1640_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="将本地代码上传至git版本库" tabindex="-1"><a class="header-anchor" href="#将本地代码上传至git版本库"><span>将本地代码上传至git版本库</span></a></h3>
 <ol>
 <li>将本地代码放入暂存区，输入<code v-pre>git add .</code></li>
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-40d6636cd494153fa6a17508ccf0ee00_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-40d6636cd494153fa6a17508ccf0ee00_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>检查：输入<code v-pre>git status</code>文件都显示绿色即成功</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> status
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6afea351cbbf9aa195ca0371595b1d7_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6afea351cbbf9aa195ca0371595b1d7_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="2">
 <li>输入<code v-pre>git commit -m '提交信息'</code>把暂存区文件放到版本库中</li>
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">'提交信息'</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-c49d04ce6bec29d45d13203ba703ad5c_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-c49d04ce6bec29d45d13203ba703ad5c_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>如果没有创建用户信息，则会让你创建一个，账户密码随便填即可。例：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"&lt;>"</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6c6f0089f486bf05aea89f9d2fa0204_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6c6f0089f486bf05aea89f9d2fa0204_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="将本地git库与github库连接" tabindex="-1"><a class="header-anchor" href="#将本地git库与github库连接"><span>将本地git库与GitHub库连接</span></a></h3>
 <ol>
 <li>创建新的GitHub库</li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-92418a072cf36f81ea35b827074ae6e3_MD5.jpeg" alt=""></p>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-92418a072cf36f81ea35b827074ae6e3_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>为方便其他操作，一般建议将库命名为<code v-pre>&lt;username&gt;.github.io</code>（如图）</p>
@@ -54,19 +54,19 @@
 </ol>
 <p>生成公钥指令：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>ssh-keygen <span class="token parameter variable">-t</span> rsa <span class="token parameter variable">-C</span> <span class="token string">"*@*.com"</span>    <span class="token comment">#邮箱可以任意填写</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-a52270fa564e3a1af368c77e6689dab6_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-a52270fa564e3a1af368c77e6689dab6_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>查看公钥指令：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">cat</span> ~/.ssh/id_rsa.pub    <span class="token comment">#查看之后copy </span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-2b7cec9fa59c3303a4a3120cb8378b31_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-2b7cec9fa59c3303a4a3120cb8378b31_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>GitHub线上添加公钥：项目仓库 &gt; Settings &gt; Deploy keys &gt; Add deploy key</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-a1d0113f27c075b2779427922a3b2bd4_MD5.jpeg" alt=""></p>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-a1d0113f27c075b2779427922a3b2bd4_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>注意勾选“Allow write access”</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-8a1f8430f1ec199f9b9ee6bc023bf38f_MD5.jpeg" alt=""></p>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-8a1f8430f1ec199f9b9ee6bc023bf38f_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="3">
 <li>本地仓库与远程仓库建立连接，添加远程源，这里我们采用ssh协议的remote源</li>
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> remote <span class="token function">add</span> origin <span class="token operator">&lt;</span>url<span class="token operator">></span>    <span class="token comment">#origin是远程源的名字</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-80c02e42c1030d27db3e94fc9dd5009f_MD5.jpeg" alt=""></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-80c02e42c1030d27db3e94fc9dd5009f_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="提交和拉取远程仓库" tabindex="-1"><a class="header-anchor" href="#提交和拉取远程仓库"><span>提交和拉取远程仓库</span></a></h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -116,7 +116,7 @@
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> reset <span class="token parameter variable">--hard</span> <span class="token operator">&lt;</span>commit ID号<span class="token operator">></span> 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container tip">
 <p class="hint-container-title">获取commit ID号的方法</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b04a8595f9db44dfcb62727c10636f58_MD5.jpeg" alt=""></p>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b04a8595f9db44dfcb62727c10636f58_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>复制下来的ji即为该版本的commit ID号</p>
 <p>-- 强制推送到远程分支</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> push <span class="token parameter variable">-f</span> origin <span class="token operator">&lt;</span>branch name<span class="token operator">></span>
