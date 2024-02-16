@@ -19,7 +19,7 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160409577.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 </template>
 </Tabs>
-<Mermaid id="mermaid-48" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qUg6fB0BKuBUqhyiUW5XJzJ+XklmXmlmXnph7aDIEQRADiCJwg="></Mermaid><p>总结：x86家族的指令集架构分类：</p>
+<Mermaid id="mermaid-48" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qVwAQBbUREF"></Mermaid><p>总结：x86家族的指令集架构分类：</p>
 <ol>
 <li>x86：一般没有别名</li>
 <li>x64：</li>

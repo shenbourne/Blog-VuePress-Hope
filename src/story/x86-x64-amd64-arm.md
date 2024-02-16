@@ -51,12 +51,6 @@ flowchart TB
 	x86 --> x86-64
 	x86 --> amd64
 	end
-	subgraph IA-64
-	IA-64
-	end
-	subgraph arm
-	continuing···
-	end
 ```
 
 
