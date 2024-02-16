@@ -13,12 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/story/x86-x64-amd64-arm.md",
+                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
                 "mode": "source",
                 "source": true
               }
-            },
-            "group": "58caaf9e0fb5aeb4"
+            }
           },
           {
             "id": "9d8378fd8e8fd794",
@@ -26,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/notes/VuePress-theme-hope2-Local-deploy.md",
+                "file": "src/story/x86-x64-amd64-arm.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d6e78e063e26b9d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/notes/VuePress-theme-hope2-Deploy.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,12 +55,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/story/x86-x64-amd64-arm.md",
+                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
                 "mode": "preview",
                 "source": true
               }
-            },
-            "group": "58caaf9e0fb5aeb4"
+            }
           }
         ]
       }
@@ -117,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/story/x86-x64-amd64-arm.md",
+                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/story/x86-x64-amd64-arm.md",
+                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/story/x86-x64-amd64-arm.md"
+                "file": "src/notes/Office-Tool-Plus-Tutorial.md"
               }
             }
           }
@@ -180,13 +190,22 @@
   },
   "active": "6bfbfef4ac625477",
   "lastOpenFiles": [
-    "src/notes/VuePress-theme-hope2-Local-deploy.md",
-    "src/story/x86-x64-amd64-arm.md",
-    "src/notes/Crack-Websites-Sharing.md",
-    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
     "src/notes/VuePress-theme-hope2-Deploy.md",
-    "src/notes/picGo-integrated-Obsidian.md",
+    "src/notes/Office-Tool-Plus-Tutorial.md",
     "src/notes/OpenWrt-Install.md",
+    "src/story/x86-x64-amd64-arm.md",
+    "src/notes/VuePress-theme-hope2-Local-deploy.md",
+    "src/notes/GitHub-and-picGo-Deploy.md",
+    "src/notes/OpenWrt-Docker-Expansion.md",
+    "src/notes/picGo-integrated-Obsidian.md",
+    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+    "src/notes/Crack-Websites-Sharing.md",
+    "src/demo/encrypt.md",
+    "src/demo/disable.md",
+    "src/demo/page.md",
+    "src/demo/README.md",
+    "src/demo/markdown.md",
+    "src/demo/layout.md",
     "node_modules/slimsearch/dist/SearchableMap.mjs.map",
     "node_modules/slimsearch/dist/SearchableMap.mjs",
     "node_modules/slimsearch/dist/SearchableMap.d.ts",
@@ -206,15 +225,6 @@
     "node_modules/d3-time/README.md",
     "node_modules/@types/unist/README.md",
     "node_modules/@types/mdast/README.md",
-    "node_modules/@types/d3-time/README.md",
-    "node_modules/@types/d3-scale-chromatic/README.md",
-    "node_modules/@types/d3-scale/README.md",
-    "node_modules/mermaid/README.zh-CN.md",
-    "node_modules/mermaid/README.md",
-    "node_modules/micromark-factory-destination/readme.md",
-    "node_modules/micromark-factory-title/readme.md",
-    "node_modules/sade/readme.md",
-    "node_modules/iconv-lite/README.md",
-    "node_modules/iconv-lite/Changelog.md"
+    "node_modules/@types/d3-time/README.md"
   ]
 }
