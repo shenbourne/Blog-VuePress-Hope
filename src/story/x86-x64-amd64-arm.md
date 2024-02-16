@@ -48,8 +48,15 @@ Windows电脑区分x32和x64的方法：
 ```mermaid
 flowchart TB
 	subgraph x86
-	x86 --> x86-64
-	x86 --> amd64
+		direction BT
+		a1[x86] --> a2[x86-64]
+		a1[x86] --> a3[amd64]
+	end
+	subgraph IA-64
+		IA[IA-64]
+	end
+	subgraph arm
+		cont[continuing···]
 	end
 ```
 

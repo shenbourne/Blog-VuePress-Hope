@@ -20,7 +20,7 @@
 <p>一般 Intel cpu 的 64 位 pc 是 x86-64 指令集架构</p>
 </template>
 </Tabs>
-<Mermaid id="mermaid-48" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qVwAQBbUREF"></Mermaid><p>总结：x86家族的指令集架构分类：</p>
+<Mermaid id="mermaid-48" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPi5EzJLEpNLsnMz1NwCgFyEw2jgeKxCrq6dgqJRiC2rplJLLqEcXRibgpYPDUvBclIT0egaqBiT8doMBNDQWJRLlA6OT+vJBpEZOaVZualH9oOglC1AAdkNJg="></Mermaid><p>总结：x86家族的指令集架构分类：</p>
 <ol>
 <li>x86：一般没有别名</li>
 <li>x64：</li>
