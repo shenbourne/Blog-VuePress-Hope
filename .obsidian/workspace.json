@@ -161,7 +161,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -179,19 +180,29 @@
   },
   "active": "6bfbfef4ac625477",
   "lastOpenFiles": [
-    "src/intro.md",
-    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+    "src/notes/VuePress-theme-hope2-Local-deploy.md",
     "src/story/x86-x64-amd64-arm.md",
-    "node_modules/d3-time/src/year.js",
-    "node_modules/d3-time/src/week.js",
-    "node_modules/d3-time/src/ticks.js",
-    "node_modules/d3-time/src/second.js",
-    "node_modules/d3-time/src/month.js",
-    "node_modules/d3-time/src/minute.js",
-    "node_modules/d3-time/src/millisecond.js",
-    "node_modules/d3-time/src/interval.js",
-    "node_modules/d3-time/src/index.js",
-    "node_modules/d3-time/src/day.js",
+    "src/notes/Crack-Websites-Sharing.md",
+    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+    "src/notes/VuePress-theme-hope2-Deploy.md",
+    "src/notes/picGo-integrated-Obsidian.md",
+    "src/notes/OpenWrt-Install.md",
+    "node_modules/slimsearch/dist/SearchableMap.mjs.map",
+    "node_modules/slimsearch/dist/SearchableMap.mjs",
+    "node_modules/slimsearch/dist/SearchableMap.d.ts",
+    "node_modules/slimsearch/dist/SearchableMap.d.mts",
+    "node_modules/slimsearch/dist/SearchableMap.d.cts",
+    "node_modules/slimsearch/dist/SearchableMap.cjs.map",
+    "node_modules/slimsearch/dist/SearchableMap.cjs",
+    "node_modules/slimsearch/dist/index.mjs.map",
+    "node_modules/slimsearch/dist/index.d.ts",
+    "node_modules/slimsearch/dist/index.mjs",
+    "node_modules/slimsearch/README.md",
+    "node_modules/vuepress-plugin-search-pro/node_modules/vuepress-shared/README.md",
+    "node_modules/vuepress-plugin-search-pro/node_modules/vuepress-plugin-sass-palette/README.md",
+    "node_modules/vuepress-plugin-search-pro/README.md",
+    "node_modules/react-facebook-login/README.md",
+    "src/intro.md",
     "node_modules/d3-time/README.md",
     "node_modules/@types/unist/README.md",
     "node_modules/@types/mdast/README.md",
@@ -204,16 +215,6 @@
     "node_modules/micromark-factory-title/readme.md",
     "node_modules/sade/readme.md",
     "node_modules/iconv-lite/README.md",
-    "node_modules/iconv-lite/Changelog.md",
-    "node_modules/micromark-util-resolve-all/readme.md",
-    "node_modules/kleur/readme.md",
-    "node_modules/dequal/readme.md",
-    "node_modules/micromark-util-html-tag-name/readme.md",
-    "node_modules/diff/release-notes.md",
-    "node_modules/diff/README.md",
-    "node_modules/diff/CONTRIBUTING.md",
-    "node_modules/mri/readme.md",
-    "node_modules/mri/license.md",
-    "node_modules/micromark-util-classify-character/readme.md"
+    "node_modules/iconv-lite/Changelog.md"
   ]
 }

@@ -8,14 +8,18 @@
 <p>按下 Win+R，打开 “运行”，输入 “cmd”，按下 Enter 启动命令提示符</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160407495.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>在命令提示符中输入 <code v-pre>systeminfo</code>，等待数秒。查看“系统类型”，若是 “x64-based PC”，则应分辨是哪个指令集架构。</p>
-<Tabs id="30" :data='[{"id":"amd64处理器实例"}]'>
+<Tabs id="30" :data='[{"id":"amd64处理器实例"},{"id":"x86-64处理器实例"}]' :active="1">
 <template #title0="{ value, isActive }">amd64处理器实例</template>
+<template #title1="{ value, isActive }">x86-64处理器实例</template>
 <template #tab0="{ value, isActive }">
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160411994.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>一般 AMD cpu 的 64 位 pc 是 amd64 指令集架构</p>
 </template>
+<template #tab1="{ value, isActive }">
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160409577.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
+</template>
 </Tabs>
-<Mermaid id="mermaid-49" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qUg6fB0BKuBUqhyiUW5XJzJ+XklmXmlmXnph7aDIEQRADiCJwg="></Mermaid><p>总结：x86家族的指令集架构分类：</p>
+<Mermaid id="mermaid-48" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qUg6fB0BKuBUqhyiUW5XJzJ+XklmXmlmXnph7aDIEQRADiCJwg="></Mermaid><p>总结：x86家族的指令集架构分类：</p>
 <ol>
 <li>x86：一般没有别名</li>
 <li>x64：</li>
