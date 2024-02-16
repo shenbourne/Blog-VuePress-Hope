@@ -31,8 +31,6 @@ Windows电脑区分x32和x64的方法：
 
 ::: tabs
 
-一般 Intel cpu 的 64 位 pc 是 x86-64 指令集架构
-
 @tab amd64处理器实例
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160411994.png)
@@ -42,6 +40,8 @@ Windows电脑区分x32和x64的方法：
 @tab:active x86-64处理器实例
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160409577.png)
+
+一般 Intel cpu 的 64 位 pc 是 x86-64 指令集架构
 
 :::
 

@@ -17,6 +17,7 @@
 </template>
 <template #tab1="{ value, isActive }">
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160409577.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
+<p>一般 Intel cpu 的 64 位 pc 是 x86-64 指令集架构</p>
 </template>
 </Tabs>
 <Mermaid id="mermaid-48" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPiBBIKurp2II6umQmCn5ibAuKm5qVwAQBbUREF"></Mermaid><p>总结：x86家族的指令集架构分类：</p>
