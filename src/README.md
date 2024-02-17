@@ -4,9 +4,9 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: Shenb的博客
+heroText: ShenBourne 的博客
 heroFullScreen: true
-tagline: Welcome!
+tagline: Welcome to my blog!
 projects:
   - icon: project
     name: 项目名称

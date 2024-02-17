@@ -43,15 +43,14 @@
 <p>一般 Intel cpu 的 64 位 pc 是 x86-64 指令集架构</p>
 </template>
 </Tabs>
-</details>
 <p>总结：3个指令集家族的父子关系</p>
-<Mermaid id="mermaid-122" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPi5EzJLEpNLsnMz1NwCgFyEw2jgeKxCrq6dgqJRiC2rplJLLqEcXRibgpYPDUvBclIT0egaqBiT8doMBNDQWJRLlA6OT+vJBpEZOaVZualH9oOglC1AAdkNJg="></Mermaid><p>总结：x86家族的指令集架构分类</p>
+<Mermaid id="mermaid-121" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPi5EzJLEpNLsnMz1NwCgFyEw2jgeKxCrq6dgqJRiC2rplJLLqEcXRibgpYPDUvBclIT0egaqBiT8doMBNDQWJRLlA6OT+vJBpEZOaVZualH9oOglC1AAdkNJg="></Mermaid><p>总结：x86家族的指令集架构分类</p>
 <ol>
 <li>x86：一般没有别名，在早期的 32 位 cpu 会出现</li>
 <li>x64：别名 x86-64、Intel 64、EM64T 等，一般会在 64 位的 Intel 处理器中出现</li>
 <li>amd64：一般没有别名，会在 64 位的 amd 处理器中出现</li>
 </ol>
-<p>:::</p>
+</details>
 <p>b. <strong>通道</strong> 保持默认的“当前通道”。</p>
 <p>c. <strong>部署模式</strong> 保持默认的“安装”。</p>
 <p>d. <strong>安装模块</strong> 保持默认的“Office 部署工具”。</p>
