@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clip/Office-Tool-Plus-Tutorial.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/notes/VuePress-theme-hope2-Deploy.md",
+                "file": "src/clip/VuePress-theme-hope2-Deploy.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clip/Office-Tool-Plus-Tutorial.md",
                 "mode": "preview",
                 "source": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clip/Office-Tool-Plus-Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/notes/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clip/Office-Tool-Plus-Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/notes/Office-Tool-Plus-Tutorial.md"
+                "file": "src/clip/Office-Tool-Plus-Tutorial.md"
               }
             }
           }
@@ -190,16 +190,18 @@
   },
   "active": "6bfbfef4ac625477",
   "lastOpenFiles": [
-    "src/notes/VuePress-theme-hope2-Deploy.md",
-    "src/notes/Office-Tool-Plus-Tutorial.md",
-    "src/notes/OpenWrt-Install.md",
+    "src/clip/VuePress-theme-hope2-Deploy.md",
+    "src/clip/VuePress-theme-hope2-GitHub-deploy.md",
+    "src/clip/VuePress-theme-hope2-Local-deploy.md",
+    "src/clip/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+    "src/clip/picGo-integrated-Obsidian.md",
+    "src/clip/OpenWrt-Install.md",
+    "src/clip/OpenWrt-Docker-Expansion.md",
+    "src/clip/Office-Tool-Plus-Tutorial.md",
+    "src/clip/GitHub-and-picGo-Deploy.md",
+    "src/clip/Crack-Websites-Sharing.md",
+    "src/appendix",
     "src/story/x86-x64-amd64-arm.md",
-    "src/notes/VuePress-theme-hope2-Local-deploy.md",
-    "src/notes/GitHub-and-picGo-Deploy.md",
-    "src/notes/OpenWrt-Docker-Expansion.md",
-    "src/notes/picGo-integrated-Obsidian.md",
-    "src/notes/Use-Git-to-Submit-Local-Code-to-GitHub.md",
-    "src/notes/Crack-Websites-Sharing.md",
     "src/demo/encrypt.md",
     "src/demo/disable.md",
     "src/demo/page.md",
@@ -215,7 +217,6 @@
     "node_modules/slimsearch/dist/SearchableMap.cjs",
     "node_modules/slimsearch/dist/index.mjs.map",
     "node_modules/slimsearch/dist/index.d.ts",
-    "node_modules/slimsearch/dist/index.mjs",
     "node_modules/slimsearch/README.md",
     "node_modules/vuepress-plugin-search-pro/node_modules/vuepress-shared/README.md",
     "node_modules/vuepress-plugin-search-pro/node_modules/vuepress-plugin-sass-palette/README.md",
@@ -224,7 +225,6 @@
     "src/intro.md",
     "node_modules/d3-time/README.md",
     "node_modules/@types/unist/README.md",
-    "node_modules/@types/mdast/README.md",
-    "node_modules/@types/d3-time/README.md"
+    "node_modules/@types/mdast/README.md"
   ]
 }

@@ -49,7 +49,7 @@ a. 选择**体系结构** *跟电脑cpu挂钩*
 
 ::: details 常见指令集架构
 
-<!-- @include: ./story/x86-x64-amd64-arm.md -->
+<!-- @include: ../story/x86-x64-amd64-arm.md -->
 
 :::
 
