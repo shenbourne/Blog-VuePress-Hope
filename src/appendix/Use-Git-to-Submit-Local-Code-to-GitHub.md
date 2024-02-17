@@ -9,7 +9,7 @@ tag:
   - Git
 ---
 
-### 安装git
+### 1.1 安装git
 
 1. 打开[Windows下载界面](https://git-scm.com/download/win)，点击正文最前面的“Click here to download”超链接下载git（或者点击[此处](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe)直接下载git）。
 
@@ -25,7 +25,7 @@ tag:
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-fdab1192e7c25f6e4e916c95e3209318_MD5.jpeg)
 
-### 将选定仓库初始化为git仓库
+### 1.2 将选定仓库初始化为git仓库
 
 1. 在指定文件夹空白处右键鼠标，单击`Open Git Bash here`打开git终端，输入`git init`
 
@@ -39,7 +39,7 @@ git init
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-956ea4c7e5ae605e24b3fd2b4c9d1640_MD5.jpeg)
 
-### 将本地代码上传至git版本库
+### 1.3 将本地代码上传至git版本库
 
 1. 将本地代码放入暂存区，输入`git add .`
 
@@ -73,7 +73,7 @@ git config --global user.email "<>"
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6c6f0089f486bf05aea89f9d2fa0204_MD5.jpeg)
 
-### 将本地git库与GitHub库连接
+### 1.4 将本地git库与GitHub库连接
 
 1. 创建新的GitHub库
 
@@ -119,7 +119,7 @@ git remote add origin <url>    #origin是远程源的名字
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-80c02e42c1030d27db3e94fc9dd5009f_MD5.jpeg)
 
-### 提交和拉取远程仓库
+### 2. 提交和拉取远程仓库
 
 ::: tip
 
@@ -182,7 +182,7 @@ git push origin master
 
 :::
 
-### git 回滚到指定版本并推送到远程分支
+### 3. git 回滚到指定版本并推送到远程分支
 
 -- 本地分支回滚到指定版本 
 

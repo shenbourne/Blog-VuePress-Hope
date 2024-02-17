@@ -18,7 +18,7 @@ tag:
 
 ## 一、配置GitHub
 
-### 注册Github账号
+### 1. 注册Github账号
 
 首先你需要一个github账号，如果没有的话，先注册。
 
@@ -30,7 +30,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 网上有各种解决方案：换浏览器、换电脑… …
 
-### 创建一个新仓库，用于存放图片
+### 2. 创建一个新仓库，用于存放图片
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/v2-59b7f87b4fbe21a2492e4b9e529fe87c_1440w.webp)
 
@@ -38,7 +38,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/v2-d3733c14e8c9b53cb5cf9f7607d51c8a_1440w.webp)
 
-### 生成一个token，用于picGo访问github
+### 3. 生成一个token，用于picGo访问github
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/v2-4d227062bcfa58dba6c0582c982b737b_1440w.webp)
 
@@ -62,7 +62,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 ## 二、下载picGo，并进行配置
 
-### 下载picGo
+### 1. 下载picGo
 
 网络不好的情况下，PicGo下载可能会多次失败，所以我把下载好的应用放在百度网盘了。
 
@@ -78,7 +78,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/v2-3f60ccb549e01c95a1702ceca9bda95d_1440w.webp)
 
-### 配置picGo
+### 2. 配置picGo
 
 仓库名：[github用户名]/[第一步新建的仓库名称]
 
@@ -94,7 +94,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 至此，github+picGo的配置完成，可以在上传区进行图片上传了。
 
-### 补充
+### 3. 补充说明
 
 1.原本github的自定义域名应该是：https://raw.githubusercontent.com/[username]/[仓库名]
 
@@ -104,7 +104,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 ## 三、备选-配置Gitee
 
-### Gitee设置
+### 1. Gitee设置
 
 安装好picgo后在picgo的插件设置搜索`gitee`然后选择安装gitee-uploader
 
@@ -124,7 +124,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/v2-79d759f28a769709c478f2fc7ca4b59f_1440w.webp)
 
-### 创建私人令牌
+### 2. 创建私人令牌
 
 点击头像进入设置然后点击私人令牌然后点击生成新令牌
 
@@ -140,7 +140,7 @@ github官网地址： [https://github.com/](https://link.zhihu.com/?target=http
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/v2-cd0242aaf5099ecd6371decfa6cc687a_1440w.webp)
 
-### 在picgo中配置gitee图床
+### 3. 在picgo中配置gitee图床
 
 进入picgo后点击图床设置点击gitee，然后在repo中填入之前我们创建的用户名/仓库名，这里的用户名要与你的个人空间地址一致，例如我的个人空间地址是zdqs，所以我这里就填写zdqs
 
@@ -160,7 +160,7 @@ branch一般默认是master，token就写我们的私人令牌，path可以不�
 
 并且typora可以和picGo联合在一起使用，当你在编辑器中插入、粘贴图片时，typora+picGo的组合方式，可以自动把图片上传至github保存。
 
-### 下载安装Typora
+### 1. 下载安装Typora
 
 Typora新版本是收费的，所以建议大家使用旧版本就可以了，完全能满足写作需求。
 
@@ -168,7 +168,7 @@ Typora新版本是收费的，所以建议大家使用旧版本就可以了，�
 
 下载完成后正常步骤安装即可。
 
-### 配置Typora
+### 2. 配置Typora
 
 在typora顶部菜单界面，选择“文件” - > “偏好设置”，设置图片存储方式。
 
@@ -188,7 +188,7 @@ PicGo路径：picGo安装的地址
 
   
 
-### picGo监听端口设置
+### 3. picGo监听端口设置
 
 选择“PicGo设置”–>“设置server”
 

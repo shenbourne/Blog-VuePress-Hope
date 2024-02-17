@@ -9,7 +9,7 @@ tag:
   - crack
 ---
 
-## 1. Office Tool Plus 下载
+## 一、Office Tool Plus 下载
 
 先再官网下载 Office Tool Plus，官网网址：[otp.landian.vip](https://otp.landian.vip/zh-cn/)
 
@@ -21,25 +21,25 @@ tag:
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160248614.png)
 
-## 2. 部署 Office 应用
+## 二、部署 Office 应用
 
 主页内容是一堆快捷方式。若没安装对应应用，会打开该应用的 website 主页；若已安装了对应应用，则会打开该应用。
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160255173.png)
 
-① 选择需要安装的 Office 应用
+### 1. 选择需要安装的 Office 应用
 
 打开 “部署 > 产品” ，点击 “添加产品”，选择需要安装的应用，然后点击 “确定”。
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160257311.png)
 
-② 选择要安装的应用程序
+### 2. 选择要安装的应用程序
 
 此处我选择的 “Office 专业版 2021”。在下面的 “应用程序” 选择准备安装的应用。例如此处，我为了演示只选择了 “Publisher”
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160306724.png)
 
-③ 部署设置
+### 3. 部署设置
 
 a. 选择**体系结构** *跟电脑cpu挂钩*
 
@@ -67,7 +67,7 @@ e. 推荐勾选 **下载后再部署**（即让 Office Tool Plus 下载完所有
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162157537.png)
 
-④ 开始部署
+### 4. 开始部署
 
 打开 “部署 > 部署 Office”，点击 “开始部署”，下载需要的文件并安装。
 
@@ -83,9 +83,9 @@ e. 推荐勾选 **下载后再部署**（即让 Office Tool Plus 下载完所有
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162209832.png)
 
-## 3. 激活 Office
+## 三、激活 Office
 
-① 安装许可证
+### 1. 安装许可证
 
 打开 “激活 > 许可证管理”，点击 “安装许可证” 右侧的 “安装” 按钮。
 
@@ -105,7 +105,7 @@ e. 推荐勾选 **下载后再部署**（即让 Office Tool Plus 下载完所有
 
 :::
 
-② 配置 KMS 地址
+### 2. 配置 KMS 地址
 
 ::: note KMS 科普 
 
@@ -133,7 +133,7 @@ KMS地址的选择可自行决定，在左侧选择一个 KMS 地址，并输入
 
 :::
 
-③ 开始激活
+### 3. 开始激活
 
 最后一步，点击右上角的“激活”按钮：
 

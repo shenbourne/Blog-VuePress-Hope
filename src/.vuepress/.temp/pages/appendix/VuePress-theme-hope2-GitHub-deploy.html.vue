@@ -1,4 +1,4 @@
-<template><div><h3 id="部署到-github-pages" tabindex="-1"><a class="header-anchor" href="#部署到-github-pages"><span>部署到 GitHub Pages</span></a></h3>
+<template><div><h3 id="_1-部署到-github-pages" tabindex="-1"><a class="header-anchor" href="#_1-部署到-github-pages"><span>1. 部署到 GitHub Pages</span></a></h3>
 <p>如果你在使用模板，且在创建过程中选择了创建自动部署文档的 GitHub 工作流，那么你唯一要做的就是在 <code v-pre>docs/.config.js</code> 中设置正确的 <a href="https://vuejs.press/zh/reference/config.html#base" target="_blank" rel="noopener noreferrer"><code v-pre>base</code><ExternalLinkIcon/></a> 选项。</p>
 <ul>
 <li>
@@ -37,7 +37,7 @@
 <p>该设置的意思是，将选中的分支内容部署在github自带的页面服务中。</p>
 <p>接着点击<code v-pre>save</code>按钮，就可以去对应的站点访问了。</p>
 <p>我的站点：<a href="https://link.juejin.cn?target=https%3A%2F%2Fmmdctjj.github.io%2Fblogs2%2F" title="https://mmdctjj.github.io/blogs2/" target="_blank" rel="noopener noreferrer">mmdctjj.github.io/blogs2/<ExternalLinkIcon/></a></p>
-<h3 id="添加评论功能" tabindex="-1"><a class="header-anchor" href="#添加评论功能"><span>添加评论功能</span></a></h3>
+<h3 id="_2-添加评论功能" tabindex="-1"><a class="header-anchor" href="#_2-添加评论功能"><span>2. 添加评论功能</span></a></h3>
 <p>不同的插件，评论的实现原理不同，我接触过最早的原理是通过将评论信息映射到仓库的issue中。</p>
 <p>然而，后来开始流行<code v-pre>Discussions</code>，这也是<code v-pre>vuepress-theme-hope</code>推荐的方式，</p>
 <blockquote>
@@ -71,7 +71,7 @@
  <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此时当我们评论之后，在评论仓库查看，</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-14d4de4f357aebc829a2a4840e049577_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="github-pages使用自定义域名访问" tabindex="-1"><a class="header-anchor" href="#github-pages使用自定义域名访问"><span>Github pages使用自定义域名访问</span></a></h3>
+<h3 id="_3-github-pages使用自定义域名访问" tabindex="-1"><a class="header-anchor" href="#_3-github-pages使用自定义域名访问"><span>3. Github pages使用自定义域名访问</span></a></h3>
 <ol>
 <li>
 <p>购买域名并配置DNS（以cloudflare为例）</p>

@@ -1,19 +1,19 @@
-<template><div><h2 id="_1-office-tool-plus-下载" tabindex="-1"><a class="header-anchor" href="#_1-office-tool-plus-下载"><span>1. Office Tool Plus 下载</span></a></h2>
+<template><div><h2 id="一、office-tool-plus-下载" tabindex="-1"><a class="header-anchor" href="#一、office-tool-plus-下载"><span>一、Office Tool Plus 下载</span></a></h2>
 <p>先再官网下载 Office Tool Plus，官网网址：<a href="https://otp.landian.vip/zh-cn/" target="_blank" rel="noopener noreferrer">otp.landian.vip<ExternalLinkIcon/></a></p>
 <p>打开<a href="https://otp.landian.vip/zh-cn/download.html" target="_blank" rel="noopener noreferrer">下载地址<ExternalLinkIcon/></a>，选择适应的下载源和版本。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160244851.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>下载后解压至硬盘中，双击“Office Tool Plus.exe”打开应用程序。若遇到防火墙提示，请选择“允许”或“仍要运行”。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160248614.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
-<h2 id="_2-部署-office-应用" tabindex="-1"><a class="header-anchor" href="#_2-部署-office-应用"><span>2. 部署 Office 应用</span></a></h2>
+<h2 id="二、部署-office-应用" tabindex="-1"><a class="header-anchor" href="#二、部署-office-应用"><span>二、部署 Office 应用</span></a></h2>
 <p>主页内容是一堆快捷方式。若没安装对应应用，会打开该应用的 website 主页；若已安装了对应应用，则会打开该应用。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160255173.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
-<p>① 选择需要安装的 Office 应用</p>
+<h3 id="_1-选择需要安装的-office-应用" tabindex="-1"><a class="header-anchor" href="#_1-选择需要安装的-office-应用"><span>1. 选择需要安装的 Office 应用</span></a></h3>
 <p>打开 “部署 &gt; 产品” ，点击 “添加产品”，选择需要安装的应用，然后点击 “确定”。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160257311.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
-<p>② 选择要安装的应用程序</p>
+<h3 id="_2-选择要安装的应用程序" tabindex="-1"><a class="header-anchor" href="#_2-选择要安装的应用程序"><span>2. 选择要安装的应用程序</span></a></h3>
 <p>此处我选择的 “Office 专业版 2021”。在下面的 “应用程序” 选择准备安装的应用。例如此处，我为了演示只选择了 “Publisher”</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160306724.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
-<p>③ 部署设置</p>
+<h3 id="_3-部署设置" tabindex="-1"><a class="header-anchor" href="#_3-部署设置"><span>3. 部署设置</span></a></h3>
 <p>a. 选择<strong>体系结构</strong> <em>跟电脑cpu挂钩</em></p>
 <ul>
 <li>32位：仅推荐在32位(x86)电脑选择。</li>
@@ -59,7 +59,7 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162154481.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>滑动到最下方，点击“高级设置”，可以在其中的“源路径”设置待安装的位置</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162157537.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
-<p>④ 开始部署</p>
+<h3 id="_4-开始部署" tabindex="-1"><a class="header-anchor" href="#_4-开始部署"><span>4. 开始部署</span></a></h3>
 <p>打开 “部署 &gt; 部署 Office”，点击 “开始部署”，下载需要的文件并安装。</p>
 <p>下方的进度条会显示正在下载的文件名和下载速度以及预计时间。（图片中没有）</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162159995.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
@@ -67,8 +67,8 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162209404.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>这个过程通常不需要很久，如果一直卡在这个过程，请检查 “部署设置” 阶段是否配置错误（尤其是位数）</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162209832.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
-<h2 id="_3-激活-office" tabindex="-1"><a class="header-anchor" href="#_3-激活-office"><span>3. 激活 Office</span></a></h2>
-<p>① 安装许可证</p>
+<h2 id="三、激活-office" tabindex="-1"><a class="header-anchor" href="#三、激活-office"><span>三、激活 Office</span></a></h2>
+<h3 id="_1-安装许可证" tabindex="-1"><a class="header-anchor" href="#_1-安装许可证"><span>1. 安装许可证</span></a></h3>
 <p>打开 “激活 &gt; 许可证管理”，点击 “安装许可证” 右侧的 “安装” 按钮。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162212021.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>在 “许可证列表” 中选择刚刚安装的版本。例如我刚刚安装的是 “Office 专业版 2021”，则此处我选择“Office专业版2021”</p>
@@ -79,7 +79,7 @@
 <p>可尝试在本软件中，“安装许可证”右侧的小三角下拉菜单中，清除所有的许可证，并重新安装，确保所有许可证文件都已正确安装</p>
 <p>原因②：这个可能比较荒谬，但不可否认的是可能存在，即例如 WPS 等同类型软件惹的祸……</p>
 </div>
-<p>② 配置 KMS 地址</p>
+<h3 id="_2-配置-kms-地址" tabindex="-1"><a class="header-anchor" href="#_2-配置-kms-地址"><span>2. 配置 KMS 地址</span></a></h3>
 <div class="hint-container note">
 <p class="hint-container-title">KMS 科普</p>
 <p>KMS最初是为了大批量的授权而诞生的。比如公司内数十台甚至上百台电脑，要统一对他们的 Office 进行激活，使用 KMS 要比人工一个个去激活要快得多。</p>
@@ -95,7 +95,7 @@
 <p class="hint-container-title">未在此电脑上发现批量许可证 解决办法</p>
 <p>重新选择一个带有“批量版”字样的许可证，比如 Office Mondo 2016 批量许可证；再输入一个可用的 KMS 地址。</p>
 </div>
-<p>③ 开始激活</p>
+<h3 id="_3-开始激活" tabindex="-1"><a class="header-anchor" href="#_3-开始激活"><span>3. 开始激活</span></a></h3>
 <p>最后一步，点击右上角的“激活”按钮：</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162230086.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>画红框的产品激活成功。激活失败的，可以点击错误代码查看错误原因。上文只列举了部分比较常见的错误解决方法。</p>

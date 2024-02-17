@@ -1,4 +1,4 @@
-<template><div><h3 id="安装git" tabindex="-1"><a class="header-anchor" href="#安装git"><span>安装git</span></a></h3>
+<template><div><h3 id="_1-1-安装git" tabindex="-1"><a class="header-anchor" href="#_1-1-安装git"><span>1.1 安装git</span></a></h3>
 <ol>
 <li>打开<a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">Windows下载界面<ExternalLinkIcon/></a>，点击正文最前面的“Click here to download”超链接下载git（或者点击<a href="https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe" target="_blank" rel="noopener noreferrer">此处<ExternalLinkIcon/></a>直接下载git）。</li>
 </ol>
@@ -15,7 +15,7 @@
 </li>
 </ol>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-fdab1192e7c25f6e4e916c95e3209318_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="将选定仓库初始化为git仓库" tabindex="-1"><a class="header-anchor" href="#将选定仓库初始化为git仓库"><span>将选定仓库初始化为git仓库</span></a></h3>
+<h3 id="_1-2-将选定仓库初始化为git仓库" tabindex="-1"><a class="header-anchor" href="#_1-2-将选定仓库初始化为git仓库"><span>1.2 将选定仓库初始化为git仓库</span></a></h3>
 <ol>
 <li>在指定文件夹空白处右键鼠标，单击<code v-pre>Open Git Bash here</code>打开git终端，输入<code v-pre>git init</code></li>
 </ol>
@@ -23,7 +23,7 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b06e48a1494862051793abd10fdeb2dc_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>文件夹中出现<code v-pre>.git</code>文件，则说明初始化成功</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-956ea4c7e5ae605e24b3fd2b4c9d1640_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="将本地代码上传至git版本库" tabindex="-1"><a class="header-anchor" href="#将本地代码上传至git版本库"><span>将本地代码上传至git版本库</span></a></h3>
+<h3 id="_1-3-将本地代码上传至git版本库" tabindex="-1"><a class="header-anchor" href="#_1-3-将本地代码上传至git版本库"><span>1.3 将本地代码上传至git版本库</span></a></h3>
 <ol>
 <li>将本地代码放入暂存区，输入<code v-pre>git add .</code></li>
 </ol>
@@ -40,7 +40,7 @@
 <p>如果没有创建用户信息，则会让你创建一个，账户密码随便填即可。例：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"&lt;>"</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6c6f0089f486bf05aea89f9d2fa0204_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="将本地git库与github库连接" tabindex="-1"><a class="header-anchor" href="#将本地git库与github库连接"><span>将本地git库与GitHub库连接</span></a></h3>
+<h3 id="_1-4-将本地git库与github库连接" tabindex="-1"><a class="header-anchor" href="#_1-4-将本地git库与github库连接"><span>1.4 将本地git库与GitHub库连接</span></a></h3>
 <ol>
 <li>创建新的GitHub库</li>
 </ol>
@@ -67,7 +67,7 @@
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> remote <span class="token function">add</span> origin <span class="token operator">&lt;</span>url<span class="token operator">></span>    <span class="token comment">#origin是远程源的名字</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-80c02e42c1030d27db3e94fc9dd5009f_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="提交和拉取远程仓库" tabindex="-1"><a class="header-anchor" href="#提交和拉取远程仓库"><span>提交和拉取远程仓库</span></a></h3>
+<h3 id="_2-提交和拉取远程仓库" tabindex="-1"><a class="header-anchor" href="#_2-提交和拉取远程仓库"><span>2. 提交和拉取远程仓库</span></a></h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>origin是远程源的源名，可以自定义；master是分支名，是默认的主分支</p>
@@ -111,7 +111,7 @@
 <span class="token function">git</span> remote <span class="token function">add</span> origin git@github.com:XXX/XXX.github.io.git
 <span class="token function">git</span> push origin master
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<h3 id="git-回滚到指定版本并推送到远程分支" tabindex="-1"><a class="header-anchor" href="#git-回滚到指定版本并推送到远程分支"><span>git 回滚到指定版本并推送到远程分支</span></a></h3>
+<h3 id="_3-git-回滚到指定版本并推送到远程分支" tabindex="-1"><a class="header-anchor" href="#_3-git-回滚到指定版本并推送到远程分支"><span>3. git 回滚到指定版本并推送到远程分支</span></a></h3>
 <p>-- 本地分支回滚到指定版本</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> reset <span class="token parameter variable">--hard</span> <span class="token operator">&lt;</span>commit ID号<span class="token operator">></span> 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container tip">

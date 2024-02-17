@@ -7,7 +7,7 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 <p>VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。</p>
 <p>在明确你的目标之后，先不着急立马搭建项目。</p>
 <h2 id="一、你喜欢哪个主题" tabindex="-1"><a class="header-anchor" href="#一、你喜欢哪个主题"><span>一、你喜欢哪个主题</span></a></h2>
-<h3 id="选择主题" tabindex="-1"><a class="header-anchor" href="#选择主题"><span>选择主题</span></a></h3>
+<h3 id="_1-选择主题" tabindex="-1"><a class="header-anchor" href="#_1-选择主题"><span>1. 选择主题</span></a></h3>
 <p>因为VuePress除了默认的主题外，提供了扩展主题、扩展插件的能力，不同的主题又组织了不同的插件集合来完成开箱即用的功能，</p>
 <p>所以，你首先应该使用哪款主题作为你的个人完整风格。</p>
 <p>比较热门你的主题有：</p>
@@ -444,7 +444,7 @@ footer: 萌萌哒草头将军
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果如下：</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-fb8aa9698875c3683416ea56928db52b_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2 id="三、使用git上传到github" tabindex="-1"><a class="header-anchor" href="#三、使用git上传到github"><span>三、使用Git上传到GitHub</span></a></h2>
-<h3 id="安装git" tabindex="-1"><a class="header-anchor" href="#安装git"><span>安装git</span></a></h3>
+<h3 id="_1-1-安装git" tabindex="-1"><a class="header-anchor" href="#_1-1-安装git"><span>1.1 安装git</span></a></h3>
 <ol>
 <li>打开<a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">Windows下载界面<ExternalLinkIcon/></a>，点击正文最前面的“Click here to download”超链接下载git（或者点击<a href="https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe" target="_blank" rel="noopener noreferrer">此处<ExternalLinkIcon/></a>直接下载git）。</li>
 </ol>
@@ -461,7 +461,7 @@ footer: 萌萌哒草头将军
 </li>
 </ol>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-fdab1192e7c25f6e4e916c95e3209318_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="将选定仓库初始化为git仓库" tabindex="-1"><a class="header-anchor" href="#将选定仓库初始化为git仓库"><span>将选定仓库初始化为git仓库</span></a></h3>
+<h3 id="_1-2-将选定仓库初始化为git仓库" tabindex="-1"><a class="header-anchor" href="#_1-2-将选定仓库初始化为git仓库"><span>1.2 将选定仓库初始化为git仓库</span></a></h3>
 <ol>
 <li>在指定文件夹空白处右键鼠标，单击<code v-pre>Open Git Bash here</code>打开git终端，输入<code v-pre>git init</code></li>
 </ol>
@@ -469,7 +469,7 @@ footer: 萌萌哒草头将军
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b06e48a1494862051793abd10fdeb2dc_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>文件夹中出现<code v-pre>.git</code>文件，则说明初始化成功</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-956ea4c7e5ae605e24b3fd2b4c9d1640_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="将本地代码上传至git版本库" tabindex="-1"><a class="header-anchor" href="#将本地代码上传至git版本库"><span>将本地代码上传至git版本库</span></a></h3>
+<h3 id="_1-3-将本地代码上传至git版本库" tabindex="-1"><a class="header-anchor" href="#_1-3-将本地代码上传至git版本库"><span>1.3 将本地代码上传至git版本库</span></a></h3>
 <ol>
 <li>将本地代码放入暂存区，输入<code v-pre>git add .</code></li>
 </ol>
@@ -486,7 +486,7 @@ footer: 萌萌哒草头将军
 <p>如果没有创建用户信息，则会让你创建一个，账户密码随便填即可。例：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"&lt;>"</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-b6c6f0089f486bf05aea89f9d2fa0204_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="将本地git库与github库连接" tabindex="-1"><a class="header-anchor" href="#将本地git库与github库连接"><span>将本地git库与GitHub库连接</span></a></h3>
+<h3 id="_1-4-将本地git库与github库连接" tabindex="-1"><a class="header-anchor" href="#_1-4-将本地git库与github库连接"><span>1.4 将本地git库与GitHub库连接</span></a></h3>
 <ol>
 <li>创建新的GitHub库</li>
 </ol>
@@ -513,7 +513,7 @@ footer: 萌萌哒草头将军
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> remote <span class="token function">add</span> origin <span class="token operator">&lt;</span>url<span class="token operator">></span>    <span class="token comment">#origin是远程源的名字</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/Use-Git-to-Submit-Local-Code-to-GitHub-80c02e42c1030d27db3e94fc9dd5009f_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="提交和拉取远程仓库" tabindex="-1"><a class="header-anchor" href="#提交和拉取远程仓库"><span>提交和拉取远程仓库</span></a></h3>
+<h3 id="_2-提交和拉取远程仓库" tabindex="-1"><a class="header-anchor" href="#_2-提交和拉取远程仓库"><span>2. 提交和拉取远程仓库</span></a></h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>origin是远程源的源名，可以自定义；master是分支名，是默认的主分支</p>
@@ -557,7 +557,7 @@ footer: 萌萌哒草头将军
 <span class="token function">git</span> remote <span class="token function">add</span> origin git@github.com:XXX/XXX.github.io.git
 <span class="token function">git</span> push origin master
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<h3 id="git-回滚到指定版本并推送到远程分支" tabindex="-1"><a class="header-anchor" href="#git-回滚到指定版本并推送到远程分支"><span>git 回滚到指定版本并推送到远程分支</span></a></h3>
+<h3 id="_3-git-回滚到指定版本并推送到远程分支" tabindex="-1"><a class="header-anchor" href="#_3-git-回滚到指定版本并推送到远程分支"><span>3. git 回滚到指定版本并推送到远程分支</span></a></h3>
 <p>-- 本地分支回滚到指定版本</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> reset <span class="token parameter variable">--hard</span> <span class="token operator">&lt;</span>commit ID号<span class="token operator">></span> 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container tip">
@@ -571,7 +571,7 @@ footer: 萌萌哒草头将军
 <p><a href="https://www.cnblogs.com/wangcuican/p/12522239.html" target="_blank" rel="noopener noreferrer">提交本地代码到github - 只会玩辅助 - 博客园<ExternalLinkIcon/></a></p>
 <p><a href="https://blog.csdn.net/u014361280/article/details/109703556" target="_blank" rel="noopener noreferrer">Git 常见错误 之 error: src refspec xxx does not match any / error: failed to push some refs to 简单解决方法_error: src refspec master does not match any-CSDN博客<ExternalLinkIcon/></a></p>
 <h2 id="四、本地部署" tabindex="-1"><a class="header-anchor" href="#四、本地部署"><span>四、本地部署</span></a></h2>
-<h3 id="部署到-github-pages" tabindex="-1"><a class="header-anchor" href="#部署到-github-pages"><span>部署到 GitHub Pages</span></a></h3>
+<h3 id="_1-部署到-github-pages" tabindex="-1"><a class="header-anchor" href="#_1-部署到-github-pages"><span>1. 部署到 GitHub Pages</span></a></h3>
 <p>如果你在使用模板，且在创建过程中选择了创建自动部署文档的 GitHub 工作流，那么你唯一要做的就是在 <code v-pre>docs/.config.js</code> 中设置正确的 <a href="https://vuejs.press/zh/reference/config.html#base" target="_blank" rel="noopener noreferrer"><code v-pre>base</code><ExternalLinkIcon/></a> 选项。</p>
 <ul>
 <li>
@@ -610,7 +610,7 @@ footer: 萌萌哒草头将军
 <p>该设置的意思是，将选中的分支内容部署在github自带的页面服务中。</p>
 <p>接着点击<code v-pre>save</code>按钮，就可以去对应的站点访问了。</p>
 <p>我的站点：<a href="https://link.juejin.cn?target=https%3A%2F%2Fmmdctjj.github.io%2Fblogs2%2F" title="https://mmdctjj.github.io/blogs2/" target="_blank" rel="noopener noreferrer">mmdctjj.github.io/blogs2/<ExternalLinkIcon/></a></p>
-<h3 id="添加评论功能" tabindex="-1"><a class="header-anchor" href="#添加评论功能"><span>添加评论功能</span></a></h3>
+<h3 id="_2-添加评论功能" tabindex="-1"><a class="header-anchor" href="#_2-添加评论功能"><span>2. 添加评论功能</span></a></h3>
 <p>不同的插件，评论的实现原理不同，我接触过最早的原理是通过将评论信息映射到仓库的issue中。</p>
 <p>然而，后来开始流行<code v-pre>Discussions</code>，这也是<code v-pre>vuepress-theme-hope</code>推荐的方式，</p>
 <blockquote>
@@ -644,7 +644,7 @@ footer: 萌萌哒草头将军
  <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此时当我们评论之后，在评论仓库查看，</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-14d4de4f357aebc829a2a4840e049577_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="github-pages使用自定义域名访问" tabindex="-1"><a class="header-anchor" href="#github-pages使用自定义域名访问"><span>Github pages使用自定义域名访问</span></a></h3>
+<h3 id="_3-github-pages使用自定义域名访问" tabindex="-1"><a class="header-anchor" href="#_3-github-pages使用自定义域名访问"><span>3. Github pages使用自定义域名访问</span></a></h3>
 <ol>
 <li>
 <p>购买域名并配置DNS（以cloudflare为例）</p>

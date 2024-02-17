@@ -8,9 +8,9 @@ tag:
   - VuePress
 ---
 
-### 运行环境设置
+### 1. 运行环境设置
 
-#### 1. 编辑器
+#### ① 编辑器
 
 一个方便快捷的编辑器在博客的搭建过程是功不可没的。推荐用VSCode编写和运行VuePress项目
 
@@ -36,7 +36,7 @@ tag:
 > [!tip]
 >当你安装 VS Code 并第一次打开的时候，VS Code 会自动检测当前系统语言并在右下角推荐你安装对应语言的扩展，点击按钮即可自动安装。
 
-#### 2. Node.js
+#### ② Node.js
 
 > [!Introduce]
 > [Node.js®open in new window](https://nodejs.org/zh-cn/) 是一个基于 [Chrome V8 引擎open in new window](https://v8.dev/) 的 JavaScript 运行时环境。
@@ -52,7 +52,7 @@ tag:
 
 Node.js 本身只会占据几十 M 的空间!
 
-#### 3. pnpm
+#### ③ pnpm
 
 在你安装 Node.js 之后，在终端中输入下列命令启用 corepack:
 
@@ -67,15 +67,15 @@ corepack enable
 
 但是如果在使用pnpm安装的时候出现了错误，改为使用npm是一种不赖的选择
 
-### 搭建项目
+### 2. 搭建项目
 
-#### 1. 选择项目位置
+#### ① 选择项目位置
 
 为了避免偶然间触发一些奇怪的问题，而你自己不会解决，请尽量避免使用包含中文文字、表情符号或空格的文件路径 (不好的例子: `C:\Users\小张\Desktop\VuePress 项目\Hope 主题❤️\`)。
 
 建议使用纯英文路径 (好的例子: `D:\projects\vuepress-theme-hope\`)
 
-#### 2. 初始化项目
+#### ② 初始化项目
 
 如果你选择了一个主题，请务必使用该主题提供的脚手架工具创建项目。这样可以减少很多配置上的麻烦。
 
@@ -167,7 +167,7 @@ added 293 packages in 26s
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-d6c8fb22be4f418abf38ef344030fd7c~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp)
 
-### 首页配置
+### 3.1 首页配置
 
 其中，src 目录下的 `README.md`即为博客或者文档的首页。
 
@@ -229,7 +229,7 @@ footer: 萌萌哒草头将军
 
 ```
 
-### 导航栏
+### 3.2 导航栏配置
 
 在开始之前你需要明确，你的导航栏需求是啥样的（大白话就是哪些栏目需要在侧边栏展示，哪些在侧边栏展示）
 
@@ -344,13 +344,13 @@ export default navbar([
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-9cc52ff1585e6e6202033698b3484606_MD5.jpeg)
 
-### 侧边栏
+### 3.3 侧边栏配置
 
 侧边栏的配置在 `sidebar.ts`中
 
 侧边栏的配置，我们可以分两种情况：全局导航栏、根据每个导航栏栏目分离式导航栏。
 
-#### 1. 全局侧边栏配置
+#### ① 全局侧边栏配置
 
 你可以设置侧边栏导航和导航栏的路由一一对应，这样就相当于是全局的侧边栏。
 
@@ -405,7 +405,7 @@ export default sidebar({
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-750678252dca76d05e961648cd4c4603_MD5.jpeg)
 
-#### 2. 分离式导航栏
+#### ② 分离式导航栏
 
 分离式菜单配置更简洁，如下所示：当设置`structure`时，默认根据目录下的文件自动生成侧边栏。
 
@@ -424,7 +424,7 @@ export default sidebar({
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-cc16a07b5d6cdcc2ce8bd805dfe53dd2_MD5.jpeg)
 
-#### 3. 自动生成目录页面
+#### ③ 自动生成目录页面
 
 另外，我们还根据文件夹下的文件列表自动为每个文件夹生成目录页面。我们只需要在`theme.ts`中添加如下设置。
 
@@ -442,7 +442,7 @@ plugins: {
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-9b379d0629ac655174377c76c8f00c1d_MD5.jpeg)
 
 
-### [搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)功能
+### 3.4 [搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)功能
 
 该主题内置了几种常见搜索插件的支持，你只需下载你喜欢的插件和配置文件即可，我使用的是`vuepress-plugin-search-pro`插件，配置参考的官方配置。
 

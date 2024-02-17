@@ -1,4 +1,4 @@
-<template><div><h3 id="效果综述" tabindex="-1"><a class="header-anchor" href="#效果综述"><span>效果综述</span></a></h3>
+<template><div><h3 id="_1-效果综述" tabindex="-1"><a class="header-anchor" href="#_1-效果综述"><span>1. 效果综述</span></a></h3>
 <p>目前我的主力笔记软件是[[Obsidian]]，配图都是统一存放在同一文件夹 <code v-pre>890 Attachments</code> 内，使用[[Paste image rename]]使其与所引用的元文件名称一致，优点是<strong>方便跨文件引用以及安全隐私</strong>。但存在的弊端也很明显：<strong>随着文件数量增多会导致内存占用过大不利于跨平台同步以及迁移麻烦</strong>。这时可以考虑 webp 化或者干脆直接图床化。</p>
 <p>刚好有朋友遇到这个问题，需要将 Vault 里的全部本地图片转为图床链接，解决思路的话比较清晰，相信大家都能想得到：</p>
 <ol>
@@ -6,7 +6,7 @@
 <li>替换文件引用链接。</li>
 </ol>
 <p>那就以一个示例文件夹 <code v-pre>ob</code> 为例，尝试实现所有图片的图床化。</p>
-<h3 id="上传图片" tabindex="-1"><a class="header-anchor" href="#上传图片"><span>上传图片</span></a></h3>
+<h3 id="_2-上传图片" tabindex="-1"><a class="header-anchor" href="#_2-上传图片"><span>2. 上传图片</span></a></h3>
 <p>这里我们需要借助一个插件：[[Image auto upload]]，可以将图片上传到 PicGo 中配置的图床。</p>
 <figure><img src="https://pic2.zhimg.com/80/v2-331c4279a55a99ab3692fe8dc4ad8475_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>若勾选最后一个选项，图片上传图床后会被删除！！！</p>
@@ -34,7 +34,7 @@
 <p>然后回到 Obsidian 按 <code v-pre>Ctrl-P</code> 调出命令面板，执行 <code v-pre>Image auto upload Plugin: Upload all images</code> 后会自动替换成图床链接：</p>
 <figure><img src="https://pic3.zhimg.com/80/v2-f45acd103c8ffbb0aea543bc672427e2_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>上传后自动替换链接</p>
-<h3 id="替换文件引用链接" tabindex="-1"><a class="header-anchor" href="#替换文件引用链接"><span>替换文件引用链接</span></a></h3>
+<h3 id="_3-替换文件引用链接" tabindex="-1"><a class="header-anchor" href="#_3-替换文件引用链接"><span>3. 替换文件引用链接</span></a></h3>
 <p>重新读取 <code v-pre>attachments.md</code>，获取图片名与图床链接的对应关系并存储为字典：</p>
 <div class="language-python line-numbers-mode" data-ext="py" data-title="py"><pre v-pre class="language-python"><code> <span class="token keyword">import</span> re
  ​
