@@ -91,15 +91,15 @@ Evan's blog：[Evan's blog](https://xugaoyi.com/)
 
 ## 二、本地部署
 
-<!-- @include: VuePress-theme-hope2-Local-deploy.md -->
+<!-- @include: ../appendix/VuePress-theme-hope2-Local-deploy.md -->
 
 ## 三、使用Git上传到GitHub
 
-<!-- @include: Use-Git-to-Submit-Local-Code-to-GitHub.md -->
+<!-- @include: ../appendix/Use-Git-to-Submit-Local-Code-to-GitHub.md -->
 
 ## 四、本地部署
 
-<!-- @include: VuePress-theme-hope2-GitHub-deploy.md -->
+<!-- @include: ../appendix/VuePress-theme-hope2-GitHub-deploy.md -->
 
 
 ## 五、最后
