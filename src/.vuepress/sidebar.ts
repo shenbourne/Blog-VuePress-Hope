@@ -12,7 +12,7 @@ export default sidebar({
     {
       text: "剪藏",
       icon: "book",
-      prefix: "notes/",
+      prefix: "clips/",
       children: "structure",
     },
     "intro",
