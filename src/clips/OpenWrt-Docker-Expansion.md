@@ -1,5 +1,5 @@
 ---
-title: OpenWrt软路由为Docker扩容
+title: OpenWrt 为 Docker 扩容
 icon: expansion
 order: -1
 category:

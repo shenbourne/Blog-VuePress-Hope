@@ -26,13 +26,11 @@ VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。
 
 ## 一、你喜欢哪个主题
 
-### 1. 选择主题
-
 因为VuePress除了默认的主题外，提供了扩展主题、扩展插件的能力，不同的主题又组织了不同的插件集合来完成开箱即用的功能，
 
 所以，你首先应该使用哪款主题作为你的个人完整风格。
 
-比较热门你的主题有：
+比较热门的主题有：
 
 - [vuepress默认主题](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fvuejs%2Fvuepress "https://github.com/vuejs/vuepress") 21.7k⭐
 - [vuepress-theme-hope](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fvuepress-theme-hope%2Fvuepress-theme-hope "https://github.com/vuepress-theme-hope/vuepress-theme-hope") 1.4k⭐
@@ -43,13 +41,13 @@ VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。
 
 我们看看各个主题默认的样式
 
-#### 1. [默认主题](https://vuepress.vuejs.org/) 案例
+### 1. [默认主题](https://vuepress.vuejs.org/) 案例
 
 vue系列早先版本的官网大多数都是默认主题
 
 ![](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-7805ce56c9ab4c47a392f782f3f0a509~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp)
 
-#### 2. [vuepress-theme-hope](https://theme-hope.vuejs.press/) 案例 
+### 2. [vuepress-theme-hope](https://theme-hope.vuejs.press/) 案例 
 
 蝉沐风的码场：[www.chanmufeng.com/](https://www.chanmufeng.com/)
 
@@ -57,7 +55,7 @@ vue系列早先版本的官网大多数都是默认主题
 
 更多案例：[真实项目 | vuepress-theme-hope](https://theme-hope.vuejs.press/zh/demo/projects.html#%E4%BD%BF%E7%94%A8-vuepress-theme-hope-%E7%9A%84%E6%96%87%E6%A1%A3)
 
-#### 3. [vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/) 案例 
+### 3. [vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/) 案例 
 
 Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
@@ -65,7 +63,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
 更多案例：[优秀博客案例 | vuepress-theme-reco](http://v1.vuepress-reco.recoluan.com/views/other/theme-example.html)
 
-#### 4. [vuepress-theme-reco 2.0](https://vuepress-theme-reco.recoluan.com/) 案例 
+### 4. [vuepress-theme-reco 2.0](https://vuepress-theme-reco.recoluan.com/) 案例 
 
  SlovinG's Blog：[SlovinG's Blog](https://sloving.top/)
 
@@ -73,7 +71,7 @@ Chivas-Regal的博客：[Chivas-Regal](https://tech.chivas-regal.top/)
 
 更多案例：[案例 | vuepress-reco](https://vuepress-theme-reco.recoluan.com/docs/others/examples.html)
 
-#### 5. [vuepress-theme-vdoing](https://doc.xugaoyi.com/) 案例 
+### 5. [vuepress-theme-vdoing](https://doc.xugaoyi.com/) 案例 
 
 Evan's blog：[Evan's blog](https://xugaoyi.com/)
 

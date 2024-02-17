@@ -7,10 +7,9 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 <p>VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求。</p>
 <p>在明确你的目标之后，先不着急立马搭建项目。</p>
 <h2 id="一、你喜欢哪个主题" tabindex="-1"><a class="header-anchor" href="#一、你喜欢哪个主题"><span>一、你喜欢哪个主题</span></a></h2>
-<h3 id="_1-选择主题" tabindex="-1"><a class="header-anchor" href="#_1-选择主题"><span>1. 选择主题</span></a></h3>
 <p>因为VuePress除了默认的主题外，提供了扩展主题、扩展插件的能力，不同的主题又组织了不同的插件集合来完成开箱即用的功能，</p>
 <p>所以，你首先应该使用哪款主题作为你的个人完整风格。</p>
-<p>比较热门你的主题有：</p>
+<p>比较热门的主题有：</p>
 <ul>
 <li><a href="https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fvuejs%2Fvuepress" title="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer">vuepress默认主题<ExternalLinkIcon/></a> 21.7k⭐</li>
 <li><a href="https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fvuepress-theme-hope%2Fvuepress-theme-hope" title="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">vuepress-theme-hope<ExternalLinkIcon/></a> 1.4k⭐</li>
@@ -19,22 +18,22 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 </ul>
 <p>不同主题的之间的最明显的差异就是默认的样式不同，其次就是默认提供的功能不同。</p>
 <p>我们看看各个主题默认的样式</p>
-<h4 id="_1-默认主题-案例" tabindex="-1"><a class="header-anchor" href="#_1-默认主题-案例"><span>1. <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">默认主题<ExternalLinkIcon/></a> 案例</span></a></h4>
+<h3 id="_1-默认主题-案例" tabindex="-1"><a class="header-anchor" href="#_1-默认主题-案例"><span>1. <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">默认主题<ExternalLinkIcon/></a> 案例</span></a></h3>
 <p>vue系列早先版本的官网大多数都是默认主题</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-7805ce56c9ab4c47a392f782f3f0a509~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h4 id="_2-vuepress-theme-hope-案例" tabindex="-1"><a class="header-anchor" href="#_2-vuepress-theme-hope-案例"><span>2. <a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope<ExternalLinkIcon/></a> 案例</span></a></h4>
+<h3 id="_2-vuepress-theme-hope-案例" tabindex="-1"><a class="header-anchor" href="#_2-vuepress-theme-hope-案例"><span>2. <a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope<ExternalLinkIcon/></a> 案例</span></a></h3>
 <p>蝉沐风的码场：<a href="https://www.chanmufeng.com/" target="_blank" rel="noopener noreferrer">www.chanmufeng.com/<ExternalLinkIcon/></a></p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-aa13444c25f46fc1028f935fab84932c_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>更多案例：<a href="https://theme-hope.vuejs.press/zh/demo/projects.html#%E4%BD%BF%E7%94%A8-vuepress-theme-hope-%E7%9A%84%E6%96%87%E6%A1%A3" target="_blank" rel="noopener noreferrer">真实项目 | vuepress-theme-hope<ExternalLinkIcon/></a></p>
-<h4 id="_3-vuepress-theme-reco-案例" tabindex="-1"><a class="header-anchor" href="#_3-vuepress-theme-reco-案例"><span>3. <a href="http://v1.vuepress-reco.recoluan.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-reco<ExternalLinkIcon/></a> 案例</span></a></h4>
+<h3 id="_3-vuepress-theme-reco-案例" tabindex="-1"><a class="header-anchor" href="#_3-vuepress-theme-reco-案例"><span>3. <a href="http://v1.vuepress-reco.recoluan.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-reco<ExternalLinkIcon/></a> 案例</span></a></h3>
 <p>Chivas-Regal的博客：<a href="https://tech.chivas-regal.top/" target="_blank" rel="noopener noreferrer">Chivas-Regal<ExternalLinkIcon/></a></p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-5f5f76ddcbbddc12e11ec888c99f06d3_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>更多案例：<a href="http://v1.vuepress-reco.recoluan.com/views/other/theme-example.html" target="_blank" rel="noopener noreferrer">优秀博客案例 | vuepress-theme-reco<ExternalLinkIcon/></a></p>
-<h4 id="_4-vuepress-theme-reco-2-0-案例" tabindex="-1"><a class="header-anchor" href="#_4-vuepress-theme-reco-2-0-案例"><span>4. <a href="https://vuepress-theme-reco.recoluan.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-reco 2.0<ExternalLinkIcon/></a> 案例</span></a></h4>
+<h3 id="_4-vuepress-theme-reco-2-0-案例" tabindex="-1"><a class="header-anchor" href="#_4-vuepress-theme-reco-2-0-案例"><span>4. <a href="https://vuepress-theme-reco.recoluan.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-reco 2.0<ExternalLinkIcon/></a> 案例</span></a></h3>
 <p>SlovinG's Blog：<a href="https://sloving.top/" target="_blank" rel="noopener noreferrer">SlovinG's Blog<ExternalLinkIcon/></a></p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-a4fc5d567fcf3f8ef1c439f05e75aa30_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>更多案例：<a href="https://vuepress-theme-reco.recoluan.com/docs/others/examples.html" target="_blank" rel="noopener noreferrer">案例 | vuepress-reco<ExternalLinkIcon/></a></p>
-<h4 id="_5-vuepress-theme-vdoing-案例" tabindex="-1"><a class="header-anchor" href="#_5-vuepress-theme-vdoing-案例"><span>5. <a href="https://doc.xugaoyi.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-vdoing<ExternalLinkIcon/></a> 案例</span></a></h4>
+<h3 id="_5-vuepress-theme-vdoing-案例" tabindex="-1"><a class="header-anchor" href="#_5-vuepress-theme-vdoing-案例"><span>5. <a href="https://doc.xugaoyi.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-vdoing<ExternalLinkIcon/></a> 案例</span></a></h3>
 <p>Evan's blog：<a href="https://xugaoyi.com/" target="_blank" rel="noopener noreferrer">Evan's blog<ExternalLinkIcon/></a></p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-6f1884a664145f9a4a2117cd5271943d_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>更多案例：<a href="https://doc.xugaoyi.com/pages/5d571c/#%E7%89%B9%E5%88%AB%E7%94%A8%E6%88%B7" target="_blank" rel="noopener noreferrer">案例 | vuepress-theme-vdoing<ExternalLinkIcon/></a></p>
@@ -43,8 +42,8 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 <p>缺点是：功能还不够丰富，图标比较少，无法有效添加摘要、阅读时间、字数统计等功能。</p>
 <p>相反，vuepress-theme-hope 这些做的都不错，成为我新的选择。</p>
 <h2 id="二、本地部署" tabindex="-1"><a class="header-anchor" href="#二、本地部署"><span>二、本地部署</span></a></h2>
-<h3 id="运行环境设置" tabindex="-1"><a class="header-anchor" href="#运行环境设置"><span>运行环境设置</span></a></h3>
-<h4 id="_1-编辑器" tabindex="-1"><a class="header-anchor" href="#_1-编辑器"><span>1. 编辑器</span></a></h4>
+<h3 id="_1-运行环境设置" tabindex="-1"><a class="header-anchor" href="#_1-运行环境设置"><span>1. 运行环境设置</span></a></h3>
+<h4 id="_1-编辑器" tabindex="-1"><a class="header-anchor" href="#_1-编辑器"><span>① 编辑器</span></a></h4>
 <p>一个方便快捷的编辑器在博客的搭建过程是功不可没的。推荐用VSCode编写和运行VuePress项目</p>
 <ol>
 <li>
@@ -77,7 +76,7 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 <p>[!tip]
 当你安装 VS Code 并第一次打开的时候，VS Code 会自动检测当前系统语言并在右下角推荐你安装对应语言的扩展，点击按钮即可自动安装。</p>
 </blockquote>
-<h4 id="_2-node-js" tabindex="-1"><a class="header-anchor" href="#_2-node-js"><span>2. Node.js</span></a></h4>
+<h4 id="_2-node-js" tabindex="-1"><a class="header-anchor" href="#_2-node-js"><span>② Node.js</span></a></h4>
 <blockquote>
 <p>[!Introduce]
 <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js®open in new window<ExternalLinkIcon/></a> 是一个基于 <a href="https://v8.dev/" target="_blank" rel="noopener noreferrer">Chrome V8 引擎open in new window<ExternalLinkIcon/></a> 的 JavaScript 运行时环境。</p>
@@ -96,7 +95,7 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 如果你真的是个小白，请不要改默认安装目录，以免你在出现问题时找不到对应的文件夹。</p>
 </blockquote>
 <p>Node.js 本身只会占据几十 M 的空间!</p>
-<h4 id="_3-pnpm" tabindex="-1"><a class="header-anchor" href="#_3-pnpm"><span>3. pnpm</span></a></h4>
+<h4 id="_3-pnpm" tabindex="-1"><a class="header-anchor" href="#_3-pnpm"><span>③ pnpm</span></a></h4>
 <p>在你安装 Node.js 之后，在终端中输入下列命令启用 corepack:</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>corepack <span class="token builtin class-name">enable</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
@@ -105,14 +104,14 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 <p>pnpm 的一些功能可以保证你拥有正确的依赖，并且它能加速安装。</p>
 </blockquote>
 <p>但是如果在使用pnpm安装的时候出现了错误，改为使用npm是一种不赖的选择</p>
-<h3 id="搭建项目" tabindex="-1"><a class="header-anchor" href="#搭建项目"><span>搭建项目</span></a></h3>
-<h4 id="_1-选择项目位置" tabindex="-1"><a class="header-anchor" href="#_1-选择项目位置"><span>1. 选择项目位置</span></a></h4>
+<h3 id="_2-搭建项目" tabindex="-1"><a class="header-anchor" href="#_2-搭建项目"><span>2. 搭建项目</span></a></h3>
+<h4 id="_1-选择项目位置" tabindex="-1"><a class="header-anchor" href="#_1-选择项目位置"><span>① 选择项目位置</span></a></h4>
 <p>为了避免偶然间触发一些奇怪的问题，而你自己不会解决，请尽量避免使用包含中文文字、表情符号或空格的文件路径 (不好的例子: <code v-pre>C:\Users\小张\Desktop\VuePress 项目\Hope 主题❤️\</code>)。</p>
 <p>建议使用纯英文路径 (好的例子: <code v-pre>D:\projects\vuepress-theme-hope\</code>)</p>
-<h4 id="_2-初始化项目" tabindex="-1"><a class="header-anchor" href="#_2-初始化项目"><span>2. 初始化项目</span></a></h4>
+<h4 id="_2-初始化项目" tabindex="-1"><a class="header-anchor" href="#_2-初始化项目"><span>② 初始化项目</span></a></h4>
 <p>如果你选择了一个主题，请务必使用该主题提供的脚手架工具创建项目。这样可以减少很多配置上的麻烦。</p>
 <p>在选定的文件夹中打开终端。</p>
-<Tabs id="267" :data='[{"id":"在Mac中打开终端"},{"id":"在Ubuntu中打开终端"},{"id":"在Windows中打开终端"}]' :active="2">
+<Tabs id="264" :data='[{"id":"在Mac中打开终端"},{"id":"在Ubuntu中打开终端"},{"id":"在Windows中打开终端"}]' :active="2">
 <template #title0="{ value, isActive }">在Mac中打开终端</template>
 <template #title1="{ value, isActive }">在Ubuntu中打开终端</template>
 <template #title2="{ value, isActive }">在Windows中打开终端</template>
@@ -126,7 +125,7 @@ favicon: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favic
 <p>使用文件管理器打开对应文件夹，然后在上方的地址栏中输入 <code v-pre>cmd</code> 并按下回车。</p>
 </template>
 </Tabs>
-<CodeTabs id="284" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' :active="2" tab-id="shell">
+<CodeTabs id="281" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' :active="2" tab-id="shell">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }">npm</template>
@@ -176,7 +175,7 @@ added <span class="token number">293</span> packages <span class="token keyword"
 模板已成功生成<span class="token operator">!</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>初始化目录结构如下</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-d6c8fb22be4f418abf38ef344030fd7c~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="首页配置" tabindex="-1"><a class="header-anchor" href="#首页配置"><span>首页配置</span></a></h3>
+<h3 id="_3-1-首页配置" tabindex="-1"><a class="header-anchor" href="#_3-1-首页配置"><span>3.1 首页配置</span></a></h3>
 <p>其中，src 目录下的 <code v-pre>README.md</code>即为博客或者文档的首页。</p>
 <p>等待下载完毕，执行 <code v-pre>npm run docs:dev</code></p>
 <p>打开页面，可以看到博客的首页如下：</p>
@@ -219,7 +218,7 @@ projects:
 
 footer: 萌萌哒草头将军
 
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="导航栏" tabindex="-1"><a class="header-anchor" href="#导航栏"><span>导航栏</span></a></h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-2-导航栏配置" tabindex="-1"><a class="header-anchor" href="#_3-2-导航栏配置"><span>3.2 导航栏配置</span></a></h3>
 <p>在开始之前你需要明确，你的导航栏需求是啥样的（大白话就是哪些栏目需要在侧边栏展示，哪些在侧边栏展示）</p>
 <p>我的思路是，根据文章的分类，将相同的分类文章放在同一目录下，每个目录对应一个导航栏目。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-afe5a87db78a22a56906383692d3af57_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -313,10 +312,10 @@ footer: 萌萌哒草头将军
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>我将一些默认的路由也加进了导航栏配置中，比如时间轴、标签、分类等。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-9cc52ff1585e6e6202033698b3484606_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="侧边栏" tabindex="-1"><a class="header-anchor" href="#侧边栏"><span>侧边栏</span></a></h3>
+<h3 id="_3-3-侧边栏配置" tabindex="-1"><a class="header-anchor" href="#_3-3-侧边栏配置"><span>3.3 侧边栏配置</span></a></h3>
 <p>侧边栏的配置在 <code v-pre>sidebar.ts</code>中</p>
 <p>侧边栏的配置，我们可以分两种情况：全局导航栏、根据每个导航栏栏目分离式导航栏。</p>
-<h4 id="_1-全局侧边栏配置" tabindex="-1"><a class="header-anchor" href="#_1-全局侧边栏配置"><span>1. 全局侧边栏配置</span></a></h4>
+<h4 id="_1-全局侧边栏配置" tabindex="-1"><a class="header-anchor" href="#_1-全局侧边栏配置"><span>① 全局侧边栏配置</span></a></h4>
 <p>你可以设置侧边栏导航和导航栏的路由一一对应，这样就相当于是全局的侧边栏。</p>
 <p>对于侧边栏的具体条目，可以通过设置<code v-pre>children: &quot;structure&quot;</code>根据当前目录下的文件名称自动生成。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js" data-title="\src.vuepress\sidebar.ts"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> sidebar <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vuepress-theme-hope"</span><span class="token punctuation">;</span>
@@ -362,7 +361,7 @@ footer: 萌萌哒草头将军
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此时页面侧边栏如下图</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-750678252dca76d05e961648cd4c4603_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h4 id="_2-分离式导航栏" tabindex="-1"><a class="header-anchor" href="#_2-分离式导航栏"><span>2. 分离式导航栏</span></a></h4>
+<h4 id="_2-分离式导航栏" tabindex="-1"><a class="header-anchor" href="#_2-分离式导航栏"><span>② 分离式导航栏</span></a></h4>
 <p>分离式菜单配置更简洁，如下所示：当设置<code v-pre>structure</code>时，默认根据目录下的文件自动生成侧边栏。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js" data-title="\src.vuepress\sidebar.ts"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> sidebar <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vuepress-theme-hope"</span><span class="token punctuation">;</span>
 
@@ -375,7 +374,7 @@ footer: 萌萌哒草头将军
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-cc16a07b5d6cdcc2ce8bd805dfe53dd2_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h4 id="_3-自动生成目录页面" tabindex="-1"><a class="header-anchor" href="#_3-自动生成目录页面"><span>3. 自动生成目录页面</span></a></h4>
+<h4 id="_3-自动生成目录页面" tabindex="-1"><a class="header-anchor" href="#_3-自动生成目录页面"><span>③ 自动生成目录页面</span></a></h4>
 <p>另外，我们还根据文件夹下的文件列表自动为每个文件夹生成目录页面。我们只需要在<code v-pre>theme.ts</code>中添加如下设置。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js" data-title="\src.vuepress\theme.ts"><pre v-pre class="language-javascript"><code><span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">{</span>
     <span class="token literal-property property">autoCatalog</span><span class="token operator">:</span> <span class="token punctuation">{</span>
@@ -384,12 +383,12 @@ footer: 萌萌哒草头将军
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>就可以自动生成目录页面了。例如：</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/VuePress-theme-hope2-deploy-9b379d0629ac655174377c76c8f00c1d_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3 id="搜索功能" tabindex="-1"><a class="header-anchor" href="#搜索功能"><span><a href="https://theme-hope.vuejs.press/zh/guide/feature/search.html" target="_blank" rel="noopener noreferrer">搜索<ExternalLinkIcon/></a>功能</span></a></h3>
+<h3 id="_3-4-搜索功能" tabindex="-1"><a class="header-anchor" href="#_3-4-搜索功能"><span>3.4 <a href="https://theme-hope.vuejs.press/zh/guide/feature/search.html" target="_blank" rel="noopener noreferrer">搜索<ExternalLinkIcon/></a>功能</span></a></h3>
 <p>该主题内置了几种常见搜索插件的支持，你只需下载你喜欢的插件和配置文件即可，我使用的是<code v-pre>vuepress-plugin-search-pro</code>插件，配置参考的官方配置。</p>
 <ol>
 <li>安装 <code v-pre>vuepress-plugin-search-pro</code></li>
 </ol>
-<CodeTabs id="455" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":""}]' :active="2" tab-id="shell">
+<CodeTabs id="452" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":""}]' :active="2" tab-id="shell">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }"></template>

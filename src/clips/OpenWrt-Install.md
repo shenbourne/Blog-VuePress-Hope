@@ -8,7 +8,7 @@ tag:
   - OpenWrt
 ---
 
-## 1 准备u盘
+## 一、准备u盘
 
 准备u盘（后续会被完全擦除），打开wePE（一种常用的WinPE [^1]安装工具，其中还包括了许多常用工具）[微PE官网](https://www.wepe.com.cn/download.html)
 
@@ -30,9 +30,9 @@ tag:
 
 ---
 
-## 2 写入OpenWrt
+## 二、写入OpenWrt
 
-### WinPE安装
+### 1. WinPE安装
 
 插入软路由，给软路由接一套键鼠
 
@@ -44,7 +44,7 @@ tag:
 
 ![](/assets/OpenWrt-Install/0e88e6895bf4d96ecddbc120977943d2_MD5.jpeg)
 
-### 写入镜像
+### 2. 写入镜像
 
 进入C盘，打开“[DiskImage](https://roadkil.net/program.php/P12/Disk%20Image)”
 
@@ -58,13 +58,13 @@ tag:
 
 ---
 
-## 3 初始配置OpenWrt
+## 三、初始配置OpenWrt
 
 回车进入OpenWrt终端
 
 ![](/assets/OpenWrt-Install/a251c2e30124fb93440dcc2237b16887_MD5.jpeg)
 
-### 设置密码
+### 1. 设置密码
 
 在终端输入`passwd`并回车
 在`New Password:`输入密码，并回车
@@ -73,7 +73,7 @@ tag:
 
 ![](/assets/OpenWrt-Install/77de6a10a109b7184aec4efd76623799_MD5.jpeg)
 
-### 配置软路由网络和端口
+### 2. 配置软路由网络和端口
 
 在终端中输入`vi /etc/config/network`并回车
 按“i”进入输入模式，此时屏幕左下方显示`--INSERT--` 
@@ -89,7 +89,7 @@ tag:
 修改完成后按“Esc”退出输入模式，然后按“Shift”和分号键，随后在出现的冒号后输入`wq`保存并退出
 然后输入`reboot`并回车重启软路由
 
-### 进入OpenWrt面板 
+### 3. 进入OpenWrt面板 
 
 将电脑网口和软路由接口相连
 在浏览器中输入192.168.5.1进入OpenWrt控制面板
@@ -97,7 +97,7 @@ tag:
 
 ---
 
-## 3.1 OpenWrt的主路由设置
+## 四（一）OpenWrt的主路由设置
 
 将电脑网口和软路由ETH1口相连，将光猫LAN口与软路由WAN口相连
 
@@ -112,7 +112,7 @@ tag:
 
 ---
 
-## 3.2 OpenWrt的旁路由设置
+## 四（二）OpenWrt的旁路由设置
 
 将电脑网口和软路由随意接口相连
 
@@ -122,7 +122,7 @@ tag:
 
 如果想内网流量都自动经过它，则只需在主路由上的DHCP分配网关、DNS设置为旁路由即可。
 
-### 旁路由上的设置
+### 1. 旁路由上的设置
 
 ![](/assets/OpenWrt-Install/302bc5dff0730f8b84f35b294999d777_MD5.jpeg)
 
@@ -136,7 +136,7 @@ DNS设置为主路由IP
 
 ![](/assets/OpenWrt-Install/5088d3cda19eaa087371877742c2e6d3_MD5.webp)
 
-### 所有流量都经过旁路由的设置
+### 2. 所有流量都经过旁路由的设置
 
 梅林支持自定义DHCP的分配的网关和DNS服务器，所以我这里填写：
 
@@ -150,13 +150,13 @@ DNS设置为主路由IP
 
 注：部分无法自定义DHCP分配网关的路由器或系统，**只能将DHCP服务在旁路由开启！**
 
-### 个别机器流量经过旁路由的设置
+### 3. 个别机器流量经过旁路由的设置
 
 无需操作主路由，在PC中【网络->适配器选项->双击适配器->属性->双击Internet协议版本4(TCP/IPv4)】，修改网关和DNS指向到旁路由即可，Mac同理。
 
 ![](/assets/OpenWrt-Install/24033d6a6c9be707363ff5a0527662e5_MD5.webp)
 
-### 后话
+### 4. 后话
 
 这样就设置完毕了，如果有网页打不开，可以关闭浏览器并在cmd中输入 **ipconfig /flushdns** 命令刷新DNS缓存试试。
 
@@ -172,9 +172,9 @@ iptables -t nat -I POSTROUTING -j MASQUERADE
 
 ---
 
-## 4 获取IPv6地址
+## 五、获取IPv6地址
 
-### 软路由获取IPv6地址
+### 1. 软路由获取IPv6地址
 
 删除OpenWrt自带的WAN6接口，然后创建新的WAN6接口
 
@@ -190,7 +190,7 @@ iptables -t nat -I POSTROUTING -j MASQUERADE
 
 若光猫未处于桥接模式下，公网IPv6的分配可能被光猫拦截
 
-### 下游设备分配IPv6地址和局域网IPv4地址
+### 2. 下游设备分配IPv6地址和局域网IPv4地址
 
 编辑LAN口，在“基本设置”处更改IPv6分配长度为“64”
 

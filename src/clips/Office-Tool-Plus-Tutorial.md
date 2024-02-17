@@ -3,7 +3,7 @@ title: Office Tool Plus 使用指南
 icon: github
 order: 2
 category:
-  - tutorial
+  - 安装教程
 tag:
   - Office
   - crack

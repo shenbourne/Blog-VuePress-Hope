@@ -1,5 +1,5 @@
 ---
-title: 使用Github+picGo搭建图床
+title: 使用 Github+picGo 搭建图床
 icon: pic
 order: 2
 category:
@@ -8,6 +8,7 @@ tag:
   - GitHub
   - picGo
   - Typora
+  - Obsidian
 ---
 
 > 作者注：建议使用Github替换Gitee。
