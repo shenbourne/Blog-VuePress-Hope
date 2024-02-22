@@ -4,7 +4,7 @@ import theme from "./theme.js";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default defineUserConfig({
-  base: "/Blog-VuePress-Hope/",
+  // base: "/Blog-VuePress-Hope/",
 
   lang: "zh-CN",
   title: "ShenBourne",
