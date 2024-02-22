@@ -1,4 +1,24 @@
-<template><div><h2 id="一、准备u盘" tabindex="-1"><a class="header-anchor" href="#一、准备u盘"><span>一、准备u盘</span></a></h2>
+<template><div><p>::: cardList</p>
+<div class="language-yaml line-numbers-mode" data-ext="yml" data-title="yml"><pre v-pre class="language-yaml"><code><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 麋鹿鲁哟
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> 大道至简，知易行难
+  <span class="token key atrule">avatar</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200122153807.jpg <span class="token comment"># 可选</span>
+  <span class="token key atrule">link</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//www.cnblogs.com/miluluyo/ <span class="token comment"># 可选</span>
+  <span class="token key atrule">bgColor</span><span class="token punctuation">:</span> <span class="token string">'#CBEAFA'</span> <span class="token comment"># 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号</span>
+  <span class="token key atrule">textColor</span><span class="token punctuation">:</span> <span class="token string">'#6854A1'</span> <span class="token comment"># 可选，默认var(--textColor)</span>
+<span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> XAOXUU
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> <span class="token string">'#IOS #Volantis主题作者'</span>
+  <span class="token key atrule">avatar</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
+  <span class="token key atrule">link</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//xaoxuu.com
+  <span class="token key atrule">bgColor</span><span class="token punctuation">:</span> <span class="token string">'#718971'</span>
+  <span class="token key atrule">textColor</span><span class="token punctuation">:</span> <span class="token string">'#fff'</span>
+<span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 平凡的你我
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> 理想成为大牛的小陈同学
+  <span class="token key atrule">avatar</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//reinness.com/avatar.png
+  <span class="token key atrule">link</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//reinness.com
+  <span class="token key atrule">bgColor</span><span class="token punctuation">:</span> <span class="token string">'#FCDBA0'</span>
+  <span class="token key atrule">textColor</span><span class="token punctuation">:</span> <span class="token string">'#A05F2C'</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>:::</p>
+<h2 id="一、准备u盘" tabindex="-1"><a class="header-anchor" href="#一、准备u盘"><span>一、准备u盘</span></a></h2>
 <p>准备u盘（后续会被完全擦除），打开wePE（一种常用的WinPE <a href="WinPE:%E6%9E%81%E5%BA%A6%E7%B2%BE%E7%AE%80%E7%9A%84%E3%80%81%E5%8F%AF%E4%BB%A5%E5%9C%A8U%E7%9B%98%E8%BF%90%E8%A1%8C%E7%9A%84Windows%E7%B3%BB%E7%BB%9F">^1</a>安装工具，其中还包括了许多常用工具）<a href="https://www.wepe.com.cn/download.html" target="_blank" rel="noopener noreferrer">微PE官网<ExternalLinkIcon/></a></p>
 <p>点击“安装到U盘”</p>
 <figure><img src="/assets/OpenWrt-Install/95a4c7ba5aac14a4099bf7e6d0095f0b_MD5.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>

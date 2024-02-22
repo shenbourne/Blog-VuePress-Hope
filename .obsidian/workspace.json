@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/README.md",
                 "mode": "preview",
                 "source": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md"
+                "file": "src/README.md"
               }
             }
           }
@@ -192,8 +192,8 @@
   },
   "active": "6bfbfef4ac625477",
   "lastOpenFiles": [
-    "src/clips/GitHub-and-picGo-Deploy.md",
     "src/clips/Office-Tool-Plus-Tutorial.md",
+    "src/clips/GitHub-and-picGo-Deploy.md",
     "src/clips/OpenWrt-Docker-Expansion.md",
     "src/clips/OpenWrt-Install.md",
     "src/clips/VuePress-theme-hope2-Deploy.md",
