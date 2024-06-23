@@ -10,6 +10,10 @@ export default defineUserConfig({
   title: "ShenBourne",
   description: "ShenBourne 的博客",
 
+  head: [
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-QjpSgXKOie' }]
+  ],
+
   theme,
 
   // 和 PWA 一起启用
