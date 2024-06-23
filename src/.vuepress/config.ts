@@ -11,7 +11,8 @@ export default defineUserConfig({
   description: "ShenBourne 的博客",
 
   head: [
-    ['meta', { name: 'baidu-site-verification', content: 'codeva-QjpSgXKOie' }]
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-QjpSgXKOie' }],
+    ['meta', { name: 'msvalidate.01', content: '5C3477780F9F5FC1EC4506DC1B8B70B0' }]
   ],
 
   theme,
