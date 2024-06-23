@@ -112,6 +112,7 @@ export default hopeTheme({
       repo: 'vuepress-theme-hope',
       clientId: 'Ov23liep2yx0Rr2ZrDAM',
       clientSecret: 'aa0bf131513c8d904b2c76a2dfee0378d76e997a',
+      showComment: true,
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
