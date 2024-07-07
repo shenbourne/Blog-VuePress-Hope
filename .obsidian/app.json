@@ -1,3 +1,6 @@
 {
-  "livePreview": false
+  "livePreview": false,
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true
 }

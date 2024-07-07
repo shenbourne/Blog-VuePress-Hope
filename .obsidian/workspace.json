@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/story/Project-Sharing.md",
+                "file": "src/clips/Black-Synology-Install.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/story/Project-Sharing.md",
+                "file": "src/clips/Black-Synology-Install.md",
                 "mode": "preview",
                 "source": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/story/Project-Sharing.md",
+                "file": "src/clips/Black-Synology-Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/story/Project-Sharing.md",
+                "file": "src/clips/Black-Synology-Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/story/Project-Sharing.md"
+                "file": "src/clips/Black-Synology-Install.md"
               }
             }
           }
@@ -192,41 +192,43 @@
   },
   "active": "6bfbfef4ac625477",
   "lastOpenFiles": [
-    "src/story/Crack-Websites-Sharing.md",
-    "src/story/Project-Sharing.md",
-    "src/clips/Black-Synology-Install.md",
     "src/clips/Aliyun-Docker-Image-with-GitHub-Action.md",
-    "src/clips/GitHub-and-picGo-Deploy.md",
-    "src/clips/Office-Tool-Plus-Tutorial.md",
-    "src/clips/VuePress-theme-hope2-Deploy.md",
+    "src/clips/Black-Synology-Install.md",
     "src/clips/OpenWrt-Install.md",
-    "src/README.md",
-    "src/clips/OpenWrt-Docker-Expansion.md",
-    "src/appendix/VuePress-theme-hope2-Local-deploy.md",
-    "src/appendix/VuePress-theme-hope2-GitHub-deploy.md",
-    "src/appendix/Use-Git-to-Submit-Local-Code-to-GitHub.md",
-    "src/appendix/picGo-integrated-Obsidian.md",
-    "src/story/x86-x64-amd64-arm.md",
-    "src/demo/disable.md",
-    "src/demo/page.md",
-    "src/demo/markdown.md",
-    "src/appendix",
-    "src/demo/encrypt.md",
-    "src/demo/README.md",
-    "src/demo/layout.md",
-    "node_modules/slimsearch/dist/SearchableMap.mjs.map",
-    "node_modules/slimsearch/dist/SearchableMap.mjs",
-    "node_modules/slimsearch/dist/SearchableMap.d.ts",
-    "node_modules/slimsearch/dist/SearchableMap.d.mts",
-    "node_modules/slimsearch/dist/SearchableMap.d.cts",
-    "node_modules/slimsearch/dist/SearchableMap.cjs.map",
-    "node_modules/slimsearch/dist/SearchableMap.cjs",
-    "node_modules/slimsearch/dist/index.mjs.map",
-    "node_modules/slimsearch/dist/index.d.ts",
-    "node_modules/slimsearch/README.md",
-    "node_modules/vuepress-plugin-search-pro/node_modules/vuepress-shared/README.md",
-    "node_modules/vuepress-plugin-search-pro/node_modules/vuepress-plugin-sass-palette/README.md",
-    "node_modules/vuepress-plugin-search-pro/README.md",
-    "node_modules/react-facebook-login/README.md"
+    "src/clips/Black-Synology-Install.md~",
+    "node_modules/highlight.js/types/index.d.ts",
+    "node_modules/highlight.js/types",
+    "node_modules/highlight.js/scss/base16/zenburn.scss",
+    "node_modules/highlight.js/scss/base16/xcode-dusk.scss",
+    "node_modules/highlight.js/scss/base16/woodland.scss",
+    "node_modules/highlight.js/scss/base16/windows-nt.scss",
+    "node_modules/highlight.js/scss/base16/windows-nt-light.scss",
+    "node_modules/highlight.js/scss/base16/windows-high-contrast.scss",
+    "node_modules/highlight.js/scss/base16/windows-high-contrast-light.scss",
+    "node_modules/highlight.js/VERSION_11_UPGRADE.md",
+    "node_modules/highlight.js/VERSION_10_UPGRADE.md",
+    "node_modules/highlight.js/SUPPORTED_LANGUAGES.md",
+    "node_modules/highlight.js/SECURITY.md",
+    "node_modules/highlight.js/README.md",
+    "node_modules/highlight.js/CHANGES.md",
+    "node_modules/@gera2ld/jsx-dom/README.md",
+    "node_modules/@types/d3-array/README.md",
+    "node_modules/@types/d3-drag/README.md",
+    "node_modules/@types/d3-chord/README.md",
+    "node_modules/@types/d3-quadtree/README.md",
+    "node_modules/@types/d3-polygon/README.md",
+    "node_modules/@types/d3-shape/README.md",
+    "node_modules/@types/d3-interpolate/README.md",
+    "node_modules/@types/d3-axis/README.md",
+    "node_modules/@types/d3-delaunay/README.md",
+    "node_modules/@types/d3/README.md",
+    "node_modules/@types/d3-transition/README.md",
+    "node_modules/katex/src/metrics/README.md",
+    "node_modules/katex/contrib/mathtex-script-type/README.md",
+    "node_modules/katex/contrib/mhchem/README.md",
+    "node_modules/katex/contrib/copy-tex/README.md",
+    "node_modules/katex/contrib/auto-render/README.md",
+    "node_modules/highlight.js/styles/pojoaque.jpg",
+    "node_modules/highlight.js/styles/brown-papersq.png"
   ]
 }

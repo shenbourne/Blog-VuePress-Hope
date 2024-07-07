@@ -12,6 +12,9 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.6",
+    "markmap-lib": "^0.15.8",
+    "markmap-toolbar": "^0.15.8",
+    "markmap-view": "^0.15.8",
     "mermaid": "^10.8.0",
     "vue": "^3.4.15",
     "vuepress": "2.0.0-rc.6",

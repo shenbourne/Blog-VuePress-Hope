@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-shared/lib/client/index.js";
+import { hasGlobalComponent } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-shared/lib/client/index.js";
 
-import { useScriptTag } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useScriptTag } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

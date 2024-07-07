@@ -127,6 +127,10 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       mark: true,
+
+      // https://theme-hope.vuejs.press/zh/guide/markdown/chart/markmap.html
+      markmap: true,
+
       stylize: [
         {
           matcher: "Recommended",

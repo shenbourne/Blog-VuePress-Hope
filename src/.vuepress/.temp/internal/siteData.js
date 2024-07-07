@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"ShenBourne\",\"description\":\"ShenBourne 的博客\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"ShenBourne\",\"description\":\"ShenBourne 的博客\",\"head\":[[\"meta\",{\"name\":\"baidu-site-verification\",\"content\":\"codeva-QjpSgXKOie\"}],[\"meta\",{\"name\":\"msvalidate.01\",\"content\":\"5C3477780F9F5FC1EC4506DC1B8B70B0\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

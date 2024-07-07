@@ -1,16 +1,16 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "D:/Shenb/vuepress-theme-hope/blogs/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;
