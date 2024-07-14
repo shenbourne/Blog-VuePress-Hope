@@ -1,7 +1,7 @@
 ---
 title: 剪藏
 index: false
-icon: laptop-code
+icon: book
 category:
   - 使用指南
 ---
