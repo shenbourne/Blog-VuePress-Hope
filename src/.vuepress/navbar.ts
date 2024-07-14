@@ -3,12 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/demo/",
-  {
-    text: "剪藏",
-    icon: "pen-to-square",
-    prefix: "/clips/",
-    children: ["Office-Tool-Plus-Tutorial.md","OpenWrt-Docker-Expansion.md","OpenWrt-Install.md","VuePress-theme-hope2-Deploy.md","GitHub-and-picGo-Deploy.md","Aliyun-Docker-Image-with-GitHub-Action.md","Black-Synology-Install.md"],
-  },
+  "/clips/",
   {
     text: "V2 文档",
     icon: "book",
