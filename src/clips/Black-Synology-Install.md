@@ -61,7 +61,7 @@ NVME的PCIPATH有两种格式, 单层路径的兼容 DT 的型号, 多层路径�
 
 进入网站下载arpl巴西大佬群晖引导：[RROrg/rr: Redpill Recovery (arpl-i18n)](https://github.com/RROrg/rr/releases)
 
-下翻并选择后缀为.img.zip的文件，点击下载。
+下翻并选择后缀为 .img.zip 的文件，点击下载。
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407080452810.png)
 

@@ -1,4 +1,7 @@
 import {
+  setupDevtoolsPlugin
+} from "./chunk-UPE25H5B.js";
+import {
   computed,
   defineComponent,
   getCurrentInstance,
@@ -17,9 +20,6 @@ import {
   watch,
   watchEffect
 } from "./chunk-QSYILRGV.js";
-import {
-  setupDevtoolsPlugin
-} from "./chunk-UPE25H5B.js";
 import "./chunk-3EJPJMEH.js";
 
 // node_modules/vue-router/dist/vue-router.mjs

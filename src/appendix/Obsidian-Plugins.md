@@ -9,6 +9,8 @@ tag:
   - picGo
 ---
 
+## “Paste image rename”：Obsidian本地图片通过picGo上传图床
+
 ### 1. 效果综述
 
 目前我的主力笔记软件是[[Obsidian]]，配图都是统一存放在同一文件夹 `890 Attachments` 内，使用[[Paste image rename]]使其与所引用的元文件名称一致，优点是**方便跨文件引用以及安全隐私**。但存在的弊端也很明显：**随着文件数量增多会导致内存占用过大不利于跨平台同步以及迁移麻烦**。这时可以考虑 webp 化或者干脆直接图床化。
@@ -22,7 +24,7 @@ tag:
 
 ### 2. 上传图片
 
-这里我们需要借助一个插件：[[Image auto upload]]，可以将图片上传到 PicGo 中配置的图床。
+这里我们需要借助一个插件：**“Image auto upload”**，可以将图片上传到 PicGo 中配置的图床。
 
 ![](https://pic2.zhimg.com/80/v2-331c4279a55a99ab3692fe8dc4ad8475_1440w.webp)
 
@@ -129,4 +131,31 @@ tag:
 
 最后再强调一遍，**执行以上操作前务必做好备份！以防操作失误无法挽回！**
 
-出处：https://zhuanlan.zhihu.com/p/646068563
+## “Remotely save”：本地和云端同步文件
+
+### 1. 效果综述
+
+本地和云之间同步笔记。
+
+- 支持黑曜石移动版。保管库可以在移动和桌面设备之间同步，云服务作为“代理”。
+- 支持端到端加密。如果用户指定密码，文件将在发送到云之前使用 openssl 格式进行加密。
+- 支持定时自动同步。您还可以使用侧边栏功能区或使用命令面板中的命令手动触发同步（甚至可以将热键组合绑定到命令，然后按热键组合）。
+
+### 2. 配置插件
+
+在应用商店下载 **“Remotely save”**，启动插件后进行插件配置。
+
+**“选择远程服务”** 选择 **“S3或兼容S3的服务”**
+
+![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407140125161.png)
+
+打开 Bucket 预览页面
+
+
+![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407140125160.png)
+
+**“服务地址（Endpoint）”** 和 **“区域（Region）”** 分别是 **“外网访问”** 节点和 **“ECS的经典网络访问”** 节点
+
+**“Access Key ID”** 、**“Secret Access Key”** 分别是在上文 **'阿里云OSS/授权设置"** 中创建子账号后， 自己记录下来的 **"AccessKey ID"** 和 **"AccessKey Scre"t**
+
+存储桶（Bucket）的名字 ：对应阿里云 OSS 内的 bucket 名字

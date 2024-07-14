@@ -104,16 +104,16 @@ export default hopeTheme({
       hostname: 'https://hope.shenbourne.com'
     },
 
-    '@vssue/vuepress-plugin-vssue': {
-      // 设置 `platform` 而不是 `api`
-      platform: 'github',
-      // 其他的 Vssue 配置
-      owner: 'shenbourne',
-      repo: 'vuepress-theme-hope',
-      clientId: 'Ov23liep2yx0Rr2ZrDAM',
-      clientSecret: 'aa0bf131513c8d904b2c76a2dfee0378d76e997a',
-      showComment: true,
-    },
+    // '@vssue/vuepress-plugin-vssue': {
+    //   // 设置 `platform` 而不是 `api`
+    //   platform: 'github',
+    //   // 其他的 Vssue 配置
+    //   owner: 'shenbourne',
+    //   repo: 'vuepress-theme-hope',
+    //   clientId: 'Ov23liep2yx0Rr2ZrDAM',
+    //   clientSecret: 'aa0bf131513c8d904b2c76a2dfee0378d76e997a',
+    //   showComment: true,
+    // },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {

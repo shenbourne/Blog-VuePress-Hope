@@ -6,7 +6,7 @@ category:
   - 安装教程
 tag:
   - GitHub
-  - AliYun
+  - Aliyun
   - Docker
   - 1Panel
 ---

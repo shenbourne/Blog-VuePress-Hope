@@ -8,29 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6bfbfef4ac625477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/clips/Black-Synology-Install.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "5749b3a5eb73abee"
-          },
-          {
             "id": "9d8378fd8e8fd794",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/story/x86-x64-amd64-arm.md",
+                "file": "src/appendix/Obsidian-Plugins.md",
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "8a80ee2def570123"
           },
           {
             "id": "d6e78e063e26b9d2",
@@ -56,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Black-Synology-Install.md",
+                "file": "src/appendix/Obsidian-Plugins.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "5749b3a5eb73abee"
+            "group": "8a80ee2def570123"
           }
         ]
       }
@@ -129,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/clips/Black-Synology-Install.md",
+                "file": "src/appendix/Obsidian-Plugins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/clips/Black-Synology-Install.md",
+                "file": "src/appendix/Obsidian-Plugins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/clips/Black-Synology-Install.md"
+                "file": "src/appendix/Obsidian-Plugins.md"
               }
             }
           }
@@ -190,20 +178,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6bfbfef4ac625477",
+  "active": "9d8378fd8e8fd794",
   "lastOpenFiles": [
-    "src/clips/OpenWrt-Install.md",
+    "src/story/x86-x64-amd64-arm.md",
+    "src/appendix/Obsidian-Plugins.md",
+    "src/appendix/VuePress-theme-hope2-GitHub-deploy.md",
+    "src/appendix/Use-Git-to-Submit-Local-Code-to-GitHub.md",
+    "Image auto upload.md",
     "src/clips/VuePress-theme-hope2-Deploy.md",
+    "src/clips/GitHub-and-picGo-Deploy.md",
+    "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
+    "src/clips/OpenWrt-Docker-Expansion.md",
+    "src/clips/Office-Tool-Plus-Tutorial.md",
+    "src/clips/Black-Synology-Install.md",
+    "src/clips/Aliyun-Docker-Image-with-GitHub-Action.md",
+    "src/clips/OpenWrt-Install.md",
+    "未命名.md",
+    "src/appendix/VuePress-theme-hope2-Local-deploy.md",
+    "src/README.md~",
     "src/demo/disable.md",
     "src/demo/encrypt.md",
     "src/demo/layout.md",
     "src/demo/markdown.md",
     "src/demo/page.md",
     "src/demo/README.md",
-    "src/clips/Office-Tool-Plus-Tutorial.md",
-    "src/clips/Black-Synology-Install.md",
-    "src/clips/GitHub-and-picGo-Deploy.md",
-    "src/clips/Aliyun-Docker-Image-with-GitHub-Action.md",
     "src/clips/Black-Synology-Install.md~",
     "node_modules/highlight.js/types/index.d.ts",
     "node_modules/highlight.js/types",
@@ -213,21 +211,11 @@
     "node_modules/highlight.js/scss/base16/windows-nt.scss",
     "node_modules/highlight.js/scss/base16/windows-nt-light.scss",
     "node_modules/highlight.js/scss/base16/windows-high-contrast.scss",
-    "node_modules/highlight.js/scss/base16/windows-high-contrast-light.scss",
     "node_modules/highlight.js/VERSION_11_UPGRADE.md",
     "node_modules/highlight.js/VERSION_10_UPGRADE.md",
     "node_modules/highlight.js/SUPPORTED_LANGUAGES.md",
     "node_modules/highlight.js/SECURITY.md",
     "node_modules/highlight.js/README.md",
-    "node_modules/highlight.js/CHANGES.md",
-    "node_modules/@gera2ld/jsx-dom/README.md",
-    "node_modules/@types/d3-array/README.md",
-    "node_modules/@types/d3-drag/README.md",
-    "node_modules/@types/d3-chord/README.md",
-    "node_modules/@types/d3-quadtree/README.md",
-    "node_modules/@types/d3-polygon/README.md",
-    "node_modules/@types/d3-shape/README.md",
-    "node_modules/@types/d3-interpolate/README.md",
     "node_modules/highlight.js/styles/pojoaque.jpg",
     "node_modules/highlight.js/styles/brown-papersq.png"
   ]

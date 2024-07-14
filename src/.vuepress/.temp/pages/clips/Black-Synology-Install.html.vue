@@ -28,7 +28,7 @@
 <h2 id="一、群辉引导u盘制作、系统安装" tabindex="-1"><a class="header-anchor" href="#一、群辉引导u盘制作、系统安装"><span>一、群辉引导U盘制作、系统安装</span></a></h2>
 <h3 id="_1-下载基本文件" tabindex="-1"><a class="header-anchor" href="#_1-下载基本文件"><span>1. 下载基本文件</span></a></h3>
 <p>进入网站下载arpl巴西大佬群晖引导：<a href="https://github.com/RROrg/rr/releases" target="_blank" rel="noopener noreferrer">RROrg/rr: Redpill Recovery (arpl-i18n)<ExternalLinkIcon/></a></p>
-<p>下翻并选择后缀为.img.zip的文件，点击下载。</p>
+<p>下翻并选择后缀为 .img.zip 的文件，点击下载。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407080452810.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>得到文件使用解压缩软件进行解压缩，得到文件：<code v-pre>rr.img</code> 。</p>
 <p>下载Rufus写盘工具：<a href="https://rufus.ie/zh/" target="_blank" rel="noopener noreferrer">Rufus - 轻松创建 USB 启动盘<ExternalLinkIcon/></a></p>
