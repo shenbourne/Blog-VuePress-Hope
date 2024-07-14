@@ -108,7 +108,7 @@
 </ol>
 <p>那就以一个示例文件夹 <code v-pre>ob</code> 为例，尝试实现所有图片的图床化。</p>
 <h3 id="_2-上传图片" tabindex="-1"><a class="header-anchor" href="#_2-上传图片"><span>2. 上传图片</span></a></h3>
-<p>这里我们需要借助一个插件：[[Image auto upload]]，可以将图片上传到 PicGo 中配置的图床。</p>
+<p>这里我们需要借助一个插件：<strong>“Image auto upload”</strong>，可以将图片上传到 PicGo 中配置的图床。</p>
 <figure><img src="https://pic2.zhimg.com/80/v2-331c4279a55a99ab3692fe8dc4ad8475_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>若勾选最后一个选项，图片上传图床后会被删除！！！</p>
 <p>虽然插件只能上传一个文件中的所有图像文件，但也足够让我们打开思路了：<strong>那就把图片都丢到一个文件里</strong>！</p>
@@ -188,7 +188,6 @@
 <figure><img src="https://pic3.zhimg.com/80/v2-2c6afcf09490201540c5937b5c23d332_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>前后对比</p>
 <p>最后再强调一遍，<strong>执行以上操作前务必做好备份！以防操作失误无法挽回！</strong></p>
-<p>出处：https://zhuanlan.zhihu.com/p/646068563</p>
 <hr>
 <blockquote>
 <p>作者：小小芋子</p>

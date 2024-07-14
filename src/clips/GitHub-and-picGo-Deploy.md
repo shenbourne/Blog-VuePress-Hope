@@ -205,7 +205,7 @@ PicGo路径：picGo安装的地址
 
 ## 五、picGo集成Obsidian
 
-<!-- @include: ../appendix/picGo-integrated-Obsidian.md -->
+<!-- @include: ../appendix/Obsidian-Plugins.md#PasteImageRename -->
 
 ---
 

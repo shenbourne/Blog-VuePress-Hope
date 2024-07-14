@@ -11,6 +11,8 @@ tag:
 
 ## “Paste image rename”：Obsidian本地图片通过picGo上传图床
 
+<!-- #region PasteImageRename -->
+
 ### 1. 效果综述
 
 目前我的主力笔记软件是[[Obsidian]]，配图都是统一存放在同一文件夹 `890 Attachments` 内，使用[[Paste image rename]]使其与所引用的元文件名称一致，优点是**方便跨文件引用以及安全隐私**。但存在的弊端也很明显：**随着文件数量增多会导致内存占用过大不利于跨平台同步以及迁移麻烦**。这时可以考虑 webp 化或者干脆直接图床化。
@@ -131,7 +133,11 @@ tag:
 
 最后再强调一遍，**执行以上操作前务必做好备份！以防操作失误无法挽回！**
 
+<!-- #endregion PasteImageRename -->
+
 ## “Remotely save”：本地和云端同步文件
+
+<!-- #region RemotelySave -->
 
 ### 1. 效果综述
 
@@ -147,7 +153,8 @@ tag:
 
 **“选择远程服务”** 选择 **“S3或兼容S3的服务”**
 
-![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407140125161.png)
+![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407142051685.png)
+
 
 打开 Bucket 预览页面
 
@@ -156,6 +163,8 @@ tag:
 
 **“服务地址（Endpoint）”** 和 **“区域（Region）”** 分别是 **“外网访问”** 节点和 **“ECS的经典网络访问”** 节点
 
-**“Access Key ID”** 、**“Secret Access Key”** 分别是在上文 **'阿里云OSS/授权设置"** 中创建子账号后， 自己记录下来的 **"AccessKey ID"** 和 **"AccessKey Scre"t**
+**“Access Key ID”** 、**“Secret Access Key”** 分别是在上文 **'阿里云OSS/授权设置"** 中创建子账号后， 自己记录下来的 **"AccessKey ID"** 和 **"AccessKey Scret**
 
-存储桶（Bucket）的名字 ：对应阿里云 OSS 内的 bucket 名字
+**"存储桶（Bucket）"** 对应阿里云 OSS 内的 bucket 名字
+
+<!-- #endregion RemotelySave -->

@@ -97,8 +97,7 @@ http://localhost
 
 ## 二、Obsidian 插件设置
 
-### 1.
-
+<!-- @include: ../appendix/Obsidian-Plugins.md#RemotelySave -->
 
 
 

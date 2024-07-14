@@ -1,4 +1,5 @@
 <template><div><h2 id="paste-image-rename-obsidian本地图片通过picgo上传图床" tabindex="-1"><a class="header-anchor" href="#paste-image-rename-obsidian本地图片通过picgo上传图床"><span>“Paste image rename”：Obsidian本地图片通过picGo上传图床</span></a></h2>
+<!-- #region PasteImageRename -->
 <h3 id="_1-效果综述" tabindex="-1"><a class="header-anchor" href="#_1-效果综述"><span>1. 效果综述</span></a></h3>
 <p>目前我的主力笔记软件是[[Obsidian]]，配图都是统一存放在同一文件夹 <code v-pre>890 Attachments</code> 内，使用[[Paste image rename]]使其与所引用的元文件名称一致，优点是<strong>方便跨文件引用以及安全隐私</strong>。但存在的弊端也很明显：<strong>随着文件数量增多会导致内存占用过大不利于跨平台同步以及迁移麻烦</strong>。这时可以考虑 webp 化或者干脆直接图床化。</p>
 <p>刚好有朋友遇到这个问题，需要将 Vault 里的全部本地图片转为图床链接，解决思路的话比较清晰，相信大家都能想得到：</p>
@@ -88,7 +89,9 @@
 <figure><img src="https://pic3.zhimg.com/80/v2-2c6afcf09490201540c5937b5c23d332_1440w.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>前后对比</p>
 <p>最后再强调一遍，<strong>执行以上操作前务必做好备份！以防操作失误无法挽回！</strong></p>
+<!-- #endregion PasteImageRename -->
 <h2 id="remotely-save-本地和云端同步文件" tabindex="-1"><a class="header-anchor" href="#remotely-save-本地和云端同步文件"><span>“Remotely save”：本地和云端同步文件</span></a></h2>
+<!-- #region RemotelySave -->
 <h3 id="_1-效果综述-1" tabindex="-1"><a class="header-anchor" href="#_1-效果综述-1"><span>1. 效果综述</span></a></h3>
 <p>本地和云之间同步笔记。</p>
 <ul>
@@ -99,12 +102,12 @@
 <h3 id="_2-配置插件" tabindex="-1"><a class="header-anchor" href="#_2-配置插件"><span>2. 配置插件</span></a></h3>
 <p>在应用商店下载 <strong>“Remotely save”</strong>，启动插件后进行插件配置。</p>
 <p><strong>“选择远程服务”</strong> 选择 <strong>“S3或兼容S3的服务”</strong></p>
-<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407140125161.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407142051685.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>打开 Bucket 预览页面</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407140125160.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p><strong>“服务地址（Endpoint）”</strong> 和 <strong>“区域（Region）”</strong> 分别是 <strong>“外网访问”</strong> 节点和 <strong>“ECS的经典网络访问”</strong> 节点</p>
-<p><strong>“Access Key ID”</strong> 、<strong>“Secret Access Key”</strong> 分别是在上文 <strong>'阿里云OSS/授权设置&quot;</strong> 中创建子账号后， 自己记录下来的 <strong>&quot;AccessKey ID&quot;</strong> 和 <strong>&quot;AccessKey Scre&quot;t</strong></p>
-<p>存储桶（Bucket）的名字 ：对应阿里云 OSS 内的 bucket 名字</p>
-</div></template>
+<p><strong>“Access Key ID”</strong> 、<strong>“Secret Access Key”</strong> 分别是在上文 <strong>'阿里云OSS/授权设置&quot;</strong> 中创建子账号后， 自己记录下来的 <strong>&quot;AccessKey ID&quot;</strong> 和 <strong>&quot;AccessKey Scret</strong></p>
+<p><strong>&quot;存储桶（Bucket）&quot;</strong> 对应阿里云 OSS 内的 bucket 名字</p>
+<!-- #endregion RemotelySave --></div></template>
 
 
