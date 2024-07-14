@@ -60,6 +60,7 @@ export const routes = Object.fromEntries([
   ["/article/", { loader: () => import(/* webpackChunkName: "v-7be5f476" */"F:/Git/Github Clone/vuepress-theme-hope/src/.vuepress/.temp/pages/article/index.html.js"), meta: {"y":"p","t":"文章","I":false} }],
   ["/star/", { loader: () => import(/* webpackChunkName: "v-8847cf24" */"F:/Git/Github Clone/vuepress-theme-hope/src/.vuepress/.temp/pages/star/index.html.js"), meta: {"y":"p","t":"星标","I":false} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "v-d5b24bc2" */"F:/Git/Github Clone/vuepress-theme-hope/src/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"y":"p","t":"时间轴","I":false} }],
+  ["/clips/", { loader: () => import(/* webpackChunkName: "v-f76a1cae" */"F:/Git/Github Clone/vuepress-theme-hope/src/.vuepress/.temp/pages/clips/index.html.js"), meta: {"c":["使用指南"],"y":"a","t":"剪藏","i":"laptop-code"} }],
 ]);
 
 if (import.meta.webpackHot) {

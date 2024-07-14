@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/appendix/Obsidian-Plugins.md",
+                "file": "src/clips/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/appendix/Obsidian-Plugins.md",
+                "file": "src/clips/README.md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/appendix/Obsidian-Plugins.md",
+                "file": "src/clips/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/appendix/Obsidian-Plugins.md",
+                "file": "src/clips/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/appendix/Obsidian-Plugins.md"
+                "file": "src/clips/README.md"
               }
             }
           }
@@ -180,8 +180,10 @@
   },
   "active": "9d8378fd8e8fd794",
   "lastOpenFiles": [
-    "src/clips/GitHub-and-picGo-Deploy.md",
+    "src/demo/README.md",
+    "src/clips/README.md",
     "src/appendix/Obsidian-Plugins.md",
+    "src/clips/GitHub-and-picGo-Deploy.md",
     "src/clips/Black-Synology-Install.md",
     "src/clips/Aliyun-Docker-Image-with-GitHub-Action.md",
     "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
@@ -201,7 +203,6 @@
     "src/demo/layout.md",
     "src/demo/markdown.md",
     "src/demo/page.md",
-    "src/demo/README.md",
     "src/clips/Black-Synology-Install.md~",
     "node_modules/highlight.js/types/index.d.ts",
     "node_modules/highlight.js/types",
@@ -215,7 +216,6 @@
     "node_modules/highlight.js/VERSION_10_UPGRADE.md",
     "node_modules/highlight.js/SUPPORTED_LANGUAGES.md",
     "node_modules/highlight.js/SECURITY.md",
-    "node_modules/highlight.js/README.md",
     "node_modules/highlight.js/styles/pojoaque.jpg",
     "node_modules/highlight.js/styles/brown-papersq.png"
   ]
