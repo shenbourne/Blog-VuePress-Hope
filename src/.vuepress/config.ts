@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "ShenBourne",
-  description: "ShenBourne 的博客",
+  description: "Bourne Shen 的博客",
 
   head: [
     ['meta', { name: 'baidu-site-verification', content: 'codeva-QjpSgXKOie' }],

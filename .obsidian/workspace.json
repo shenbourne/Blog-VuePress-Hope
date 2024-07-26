@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
+                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,11 +26,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/GitHub-and-picGo-Deploy.md",
+                "file": "src/story/x86-x64-amd64-arm.md",
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "4c4d07815c4d4760"
           }
         ]
       },
@@ -44,12 +45,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
+                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
                 "mode": "preview",
                 "source": true
               }
             },
             "group": "8a80ee2def570123"
+          },
+          {
+            "id": "b233994b7d6619a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/story/x86-x64-amd64-arm.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "4c4d07815c4d4760"
           }
         ]
       }
@@ -117,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
+                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
+                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/clips/Obsidian-Cloud-Sync-by-OSS.md"
+                "file": "src/clips/Office-Tool-Plus-Tutorial.md"
               }
             }
           }
@@ -178,14 +192,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9d8378fd8e8fd794",
+  "active": "39add79b5028af89",
   "lastOpenFiles": [
+    "src/story/x86-x64-amd64-arm.md",
+    "src/clips/Office-Tool-Plus-Tutorial.md",
+    "src/story/Project-Sharing.md",
     "src/clips/GitHub-and-picGo-Deploy.md",
-    "src/clips/Aliyun-Docker-Image-with-GitHub-Action.md",
     "src/clips/Black-Synology-Install.md",
     "src/appendix/Obsidian-Plugins.md",
     "src/appendix/Aliyun-OSS-Setting.md",
     "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
+    "src/clips/Aliyun-Docker-Image-with-GitHub-Action.md",
     "src/appendix/VuePress-theme-hope2-Local-deploy.md",
     "src/appendix/VuePress-theme-hope2-GitHub-deploy.md",
     "src/appendix/Use-Git-to-Submit-Local-Code-to-GitHub.md",
@@ -194,9 +211,7 @@
     "src/demo/README.md",
     "src/clips/VuePress-theme-hope2-Deploy.md",
     "src/clips/OpenWrt-Docker-Expansion.md",
-    "src/story/x86-x64-amd64-arm.md",
     "Image auto upload.md",
-    "src/clips/Office-Tool-Plus-Tutorial.md",
     "未命名.md",
     "src/README.md~",
     "src/demo/disable.md",
@@ -215,7 +230,6 @@
     "node_modules/highlight.js/scss/base16/windows-high-contrast.scss",
     "node_modules/highlight.js/VERSION_11_UPGRADE.md",
     "node_modules/highlight.js/VERSION_10_UPGRADE.md",
-    "node_modules/highlight.js/SUPPORTED_LANGUAGES.md",
     "node_modules/highlight.js/styles/pojoaque.jpg",
     "node_modules/highlight.js/styles/brown-papersq.png"
   ]

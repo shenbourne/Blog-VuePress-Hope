@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/avatar1.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "shenbourne/vuepress-theme-hope",
 
   docsDir: "src",
 
