@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md"
+                "file": "src/clips/Cities-Skylines-II-Mod-Recommendation.md"
               }
             }
           }
@@ -194,11 +194,12 @@
   },
   "active": "39add79b5028af89",
   "lastOpenFiles": [
-    "src/story/x86-x64-amd64-arm.md",
+    "src/clips/Black-Synology-Install.md",
+    "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
     "src/clips/Office-Tool-Plus-Tutorial.md",
+    "src/story/x86-x64-amd64-arm.md",
     "src/story/Project-Sharing.md",
     "src/clips/GitHub-and-picGo-Deploy.md",
-    "src/clips/Black-Synology-Install.md",
     "src/appendix/Obsidian-Plugins.md",
     "src/appendix/Aliyun-OSS-Setting.md",
     "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
@@ -229,7 +230,6 @@
     "node_modules/highlight.js/scss/base16/windows-nt-light.scss",
     "node_modules/highlight.js/scss/base16/windows-high-contrast.scss",
     "node_modules/highlight.js/VERSION_11_UPGRADE.md",
-    "node_modules/highlight.js/VERSION_10_UPGRADE.md",
     "node_modules/highlight.js/styles/pojoaque.jpg",
     "node_modules/highlight.js/styles/brown-papersq.png"
   ]
