@@ -5,6 +5,8 @@ import { useScriptTag } from "F:/Git/Github Clone/vuepress-theme-hope/node_modul
 import FontIcon from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
 import Badge from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
 import VPCard from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import VPBanner from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/VPBanner.js";
+import SiteInfo from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/SiteInfo.js";
 
 import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
@@ -13,6 +15,8 @@ export default defineClientConfig({
     if(!hasGlobalComponent("FontIcon")) app.component("FontIcon", FontIcon);
     if(!hasGlobalComponent("Badge")) app.component("Badge", Badge);
     if(!hasGlobalComponent("VPCard")) app.component("VPCard", VPCard);
+    if(!hasGlobalComponent("VPBanner")) app.component("VPBanner", VPBanner);
+    if(!hasGlobalComponent("SiteInfo")) app.component("SiteInfo", SiteInfo);
     
   },
   setup: () => {
