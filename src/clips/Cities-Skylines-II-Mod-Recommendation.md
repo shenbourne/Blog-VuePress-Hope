@@ -39,7 +39,7 @@ tag:
   desc="可以拆除一些原本拆除不掉的东西"
   url="https://mods.paradoxplaza.com/mods/75250/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/4bc89c5f-a15c-4b0e-b0fe-48094763c875/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/4bc89c5f-a15c-4b0e-b0fe-48094763c875/content/screenshots/chickenCoop.jpg?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -47,7 +47,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/84571/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/26850b4c-7fe4-4939-8f6d-22657ab317fe/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/26850b4c-7fe4-4939-8f6d-22657ab317fe/content/screenshots/Screenshot01.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -55,7 +55,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/81925/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/249efb56-2b53-4d41-ba99-3b7c486c3d04/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/249efb56-2b53-4d41-ba99-3b7c486c3d04/content/screenshots/0611f560-3ad5-11ef-89af-45065249568a_CtrlCnewupdate.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -79,7 +79,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/74238/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/51fe8bbc-c743-4faa-ac1a-b12f54d1deed/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/51fe8bbc-c743-4faa-ac1a-b12f54d1deed/content/screenshots/00_lineListing.jpg?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -91,7 +91,7 @@ tag:
 />
 
 <SiteInfo
-  name="ExtraAssetsImporter"
+  name="Extra Assets Importer"
   desc=""
   url="https://mods.paradoxplaza.com/mods/80529/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/3a90fadb-3402-452d-a289-2fc3b0e55c92/content/cover.jpg?class=modsui_playsets_thumbnaill"
@@ -101,15 +101,15 @@ tag:
 
 
 <SiteInfo
-  name="ExtraDetailingTools"
+  name="Extra Detailing Tools"
   desc=""
   url="https://mods.paradoxplaza.com/mods/80528/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/c1fbb82f-c441-4ac3-a158-017170becdcf/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/c1fbb82f-c441-4ac3-a158-017170becdcf/content/screenshots/4d2c7500-3c89-11ef-bba2-7dd1d822a97b__NetworkFencing.jpg?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
-  name="ExtraLandscapingTools"
+  name="Extra Landscaping Tools"
   desc="更方便改变地形"
   url="https://mods.paradoxplaza.com/mods/75728/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/5cea649d-1637-4827-8221-fa8a33e32fa7/content/cover.jpg?class=modsui_playsets_thumbnail"
@@ -121,7 +121,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/77175/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/08345f93-0580-4c97-a2dc-2b2760386ad3/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/08345f93-0580-4c97-a2dc-2b2760386ad3/content/screenshots/custom_station.jpg?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -129,15 +129,15 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/78188/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/8c36190a-3952-4038-818a-f0a3ad1a46e9/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/8c36190a-3952-4038-818a-f0a3ad1a46e9/content/screenshots/Screenshot_01.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
-  name="ExtraLib"
+  name="Extra Lib"
   desc="前置mod"
   url="https://mods.paradoxplaza.com/mods/75724/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/b6d5e23c-388f-4c5a-b493-9f7742677331/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/b6d5e23c-388f-4c5a-b493-9f7742677331/content/screenshots/EL_LONG.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -145,7 +145,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/74151/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/4b5c53de-8d28-4166-9525-4c80d37f8b59/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/4b5c53de-8d28-4166-9525-4c80d37f8b59/content/screenshots/Desktop.jpg?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -153,7 +153,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/79237/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/59c18b15-472c-4554-bb90-21c6ba6d0652/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/59c18b15-472c-4554-bb90-21c6ba6d0652/content/screenshots/Gallery1.jpg?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -161,7 +161,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/77240/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/d043c58f-ceb1-48c4-9b81-3720a276aafa/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/d043c58f-ceb1-48c4-9b81-3720a276aafa/content/screenshots/Screenshot_01.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -201,7 +201,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/75804/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/45fe8250-2815-4c0a-bb34-1f47918ba0de/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/45fe8250-2815-4c0a-bb34-1f47918ba0de/content/screenshots/Screenshot_01.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -209,7 +209,7 @@ tag:
   desc=""
   url="https://mods.paradoxplaza.com/mods/80095/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/d9bdd734-8bcc-4834-b6b0-963b017b55e0/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/d9bdd734-8bcc-4834-b6b0-963b017b55e0/content/screenshots/Screenshot1.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
@@ -225,7 +225,7 @@ tag:
   desc="前置mod"
   url="https://mods.paradoxplaza.com/mods/74417/Windows"
   logo="https://modscontent.paradox-interactive.com/cities_skylines_2/de166ad1-26db-46b9-a3f0-c775293ae164/content/cover.jpg?class=modsui_playsets_thumbnail"
-  preview=""
+  preview="https://modscontent.paradox-interactive.com/cities_skylines_2/de166ad1-26db-46b9-a3f0-c775293ae164/content/screenshots/PreviewColor.png?class=modsui_gallery_screenshot"
 />
 
 <SiteInfo
