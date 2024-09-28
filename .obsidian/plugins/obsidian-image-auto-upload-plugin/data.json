@@ -8,7 +8,7 @@
   "workOnNetWork": true,
   "fixPath": false,
   "applyImage": true,
-  "newWorkBlackDomains": "cdn.jsdelivr.net\n\n",
+  "newWorkBlackDomains": "jsdelivr.net,\n\n",
   "deleteSource": true,
   "imageDesc": "origin",
   "remoteServerMode": false

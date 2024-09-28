@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.6",
+    "katex": "^0.16.11",
     "markmap-lib": "^0.15.8",
     "markmap-toolbar": "^0.15.8",
     "markmap-view": "^0.15.8",

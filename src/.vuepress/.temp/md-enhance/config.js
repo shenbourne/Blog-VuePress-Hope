@@ -7,6 +7,8 @@ import MdDemo from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepres
 import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client/styles/figure.scss";
 import { useHint } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client/composables/hint.js";
 import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client/styles/hint/index.scss";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/katex/dist/katex.min.css";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client/styles/katex.scss";
 import MarkMap from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client/components/MarkMap.js";
 import Mermaid from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client/components/Mermaid.js";
 import { injectMermaidConfig } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client//index.js";
