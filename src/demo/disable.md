@@ -7,6 +7,8 @@ category:
 tag:
   - 禁用
 
+article: false
+
 navbar: false
 sidebar: false
 

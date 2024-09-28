@@ -8,6 +8,7 @@ tag:
   - Aliyun
   - OSS
   - Obsidian
+cover: https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202409290220090.png
 ---
 
 ## 一、阿里云 OSS 配置

@@ -6,6 +6,7 @@ category:
   - 安装教程
 tag:
   - Synology
+cover: https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202409282247838.png
 ---
 
 <SiteInfo

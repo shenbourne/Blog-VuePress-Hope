@@ -4,6 +4,7 @@ category:
   - 数学
 tag:
   - 证毕QED
+cover: https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202408310330393.jpg
 ---
 
 <SiteInfo

@@ -1,5 +1,5 @@
 ---
-title: Obsidian本地图片通过picGo上传图床
+title: Obsidian插件
 icon: pic
 order: 2
 category:
