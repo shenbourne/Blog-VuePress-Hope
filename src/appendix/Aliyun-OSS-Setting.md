@@ -7,6 +7,7 @@ category:
 tag:
   - Obsidian
   - picGo
+cover: https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202409300209757.png
 ---
 
 ### 1. 购买阿里云 OSS
@@ -14,6 +15,8 @@ tag:
 进入 [对象存储 OSS 资源包](https://common-buy.aliyun.com/?spm=5176.7933691.J_5253785160.2.31174c59Y8lFmm&commodityCode=ossbag#/buy)，选择适合自己的套餐。
 
 截止截稿40G价格仅为9元/年，由于 **“99计划”** 500GB价格仅为118元/年。
+
+<!-- more -->
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202407122251892.png)
 

@@ -1,4 +1,8 @@
-<template><div><h2 id="一、office-tool-plus-下载" tabindex="-1"><a class="header-anchor" href="#一、office-tool-plus-下载"><span>一、Office Tool Plus 下载</span></a></h2>
+<template><div><p>Office Tool Plus 是一个强大且实用的 Office 部署工具。</p>
+<p>Office Tool Plus 基于 <a href="https://aka.ms/ODT" target="_blank" rel="noopener noreferrer">Office 部署工具<ExternalLinkIcon/></a> 制作，可以很方便的部署 Office，高速下载引擎可帮助您更快地下载 Office。</p>
+<p>你也可以使用 Office Tool Plus 的其他功能或者是内置的小工具方便、快捷地管理 Office 哦！</p>
+<!-- more -->
+<h2 id="一、office-tool-plus-下载" tabindex="-1"><a class="header-anchor" href="#一、office-tool-plus-下载"><span>一、Office Tool Plus 下载</span></a></h2>
 <p>先再官网下载 Office Tool Plus，官网网址：<a href="https://otp.landian.vip/zh-cn/" target="_blank" rel="noopener noreferrer">otp.landian.vip<ExternalLinkIcon/></a></p>
 <p>打开<a href="https://otp.landian.vip/zh-cn/download.html" target="_blank" rel="noopener noreferrer">下载地址<ExternalLinkIcon/></a>，选择适应的下载源和版本。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160244851.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
@@ -31,7 +35,7 @@
 <p>按下 Win+R，打开 “运行”，输入 “cmd”，按下 Enter 启动命令提示符</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402160407495.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <p>在命令提示符中输入 <code v-pre>systeminfo</code>，等待数秒。查看“系统类型”，若是 “x64-based PC”，则应分辨是哪个指令集架构。</p>
-<Tabs id="100" :data='[{"id":"amd64处理器实例"},{"id":"x86-64处理器实例"}]' :active="1">
+<Tabs id="110" :data='[{"id":"amd64处理器实例"},{"id":"x86-64处理器实例"}]' :active="1">
 <template #title0="{ value, isActive }">amd64处理器实例</template>
 <template #title1="{ value, isActive }">x86-64处理器实例</template>
 <template #tab0="{ value, isActive }">
@@ -44,7 +48,7 @@
 </template>
 </Tabs>
 <p>总结：3个指令集家族的父子关系</p>
-<Mermaid id="mermaid-121" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPi5EzJLEpNLsnMz1NwCgFyEw2jgeKxCrq6dgqJRiC2rplJLLqEcXRibgpYPDUvBclIT0egaqBiT8doMBNDQWJRLlA6OT+vJBpEZOaVZualH9oOglC1AAdkNJg="></Mermaid><p>总结：x86家族的指令集架构分类</p>
+<Mermaid id="mermaid-131" code="eJxLy8kvT85ILCpRCHHi4iwuTUovSizIUKiwMOPi5EzJLEpNLsnMz1NwCgFyEw2jgeKxCrq6dgqJRiC2rplJLLqEcXRibgpYPDUvBclIT0egaqBiT8doMBNDQWJRLlA6OT+vJBpEZOaVZualH9oOglC1AAdkNJg="></Mermaid><p>总结：x86家族的指令集架构分类</p>
 <ol>
 <li>x86：一般没有别名，在早期的 32 位 cpu 会出现</li>
 <li>x64：别名 x86-64、Intel 64、EM64T 等，一般会在 64 位的 Intel 处理器中出现</li>

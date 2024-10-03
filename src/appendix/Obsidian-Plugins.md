@@ -7,6 +7,9 @@ category:
 tag:
   - Obsidian
   - picGo
+cover: https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202409300158761.png
+
+
 ---
 
 ## “Paste image rename”：Obsidian本地图片通过picGo上传图床

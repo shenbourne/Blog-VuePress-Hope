@@ -7,7 +7,17 @@ category:
 tag:
   - Office
   - crack
+cover: https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202410010210853.png
+
 ---
+
+Office Tool Plus 是一个强大且实用的 Office 部署工具。
+
+Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT) 制作，可以很方便的部署 Office，高速下载引擎可帮助您更快地下载 Office。
+
+你也可以使用 Office Tool Plus 的其他功能或者是内置的小工具方便、快捷地管理 Office 哦！
+
+<!-- more -->
 
 ## 一、Office Tool Plus 下载
 
