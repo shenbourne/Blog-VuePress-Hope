@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/sharing/Corporate-Logo-Sharing.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/sharing/Corporate-Logo-Sharing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md",
+                "file": "src/sharing/Corporate-Logo-Sharing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/clips/Office-Tool-Plus-Tutorial.md"
+                "file": "src/sharing/Corporate-Logo-Sharing.md"
               }
             }
           }
@@ -161,9 +161,17 @@
   },
   "active": "9d8378fd8e8fd794",
   "lastOpenFiles": [
+    "src/sharing/Crack-Websites-Sharing.md",
+    "src/sharing/Corporate-Logo-Sharing.md",
+    "src/sharing/Computer-Tools-Sharing.md",
+    "src/sharing/Chrome-Plugin-Sharing.md",
+    "src/sharing/Project-Sharing.md",
+    "src/sharing/README.md",
+    "src/study/QED-Six-Averages-In-One-Integral.md",
+    "src/story/README.md",
+    "src/clips/Office-Tool-Plus-Tutorial.md",
     "src/demo/page.md",
     "src/demo/README.md",
-    "src/clips/Office-Tool-Plus-Tutorial.md",
     "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
     "src/clips/OpenWrt-Install.md",
     "src/clips/OpenWrt-Docker-Expansion.md",
@@ -178,15 +186,7 @@
     "src/appendix/VuePress-theme-hope2-GitHub-deploy.md",
     "src/clips/README.md",
     "src/popularization/Difference-between-TCP-and-UDP.md",
-    "src/study/QED-Six-Averages-In-One-Integral.md",
     "src/demo/markdown.md",
-    "src/intro.md",
-    "src/study/README.md",
-    "src/story/README.md",
-    "src/sharing/README.md",
-    "src/popularization/README.md",
-    "src/demo/layout.md",
-    "src/demo/encrypt.md",
     "src/popularization",
     "src/sharing",
     "Pasted image 20240914012230.png",

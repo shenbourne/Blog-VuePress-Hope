@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  "/intro.md",
   "/clips/",
   {
     text: "V2 文档",
