@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/sharing/Corporate-Logo-Sharing.md",
+                "file": "src/popularization/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/sharing/Corporate-Logo-Sharing.md",
+                "file": "src/popularization/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/sharing/Corporate-Logo-Sharing.md",
+                "file": "src/popularization/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/sharing/Corporate-Logo-Sharing.md"
+                "file": "src/popularization/README.md"
               }
             }
           }
@@ -161,32 +161,34 @@
   },
   "active": "9d8378fd8e8fd794",
   "lastOpenFiles": [
+    "src/local/README.md",
+    "src/demo/README.md",
+    "src/cloud/README.md",
+    "src/clips/README.md",
+    "src/intro.md",
+    "src/README.md",
+    "src/study/README.md",
+    "src/story/README.md",
+    "src/popularization/README.md",
+    "src/sharing/README.md",
+    "src/cloud/Aliyun-Docker-Image-with-GitHub-Action.md",
+    "src/cloud",
+    "src/未命名.md",
+    "src/local-development/未命名.md",
+    "src/clips/PARA.md",
+    "src/cloud/VuePress-theme-hope2-Deploy.md",
+    "src/cloud/Obsidian-Cloud-Sync-by-OSS.md",
+    "src/clips/Office-Tool-Plus-Tutorial.md",
+    "src/digital/未命名.md",
+    "src/local/OpenWrt-Docker-Expansion.md",
+    "src/clips/Huawei-Phone-Install-GMS.md",
+    "src/cloud/GitHub-and-picGo-Deploy.md",
+    "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
+    "src/local/Black-Synology-Install.md",
+    "src/local",
+    "src/sharing/Project-Sharing.md",
     "src/sharing/Crack-Websites-Sharing.md",
     "src/sharing/Corporate-Logo-Sharing.md",
-    "src/sharing/Computer-Tools-Sharing.md",
-    "src/sharing/Chrome-Plugin-Sharing.md",
-    "src/sharing/Project-Sharing.md",
-    "src/sharing/README.md",
-    "src/study/QED-Six-Averages-In-One-Integral.md",
-    "src/story/README.md",
-    "src/clips/Office-Tool-Plus-Tutorial.md",
-    "src/demo/page.md",
-    "src/demo/README.md",
-    "src/clips/Obsidian-Cloud-Sync-by-OSS.md",
-    "src/clips/OpenWrt-Install.md",
-    "src/clips/OpenWrt-Docker-Expansion.md",
-    "src/appendix/Aliyun-OSS-Setting.md",
-    "src/appendix/Obsidian-Plugins.md",
-    "src/clips/Huawei-Phone-Install-GMS.md",
-    "src/clips/GitHub-and-picGo-Deploy.md",
-    "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
-    "src/clips/Black-Synology-Install.md",
-    "src/clips/Aliyun-Docker-Image-with-GitHub-Action.md",
-    "src/appendix/Use-Git-to-Submit-Local-Code-to-GitHub.md",
-    "src/appendix/VuePress-theme-hope2-GitHub-deploy.md",
-    "src/clips/README.md",
-    "src/popularization/Difference-between-TCP-and-UDP.md",
-    "src/demo/markdown.md",
     "src/popularization",
     "src/sharing",
     "Pasted image 20240914012230.png",
@@ -197,8 +199,6 @@
     "node_modules/fsevents",
     "node_modules/@rollup/rollup-linux-x64-musl",
     "node_modules/@rollup/rollup-linux-x64-gnu",
-    "node_modules/@rollup/rollup-linux-riscv64-gnu",
-    "node_modules/@rollup/rollup-linux-arm64-musl",
     "1hjnn3ln.z0h.png",
     "node_modules/highlight.js/styles/pojoaque.jpg",
     "node_modules/highlight.js/styles/brown-papersq.png"
