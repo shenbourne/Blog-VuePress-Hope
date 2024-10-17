@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "sources": ["../../../../node_modules/mermaid/dist/mermaid.core.mjs"],
+  "sources": ["../../../../node_modules/.pnpm/mermaid@10.9.2/node_modules/mermaid/dist/mermaid.core.mjs"],
   "sourcesContent": ["import \"ts-dedent\";\r\nimport { K } from \"./mermaid-0603ccf8.js\";\r\nimport \"dayjs\";\r\nimport \"@braintree/sanitize-url\";\r\nimport \"d3\";\r\nimport \"dompurify\";\r\nimport \"khroma\";\r\nimport \"lodash-es/memoize.js\";\r\nimport \"lodash-es/merge.js\";\r\nimport \"stylis\";\r\nimport \"lodash-es/isEmpty.js\";\r\nexport {\r\n  K as default\r\n};\r\n"],
   "mappings": ";;;;;;;;;;;AAEA,mBAAO;AACP,0BAAO;",
   "names": []

@@ -8,15 +8,15 @@ import {
   persistCSS,
   persistJS,
   wrapFunction
-} from "./chunk-ITCQNZJV.js";
+} from "./chunk-FIDCPO3Q.js";
 import {
   __commonJS,
   __toESM
 } from "./chunk-3EJPJMEH.js";
 
-// node_modules/katex/dist/katex.js
+// node_modules/.pnpm/katex@0.16.11/node_modules/katex/dist/katex.js
 var require_katex = __commonJS({
-  "node_modules/katex/dist/katex.js"(exports, module) {
+  "node_modules/.pnpm/katex@0.16.11/node_modules/katex/dist/katex.js"(exports, module) {
     (function webpackUniversalModuleDefinition(root, factory) {
       if (typeof exports === "object" && typeof module === "object")
         module.exports = factory();
@@ -14613,9 +14613,9 @@ var require_katex = __commonJS({
   }
 });
 
-// node_modules/remarkable-katex/index.js
+// node_modules/.pnpm/remarkable-katex@1.2.1/node_modules/remarkable-katex/index.js
 var require_remarkable_katex = __commonJS({
-  "node_modules/remarkable-katex/index.js"(exports, module) {
+  "node_modules/.pnpm/remarkable-katex@1.2.1/node_modules/remarkable-katex/index.js"(exports, module) {
     "use strict";
     var rkatex = (md, options) => {
       const backslash = "\\";
@@ -14749,7 +14749,7 @@ var require_remarkable_katex = __commonJS({
   }
 });
 
-// node_modules/remarkable/dist/esm/index.browser.js
+// node_modules/.pnpm/remarkable@2.0.1/node_modules/remarkable/dist/esm/index.browser.js
 var textarea;
 function decodeEntity(name2) {
   textarea = textarea || document.createElement("textarea");
@@ -18575,10 +18575,10 @@ Remarkable.prototype.renderInline = function(str2, env) {
   return this.renderer.render(this.parseInline(str2, env), this.options, env);
 };
 
-// node_modules/markmap-lib/dist/browser/index.mjs
+// node_modules/.pnpm/markmap-lib@0.15.8_markmap-common@0.17.1/node_modules/markmap-lib/dist/browser/index.mjs
 var import_remarkable_katex = __toESM(require_remarkable_katex(), 1);
 
-// node_modules/markmap-lib/node_modules/js-yaml/dist/js-yaml.mjs
+// node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs
 function isNothing(subject) {
   return typeof subject === "undefined" || subject === null;
 }
@@ -21274,7 +21274,7 @@ var jsYaml = {
 };
 var js_yaml_default = jsYaml;
 
-// node_modules/markmap-lib/dist/browser/index.mjs
+// node_modules/.pnpm/markmap-lib@0.15.8_markmap-common@0.17.1/node_modules/markmap-lib/dist/browser/index.mjs
 var template = '<!DOCTYPE html>\n<html>\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<meta http-equiv="X-UA-Compatible" content="ie=edge">\n<title>Markmap</title>\n<style>\n* {\n  margin: 0;\n  padding: 0;\n}\n#mindmap {\n  display: block;\n  width: 100vw;\n  height: 100vh;\n}\n</style>\n<!--CSS-->\n</head>\n<body>\n<svg id="mindmap"></svg>\n<!--JS-->\n</body>\n</html>\n';
 var baseJsPaths = [
   `d3@${"7.8.5"}/dist/d3.min.js`,

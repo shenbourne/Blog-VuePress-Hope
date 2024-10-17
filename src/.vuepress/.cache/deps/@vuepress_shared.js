@@ -1,6 +1,6 @@
 import "./chunk-3EJPJMEH.js";
 
-// node_modules/@vuepress/shared/dist/index.js
+// node_modules/.pnpm/@vuepress+shared@2.0.0-rc.6/node_modules/@vuepress/shared/dist/index.js
 var TAGS_ALLOWED = ["link", "meta", "script", "style", "noscript", "template"];
 var TAGS_UNIQUE = ["title", "base"];
 var resolveHeadIdentifier = ([tag, attrs, content]) => {
