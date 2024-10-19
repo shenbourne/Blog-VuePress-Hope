@@ -1,16 +1,16 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.22_@vuepress+plugin-search@2.0.0-rc.55_vuepress@2.0.0-rc.6_@vuep_btj27izhzphcrnrdhkftnkbysm/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.11_vuepress@2.0.0-rc.6_@vuepress+bundler-vite@2.0.0-rc.6_@t_nogpp7g6573lridgapladfg2z4/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.22_@vuepress+plugin-search@2.0.0-rc.55_vuepress@2.0.0-rc.6_@vuep_btj27izhzphcrnrdhkftnkbysm/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.22_@vuepress+plugin-search@2.0.0-rc.55_vuepress@2.0.0-rc.6_@vuep_btj27izhzphcrnrdhkftnkbysm/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.22_@vuepress+plugin-search@2.0.0-rc.55_vuepress@2.0.0-rc.6_@vuep_btj27izhzphcrnrdhkftnkbysm/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.22_@vuepress+plugin-search@2.0.0-rc.55_vuepress@2.0.0-rc.6_@vuep_btj27izhzphcrnrdhkftnkbysm/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.22_@vuepress+plugin-search@2.0.0-rc.55_vuepress@2.0.0-rc.6_@vuep_btj27izhzphcrnrdhkftnkbysm/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "F:/Git/Github Clone/vuepress-theme-hope/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;
