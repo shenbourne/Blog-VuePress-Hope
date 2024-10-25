@@ -161,6 +161,8 @@
   },
   "active": "9d8378fd8e8fd794",
   "lastOpenFiles": [
+    "node_modules/katex/node_modules/commander/typings/index.d.ts",
+    "node_modules/katex/node_modules/commander/typings",
     "src/Albert/README.md",
     "src/Albert/未命名.md",
     "src/cloud/README.md",
@@ -178,7 +180,6 @@
     "node_modules/vue/jsx.d.ts",
     "node_modules/vue/jsx-runtime/package.json",
     "node_modules/vue/jsx-runtime/index.mjs",
-    "node_modules/vue/jsx-runtime/index.js",
     "node_modules/mermaid/README.zh-CN.md",
     "node_modules/@vuepress/bundler-vite/README.md",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/zhihu.svg",
@@ -205,7 +206,6 @@
     "node_modules/markmap-view/README.md",
     "node_modules/follow-redirects/README.md",
     "node_modules/axios/lib/helpers/README.md",
-    "node_modules/axios/lib/core/README.md",
-    "node_modules/axios/lib/adapters/README.md"
+    "node_modules/axios/lib/core/README.md"
   ]
 }

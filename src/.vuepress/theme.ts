@@ -104,7 +104,7 @@ export default hopeTheme({
       hostname: 'https://hope.shenbourne.com'
     },
 
-    '@vssue/vuepress-plugin-vssue': {
+    vssueConfig: {
       // 设置 `platform` 而不是 `api`
       platform: 'github',
       // 其他的 Vssue 配置
