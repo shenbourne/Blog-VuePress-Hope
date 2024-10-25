@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/popularization/README.md",
+                "file": "src/Albert/中国如何把美国建立的反华组织，变成好朋友【东盟峰会·在现场】.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/popularization/README.md",
+                "file": "src/Albert/中国如何把美国建立的反华组织，变成好朋友【东盟峰会·在现场】.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/popularization/README.md",
+                "file": "src/Albert/中国如何把美国建立的反华组织，变成好朋友【东盟峰会·在现场】.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/popularization/README.md"
+                "file": "src/Albert/中国如何把美国建立的反华组织，变成好朋友【东盟峰会·在现场】.md"
               }
             }
           }
@@ -161,46 +161,51 @@
   },
   "active": "9d8378fd8e8fd794",
   "lastOpenFiles": [
-    "src/local/README.md",
-    "src/demo/README.md",
+    "src/Albert/README.md",
+    "src/Albert/未命名.md",
     "src/cloud/README.md",
-    "src/clips/README.md",
-    "src/intro.md",
-    "src/README.md",
-    "src/study/README.md",
-    "src/story/README.md",
-    "src/popularization/README.md",
-    "src/sharing/README.md",
-    "src/cloud/Aliyun-Docker-Image-with-GitHub-Action.md",
-    "src/cloud",
-    "src/未命名.md",
-    "src/local-development/未命名.md",
-    "src/clips/PARA.md",
-    "src/cloud/VuePress-theme-hope2-Deploy.md",
-    "src/cloud/Obsidian-Cloud-Sync-by-OSS.md",
-    "src/clips/Office-Tool-Plus-Tutorial.md",
-    "src/digital/未命名.md",
-    "src/local/OpenWrt-Docker-Expansion.md",
-    "src/clips/Huawei-Phone-Install-GMS.md",
-    "src/cloud/GitHub-and-picGo-Deploy.md",
+    "src/Albert/中国如何把美国建立的反华组织，变成好朋友【东盟峰会·在现场】.md",
     "src/clips/Cities-Skylines-II-Mod-Recommendation.md",
-    "src/local/Black-Synology-Install.md",
-    "src/local",
-    "src/sharing/Project-Sharing.md",
-    "src/sharing/Crack-Websites-Sharing.md",
-    "src/sharing/Corporate-Logo-Sharing.md",
-    "src/popularization",
-    "src/sharing",
-    "Pasted image 20240914012230.png",
-    "Pasted image 20240914012209.png",
-    "node_modules/@esbuild/android-arm",
-    "node_modules/@rollup/rollup-win32-ia32-msvc",
-    "node_modules/@rollup/rollup-win32-arm64-msvc",
-    "node_modules/fsevents",
-    "node_modules/@rollup/rollup-linux-x64-musl",
-    "node_modules/@rollup/rollup-linux-x64-gnu",
-    "1hjnn3ln.z0h.png",
-    "node_modules/highlight.js/styles/pojoaque.jpg",
-    "node_modules/highlight.js/styles/brown-papersq.png"
+    "src/Albert",
+    "src/study/Math-finale.md",
+    "node_modules/markmap-view/package.json",
+    "node_modules/markmap-lib/package.json",
+    "node_modules/vuepress/package.json",
+    "node_modules/vuepress/README.md",
+    "node_modules/vuepress/LICENSE",
+    "node_modules/vuepress-plugin-seo/README.md",
+    "node_modules/vue/package.json",
+    "node_modules/vue/jsx.d.ts",
+    "node_modules/vue/jsx-runtime/package.json",
+    "node_modules/vue/jsx-runtime/index.mjs",
+    "node_modules/vue/jsx-runtime/index.js",
+    "node_modules/mermaid/README.zh-CN.md",
+    "node_modules/@vuepress/bundler-vite/README.md",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/zhihu.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/yy.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/youtube.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/youku.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/ximalaya.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/xiaohongshu.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/whatsapp.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/weishi.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/weibo.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/wechatwork.svg",
+    "node_modules/vuepress-theme-hope/README.md",
+    "node_modules/mermaid/README.md",
+    "node_modules/vue/README.md",
+    "node_modules/katex/contrib/mathtex-script-type/README.md",
+    "node_modules/katex/contrib/mhchem/README.md",
+    "node_modules/katex/contrib/copy-tex/README.md",
+    "node_modules/katex/contrib/auto-render/README.md",
+    "node_modules/axios/CHANGELOG.md",
+    "node_modules/katex/node_modules/commander/Readme.md",
+    "node_modules/markmap-lib/node_modules/argparse/README.md",
+    "node_modules/katex/dist/README.md",
+    "node_modules/markmap-view/README.md",
+    "node_modules/follow-redirects/README.md",
+    "node_modules/axios/lib/helpers/README.md",
+    "node_modules/axios/lib/core/README.md",
+    "node_modules/axios/lib/adapters/README.md"
   ]
 }
